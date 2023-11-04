@@ -2,3 +2,15 @@
 @forward 'components';
 @forward 'layout';
 @forward 'pages';
+
+body {
+  font-family: 'Newsreader', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Newsreader', sans-serif;
+}
