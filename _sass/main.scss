@@ -11,3 +11,11 @@
 @import 'layout/archives';
 @import 'layout/categories';
 @import 'layout/category-tag';
+
+body {
+    font-family: 'Newsreader', serif;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    font-family: 'Newsreader', sans-serif;
+  }
