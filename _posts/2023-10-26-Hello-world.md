@@ -6,5 +6,4 @@ tags: [fun]
 ---
 
 # Introduction
-Hello, I am Sanath. I'm a software engineering from Bangalore, India. I have a very bad sense of self-deprecating humor, but I try my best lol.
-This website is simply a way to express my ideas and beliefs and document my journey through the wonderous world of Computer Science.
+Hello, welcome to my 'digital room'. Here lies my rants about technology, science and current culture. This is just one of my attempts to scream into the void. To build something interesting, to make my thoughts known to the world. This is NOT a technical blog. I wouldn't like this to be one of 'those' blogs on the internet, where people blog (or should I say brag😏) about what their latest learnings, or the problems they solved, or anything similar.
