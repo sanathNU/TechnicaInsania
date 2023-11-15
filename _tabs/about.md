@@ -20,3 +20,4 @@ TODO: More detailed explanation (lol xD)
 The image is created from stable diffusion. From simple prompts. I know as the years pass on from 2021 (the year of advent of DALL-E and Generative AI), the novelty of this new type of AI generated images will die.<br>
 But I still will keep this image as it is, or replace with another AI generated image, because it simply is wonderful to me, how math and algorithms can create an image that looks like straight out of a human's mind. <br>
 It inspires a thought in me about how the age of differencation between the thinking of  Man and Machine are coming to an end. It's a symbolic representation of my acknowledgement that the dawn of the 'Age of Silicon' is upon us.
+    
