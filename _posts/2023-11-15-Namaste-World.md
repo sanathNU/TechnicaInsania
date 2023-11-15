@@ -1,6 +1,6 @@
 ---
 title: Namaste World
-date: 2023-10-26 17:00:00 +0530
+date: 2023-11-15 15:00:00 +0530
 categories: [Blogging, personal]
 tags: [fun]
 pin: true
