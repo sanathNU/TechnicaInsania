@@ -13,5 +13,15 @@ I do like to keep a family standard template and format for reviewing books. I f
 ## Movies
 I love movies. I like the way art can be depicted in such visual and creative styles. Unlike books, this doesn't put much cognitive strain on our frontal cortex and hence, they are absorbed much more easily. We are all visual creatures (TODO: Put link to research for this?). Hence I like this the most. I have a list of movies that I keep on watching no matter what. Will put the link here!
 
+### Interesting movies
+* Nineteen Eighty Four
+* Babylon
+* The Lighthouse
+* Oppenheimer
+* The Big Short
+* Ad Astra
+* The Tree of Life
+* Grave of the Fireflies
+
 
 
