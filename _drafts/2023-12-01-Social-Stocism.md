@@ -8,7 +8,7 @@ pin: true
 
 ## Introduction
 
-Stocism, the granddaddy of all alpha sigma style thinking is making rounds of trending news in the past few years. The Idea of the stoic man, calm and unabased under the most tense and terse circumstances has been a goal of many of these internet celebrities. 
+Stocism, the granddaddy of all alpha sigma style thinking , is making rounds of trending news in the past few years. The Idea of the stoic man, calm and unabased under the most tense and terse circumstances has been a goal of many of these internet celebrities. 
 
 
 ### Points to talk about
