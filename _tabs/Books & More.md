@@ -5,6 +5,8 @@ order: 4
 ---
 This section contains personal expositions on books and movies and art.
 
+> Again, this is also in progress.
+{: .prompt-warning }
 
 ## Some Thoughts on Books
 I'm in no way a 'heavy-reader', who pulls around 50 books or year or is able to write a crazy 20-pages worth of analysis on a single page of a single book of a 10 part series😂. I like certain books, and have some fairly polarizing opinions (on some of them) at least but it's my personal opinion, so take it with a grain of salt.
