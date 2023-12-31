@@ -8,7 +8,8 @@ order: 4
 {: .prompt-warning }
 
 ## Hola!
-![Me,myself](/assets/img/MyPic.jpg){:height="400px" width="300px"}
+<!-- ![Me,myself](/assets/img/MyPic.jpeg){:height="400px" width="300px"} -->
+<img src="{{site.baseurl | prepend: site.url}}/assets/img/MyPic.jpeg" alt="Poster">
 ## Intro
 Namaste Netizens! I'm  Sanath! I'm a Computer Science Engineer from Bangalore! I like meddling and technology and building some cool stuff! This blog contains the essense of what I should consider my "internet personality". I would like this to be a place where I can pen posts about captivating topics in technology, science, books and movies. This is a free flowing notebook, so I'll be putting out posts haphazardly, with no rhyme or reason for the thoughts, at least in this initial years. I'll write a post regarding how the working of my creative process is.
 
