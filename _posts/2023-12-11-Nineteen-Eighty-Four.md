@@ -50,7 +50,7 @@ I still think of the practicality of the world that Orwell has presented, and ho
 
 The amount of psychology we have learnt would change how we change how the book would be written I think, with various forms of technology, that can enslave us. We have discovered new theories and mechanisms, that do not involve any sort of external force to enslave the public.
 
-The things like [Nudge theory](https://en.wikipedia.org/wiki/Nudge_theory) and [Neuroeconomics](http://www.scholarpedia.org/article/Neuroeconomics) have molded the the world through the help of technology and screens towards an [Attention Economy](https://en.wikipedia.org/wiki/Attention_economy) 
+The things like [Nudge theory](https://en.wikipedia.org/wiki/Nudge_theory) and [Neuroeconomics](https://en.wikipedia.org/wiki/Neuroeconomics) have molded the the world through the help of technology and screens towards an [Attention Economy](https://en.wikipedia.org/wiki/Attention_economy) 
 
 ## Conclusion
 Overall, I was very glad I had watched the movie. It's a nice feeling to watch a satisfactory version of a artwork being transitioned from page to screen. It's has really nice visual storytelling. While not as intense as the literary counterpart, this film kinda effectively captures the essence of Orwell's vision, presenting envisioned thoughts and scenes on screen. 
