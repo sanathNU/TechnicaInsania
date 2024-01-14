@@ -11,7 +11,7 @@ pin: true
 
 ## Poster
 <!-- ![Poster](\assets\img\Ninteen_Eighty_Four.jpg){:height="400px" width="300px"} -->
-<img src="{{site.baseurl | prepend: site.url}} assets/img/Ninteen_Eighty_Four.jpg" alt="Poster">
+<img src="{{site.baseurl | prepend: site.url}}/assets/img/Ninteen_Eighty_Four.jpg" alt="Poster">
 
 ## Introduction
 A dark view of a dystopian society, a world so terrible, where terror has become the norm. A famous adaptation of the [George Orwell's 1984](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four), which received positive reviews when it was released. It also had a little bit of clout because [Richard Burton](https://en.wikipedia.org/wiki/Richard_Burton) (I have no clue who this guy is😂) was present in it. 
