@@ -31,7 +31,7 @@ It's a scary book, if you think of it that way, a dark world where human emotion
 <img src="{{site.baseurl | prepend: site.url}}/assets/img/1984/O'Brian.jpg" alt="O'Brien">{:height="250px" width="200px"}
 *O'Brien played by Richard Burton*
 
-All in all, I liked all characters, but O'Brien's representation diverges from preconceived expectations, presenting a cunning yet aged figure. Rather than a powerful image that I conceived from reading the book. He showed more psychopathic behavior, which was grounded in reality. He's seen an old cunning fart, rather than someone menacing, or hugely powerful. He's more like the Robert Ford from [Westworld](https://www.imdb.com/title/tt0475784/). It's an interesting way to depict from sure.
+All in all, I liked all characters, but O'Brien's representation diverges from preconceived expectations, presenting a cunning yet aged figure. Rather than a powerful image that I conceived from reading the book, he showed more psychopathic behavior, which I feel was much more grounded in reality. He's seen an old cunning fart, rather than someone menacing, or hugely powerful. He's more like the Robert Ford from [Westworld](https://www.imdb.com/title/tt0475784/) played by [Anthony Hopkins](https://en.wikipedia.org/wiki/Anthony_Hopkins). It's an interesting way to depict a main character for sure.
 
 #### Winston
 
