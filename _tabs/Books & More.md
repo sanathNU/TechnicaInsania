@@ -25,5 +25,9 @@ I love movies. I like the way art can be depicted in such visual and creative st
 * The Tree of Life
 * Grave of the Fireflies
 
-
-
+### Interesting Books
+* Thinking Fast and Slow
+* Sapiens
+* The Scientific Edge
+* Man's Search For Meaning
+* Zen and the Art of Motorcycle maintenance
