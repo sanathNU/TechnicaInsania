@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Why I Write"
+categories: [personal]
+tags: [rant]
+toc: true
+---
+# Why I Write
 Well, well well, here we are. I welcome you on this journey, reader,  to figure out why I do write and why you should read why I write 😄 This isn't going to be some serious contemplation the history of my failures and my struggles as a writer (I'm not a serious writer lol). But again, it's a much more unrefined version of why I do what I do, currently (i.e. 2024) and how it's going to change in the future. <br>
 
 I'm not a really good writer per se, but this is just an attempt to capture some of my thoughts on why I write. It's not a crazy insight into the heart of why people write or something motivational. It's a bunch of reasons. That's all. Don't expect more.
