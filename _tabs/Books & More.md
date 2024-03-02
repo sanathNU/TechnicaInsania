@@ -27,7 +27,9 @@ I love movies. I like the way art can be depicted in such visual and creative st
 
 ### Interesting Books
 * Thinking Fast and Slow
-* Sapiens
+* [Sapiens](https://www.ynharari.com/book/sapiens-2/) <br>
+    Man, it's one of my most fav books. I read it, when I was like 20, and it has some of the most powerful paradigms that came from a non-technical background. And I was surprised how these things were presented by any other field of science.
 * The Scientific Edge
-* Man's Search For Meaning
+* [Man's Search For Meaning](https://www.amazon.in/Mans-Search-Meaning-Viktor-Frankl/dp/1846041244) <br>
+    An influential read for any person. It made me rethink the value with which I treated things. You always gain some perspective when you read this book.
 * Zen and the Art of Motorcycle maintenance
