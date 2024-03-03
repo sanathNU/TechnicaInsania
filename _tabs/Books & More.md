@@ -16,7 +16,8 @@ I do like to keep a fairly standard template and format for reviewing books. I f
 I love movies. I like the way art can be depicted in such visual and creative styles. Unlike books, this doesn't put much cognitive strain on our frontal cortex and hence, they are absorbed much more easily. We are all visual creatures (TODO: Put link to research for this?). Hence I like this the most. I have a list of movies that I keep on watching no matter what. Will put the link here!
 
 ### Interesting movies
-* Nineteen Eighty Four
+These are some of the movies I watched back in 2022-2023 and have influenced me the most. I'm too lazy to do a Bablyon style video edit of all the movies I like (for example [here](https://www.youtube.com/watch?v=MDvHeAZHfQc)), so I'll just list them here. It's more akin to a short-term memory of the brain. So yeah, bear with me as this list changes over the years!
+* [Nineteen Eighty Four]({% post_url 2023-12-11-Nineteen-Eighty-Four %})
 * Babylon
 * The Lighthouse
 * Oppenheimer
@@ -26,10 +27,10 @@ I love movies. I like the way art can be depicted in such visual and creative st
 * Grave of the Fireflies
 
 ### Interesting Books
-* Thinking Fast and Slow
+* [Thinking Fast and Slow](https://www.amazon.com/Thinking-Fast-and-Slow-audiobook/dp/B005Z9GAJG/)
 * [Sapiens](https://www.ynharari.com/book/sapiens-2/) <br>
     Man, it's one of my most fav books. I read it, when I was like 20, and it has some of the most powerful paradigms that came from a non-technical background. And I was surprised how these things were presented by any other field of science.
-* The Scientific Edge
-* [Man's Search For Meaning](https://www.amazon.in/Mans-Search-Meaning-Viktor-Frankl/dp/1846041244) <br>
-    An influential read for any person. It made me rethink the value with which I treated things. You always gain some perspective when you read this book.
-* Zen and the Art of Motorcycle maintenance
+* [The Scientific Edge](https://www.amazon.com/Scientific-Edge-Indian-Scientist-Modern/dp/0143030280)
+* [Man's Search For Meaning](https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0807014273/) <br>
+    An influential read for any person. It made me rethink the values with which I treated things. You always gain some perspective when you read this book.
+* [Zen and the Art of Motorcycle Maintenance](https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060839872/)
