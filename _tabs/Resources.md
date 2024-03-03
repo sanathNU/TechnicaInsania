@@ -20,7 +20,6 @@ Like many of tech peeps out there, I like sharing links and articles and resourc
 
 * [MIT Thesis Catalogue](https://dspace.mit.edu/handle/1721.1/7582): Contains a searchable catalogue for all MIT theses. Isn't it excting to have great minds efforts at the tip of your hands?
 * [Esoteric Programming Languages Wiki](https://esolangs.org/wiki/Main_Page)
-* [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/hframe.html): Contains links to various other pages?
 
 ##### Random Pages
 * [New Age Bullshit Generator](https://sebpearce.com/bullshit/): This was a fun website, way before the advancement of the GPT's. An ode to nice times.
