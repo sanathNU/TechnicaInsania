@@ -45,3 +45,6 @@ These writings might be erratic. As most blogs are in the internet, I do not wan
 While Twitter seems to be the obvious choice for micro-blogging peeps, I think my thoughts should be more coherent and a bit drawn out. Currently, I don't post much on Twitter, which might be the point of micro-blogging. I'm not trying to maximize engagement or anything. And I think, even though deep insightful thoughts are appreciated on the platform, I do not know. I don't "feel it". I think on twitter thoughts are put forward, and forgotten. You don't have to think about the tweet about something you posted 4 years ago, as informative as it might have been during that time. The same is going to happen here, but at least, here I've curated my thoughts, so as when my future self reads it, he gets a better analytical idea of how his young self thought. <br>
 ## Conclusion
  This is more of a for now content, this will change as with time. I kinda want to implement a versioning system with this, so, let's see how far this goes. Moreover, this is not an exhaustive list of my reasons with writing. As time flows, with added maturity, I will add more thoughts. But as with the end, this is the end of the post.
+
+> This is is the latest updated on 20-04-2024
+{: .prompt-info }
