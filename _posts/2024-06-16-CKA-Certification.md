@@ -3,7 +3,6 @@ title: "CKA Certification: Insights and Experiences"
 date: 2024-06-16
 categories: [Cloud Computing, Kubernetes]
 tags: [rant]
-pin: true
 ---
 <img src="{{site.baseurl | prepend: site.url}}/assets/img/CKA/cka.png" alt="Map">
 
@@ -39,3 +38,5 @@ It also helps you keep up with the evolving cloud native ecosystem.The world has
 Plus, getting involved in Kubernetes' open-source community opens up some exciting possibilities. As K8s becomes the backbone for AI and beyond, contributing to its evolution puts you right in the thick of things—like being a top surgeon in a cutting-edge operation.
 
 ## Resources
+> These resources are just some of them which I used during my preparation for the exam. Most of it was the K8s documentation. But some of them helped me gain structure for the exam and a little confidence. So yeah.
+{: .prompt-info }
