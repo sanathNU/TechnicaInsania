@@ -25,7 +25,7 @@ Well, diving into Kubernetes opened my eyes to its awesome documentation—serio
 
 On the flip side, CKA Killer Coda's exam simulations are top-notch. They really nail down how to debug in a cloud setup, which is crucial. Personally, tackling the exam shed light on complex systems like Kubernetes certification mechanism and schedulers —pretty rad stuff.
 
-Yet, I gotta admit, it's still pretty daunting for newcomers. The amount of detail can bog you down, especially with some post-doc stuff that's more distracting than helpful. Kubenetes is something one should try before getting perfect with the basics.
+Yet, I gotta admit, it's still pretty daunting for newcomers. The amount of detail can bog you down, especially with some post-doc stuff that's more distracting than helpful. Kubernetes is something one should try hands on before tries getting perfect with the basics.
 
 ## Study Thoughts
 So, if you're gunning for that CKA certification, treat your learning like it's your final exam prep. Dive deep into the docs, nail down those basics, and never give up on understanding those concepts.
@@ -60,6 +60,8 @@ Plus, getting involved in Kubernetes' open-source community opens up some exciti
 **K8s the hard way**
 * [The OG k8s the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way ): 
 * [On AWS](https://github.com/Praqma/LearnKubernetes/blob/master/kamran/Kubernetes-The-Hard-Way-on-AWS.md)
+* [On Baremetal](https://github.com/Praqma/LearnKubernetes/blob/master/kamran/Kubernetes-The-Hard-Way-on-BareMetal.md)
+* [On Docker](https://github.com/brightzheng100/kubernetes-the-hard-way-on-docker)
 
 [^footnote]: https://github.com/Praqma/LearnKubernetes/blob/master/kamran/Kubernetes-The-Hard-Way-on-BareMetal.md
 [^footnote-2]: https://github.com/brightzheng100/kubernetes-the-hard-way-on-docker
