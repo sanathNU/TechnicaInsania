@@ -29,7 +29,7 @@ Yet, I gotta admit, it's still pretty daunting for newcomers. The amount of deta
 
 ## Study Thoughts
 So, if you're gunning for that CKA certification, treat your learning like it's your final exam prep. Dive deep into the docs, nail down those basics, and never give up on understanding those concepts.
-Try your hand at setting up Kubernetes on different platforms—bare metal, cloud setups like AWS or Azure, or Docker. Check out resources like [Kubernetes the Hard Way on Bare Metal](https://github.com/Praqma/LearnKubernetes/blob/master/kamran/Kubernetes-The-Hard-Way-on-BareMetal.md) or [Kubernetes the Hard Way on Docker](https://github.com/brightzheng100/kubernetes-the-hard-way-on-docker). The docs might throw you for a loop sometimes, but they're like a huge textbook with some seriously useful chapters.
+Try your hand at setting up Kubernetes on different platforms—bare metal, cloud setups like AWS or Azure, or Docker. Check out resources like Kubernetes the Hard Way on Bare Metal[^footnote], or Kubernetes the Hard Way on Docker[^footnote-2]. The docs might throw you for a loop sometimes, but they're like a huge textbook with some seriously useful chapters.
 
 "All topics are equal, but some topics are more equal than others."  Yes I stole a quote from [Animal Farm](https://en.wikipedia.org/wiki/Animal_Farm) lol. Definitely some concepts are much more important than the others. Focus on mastering concepts like configmap, secrets, and network mesh—they're crucial for building and testing apps, unlike lower-level stuff like CRIO or containerD (not to say that they are unimportant, but not for the exam)
 
@@ -38,5 +38,32 @@ It also helps you keep up with the evolving cloud native ecosystem.The world has
 Plus, getting involved in Kubernetes' open-source community opens up some exciting possibilities. As K8s becomes the backbone for AI and beyond, contributing to its evolution puts you right in the thick of things—like being a top surgeon in a cutting-edge operation.
 
 ## Resources
-> These resources are just some of them which I used during my preparation for the exam. Most of it was the K8s documentation. But some of them helped me gain structure for the exam and a little confidence. So yeah.
+> These resources are just some of them which I used during my preparation for the exam. Most of it was the K8s documentation. But some of them helped me gain perspective on how to study for the exam. These are also very unstructure. Go through them at your own risk lol.
 {: .prompt-info }
+
+#### Basic Resources
+* [CKA curriculum v1.29](https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.29.pdf)
+* [Borg Orignal paper](https://research.google/pubs/large-scale-cluster-management-at-google-with-borg/)
+* [David's Study Guide](https://github.com/David-VTUK/CKA-StudyGuide/tree/master)
+* [OWASP Kubernetes Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html)
+* [CKA Practice Questions](https://gist.github.com/texasdave2/8f4ce19a467180b6e3a02d7be0c765e7)
+
+#### Reddit Threads
+* [https://www.reddit.com/r/kubernetes/comments/s6rpb6/free_materials_for_cka_certified_kubernetes/](https://www.reddit.com/r/kubernetes/comments/s6rpb6/free_materials_for_cka_certified_kubernetes/)
+* [https://www.reddit.com/r/kubernetes/comments/s6l7xs/just_passed_the_cka_here_are_some_tips_and_tricks/](https://www.reddit.com/r/kubernetes/comments/s6l7xs/just_passed_the_cka_here_are_some_tips_and_tricks/)
+* [https://www.reddit.com/r/kubernetes/comments/ssxhsd/cleared_my_cka_exam_with_a_score_of_92_here_are_a/](https://www.reddit.com/r/kubernetes/comments/ssxhsd/cleared_my_cka_exam_with_a_score_of_92_here_are_a/)
+
+#### Youtube Videos
+* Pretty Awesome video: [CKA Certification SURE SHOT Questions ](https://www.youtube.com/watch?v=vVIcyFH20qU)
+* [K8s Source Code Walkthrough](https://www.youtube.com/watch?v=F8dZMKP6xyg)
+
+**K8s the hard way**
+* [The OG k8s the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way ): 
+* [On AWS](https://github.com/Praqma/LearnKubernetes/blob/master/kamran/Kubernetes-The-Hard-Way-on-AWS.md)
+
+[^footnote]: https://github.com/Praqma/LearnKubernetes/blob/master/kamran/Kubernetes-The-Hard-Way-on-BareMetal.md
+[^footnote-2]: https://github.com/brightzheng100/kubernetes-the-hard-way-on-docker
+
+
+
+
