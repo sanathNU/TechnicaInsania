@@ -3,7 +3,6 @@ title: "Nineteen Eighty Four"
 date: 2024-01-14 15:00:00 +0530
 categories: [reviews, film]
 tags: [fiction, dystopia]
-pin: true
 ---
 
 ## Poster
