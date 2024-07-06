@@ -25,8 +25,9 @@ These are some of the movies I watched back in 2022-2023 and have influenced me 
 * Ad Astra
 * The Tree of Life
 * Grave of the Fireflies
+* [2001: A Space Odyssey]({% post_url 2024-06-30-2001-Odyssey %})
 
-### Interesting Books
+### Interesting Books (The links lead to the Amazon Pages)
 * [Thinking Fast and Slow](https://www.amazon.com/Thinking-Fast-and-Slow-audiobook/dp/B005Z9GAJG/)
 * [Sapiens](https://www.ynharari.com/book/sapiens-2/) <br>
     Man, it's one of my most fav books. I read it, when I was like 20, and it has some of the most powerful paradigms that came from a non-technical background. And I was surprised how these things were presented by any other field of science.
