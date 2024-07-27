@@ -8,7 +8,6 @@ order: 4
 {: .prompt-warning }
 
 ## Hola!
-<!-- ![Me,myself](/assets/img/MyPic.jpeg){:height="400px" width="300px"} -->
 <img src="{{site.baseurl | prepend: site.url}}/assets/img/MyPic.jpeg" alt="Poster">{:height="400px" width="300px"}
 
 ## Intro
@@ -18,7 +17,8 @@ This is a free flowing notebook, so I'll be putting out posts haphazardly, with 
 ## Topics of Interest
 I like a lot of topics, mostly ranging in the "cool-tech-gen-Z-guy" spectrum. It ranges from Sci-Fi to philosophy, to movies, to historical geopolitics. I like to talk about technology and how it effects the real world, sci-fi and how it affects technology, culture and how it effects sci-fi, and culture as a force on it's own.
 
-TODO: More detailed explanation (lol xD)
+> TODO: More detailed explanation (lol xD)
+{: .prompt-info }
 
 ## About the Website Icon
 The image is created from [Stable Diffusion](https://stability.ai/). From simple prompts. I know as the years pass on from 2021 (the year of advent of DALL-E and Generative AI in public perception, eventhough they were present way earlier), the novelty of this new type of AI generated images will die.<br>
