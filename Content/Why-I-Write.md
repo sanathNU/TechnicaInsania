@@ -46,5 +46,23 @@ While Twitter seems to be the obvious choice for micro-blogging peeps, I think m
 ## Conclusion
  This is more of a for now content, this will change as with time. I kinda want to implement a versioning system with this, so, let's see how far this goes. Moreover, this is not an exhaustive list of my reasons with writing. As time flows, with added maturity, I will add more thoughts. But as with the end, this is the end of the post.
 
-> This is is the latest updated on 20-04-2024
+## Additions
+### August, 2024
+As I look through the different and new things I've learnt over the year, I've come to a rather interesting conclusion, nobody's got the ball on anything that's going on. Great thoughts have been thunk (yes, I don't know the legitimacy of the world  lol), and then discarded as a waste. Thoughts that were never meant to be heard were published and became great works of art or knowledge. 
+Pictures of the most private moments in an individual life, one of personal accomplishment, reactions to war, facing the death of a loved one... have been published and are available for anyone to see and experience.
+
+I see, that my thoughts too, though tiny and inconsequential, form a bundle of experience in the novel of humankind. Though I'm a statistical blip, a nobody in the random playground for immortal quarks [^1], I existed. I had a conscious life in the 21st century and hopefully hope to  live through to the 22nd.  We are but little blips of ordered packets of entropy in the vast sea of chaos following the [Second law of thermodynamics](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics). 
+
+Yes, people will smirk, humans will die, the mountains will erode, galaxies will rise and fall but what gives meaning to it all (at least in my opinion [^2]) is **time**. I know I kinda echo the ideas from [this](https://www.youtube.com/watch?v=DIal4k5kR3k) movie scene (It's [Lucy](https://www.imdb.com/title/tt2872732/),  if you were asking), but 'time is unity' and I feel like I have to make the most of the time that has been given to me.
+In one of the many things I hope to leave (when my timer is up) is not some legacy, not some land, kids (maybe?), but I would like to leave an imprint of my mind.
+
+> A man will die, but not his ideas
+> 	- Happy Nation, Ace of Base
+
+I know in the future, we will have neural implants, that will be able to read impulses and experiences from the brain, but I still feel a connection to language, the first technology, that enabled up to communicate in the abstract. What I write, hopefully , gives some pleasure to some other person (human or AI, I don't mind 😂) and think "Ahh shoot, this shit of a person existed too". This is my contribution to the unstoppable river of time. 
+
+[^1]: I don't think quarks are immortal, but I wanted some basic elementary particle that doesn't die lol.
+[^2]: Which should not be considered with any consideration!
+
+> This is is the latest updated on 03-08-2024
 {: .prompt-info }
