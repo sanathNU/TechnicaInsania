@@ -11,8 +11,6 @@ toc: true
 ## TL;DR: Enter the Nerd Cave
 Welcome! This space is a collection of the books, movies, and art that I find intriguing. I find that art is a spectrum, that can range from top notch movies to interesting prose. While I haven’t experienced everything out there, I’ve certainly enjoyed my share. This is just a running list of my favs.
 
-All my 
-
 ### Books
 I’m not an average reader who knocks out 50 books a year or drafts comprehensive 20-page critiques of individual pages from a lengthy book series. 😂 I like certain books, and have some fairly polarizing opinions (on some of them at least).
 
@@ -24,8 +22,9 @@ I’m not an average reader who knocks out 50 books a year or drafts comprehensi
 
 | | *Recent Reads* | |
 | :---:| :--: | :--: | :--: |
-| The Dictator's Handbook <br> <img src="https://m.media-amazon.com/images/I/71iufTdpaEL._AC_UF1000,1000_QL80_.jpg" width="100" height="120" alt='Scene'> | Cloud Atlas <br> <img src="https://m.media-amazon.com/images/I/91FOAr-gK1L._AC_UF1000,1000_QL80_.jpg" width="100" height="120" alt='Scene'>| If  This isn't Nice, what is? <br> <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1371446602i/17894477.jpg" width="100" height="120" alt='Scene'>| Slaughterhouse Five <br><img src="https://m.media-amazon.com/images/I/51jLxTxTnyL._AC_UF1000,1000_QL80_.jpg" width="100" height="120" alt='Scene'>
-
+| House of Leaves <br> <img src="https://m.media-amazon.com/images/I/51QoJuZLrlL._AC_UF1000,1000_QL80_.jpg" width="100" height="120" alt='Scene'> | The Dictator's Handbook <br> <img src="https://m.media-amazon.com/images/I/71iufTdpaEL._AC_UF1000,1000_QL80_.jpg" width="100" height="120" alt='Scene'> | Cloud Atlas <br> <img src="https://m.media-amazon.com/images/I/91FOAr-gK1L._AC_UF1000,1000_QL80_.jpg" width="100" height="120" alt='Scene'>| Slaughterhouse Five <br><img src="https://m.media-amazon.com/images/I/51jLxTxTnyL._AC_UF1000,1000_QL80_.jpg" width="100" height="120" alt='Scene'>
+| Can't Hurt me <br> <img src="https://m.media-amazon.com/images/I/41amV20d1uL.jpg" width="100" height="120" alt='Scene'> | Who Owns the Future? <br> <img src="https://m.media-amazon.com/images/I/81b2vtpif1L._AC_UF1000,1000_QL80_.jpg" width="100" height="120" alt='Scene'> |
+ 
 ## Movies
 I love movies. I like the way art can be depicted in such visual and creative styles. Unlike books, this doesn't put much cognitive strain on our frontal cortex and hence, they are absorbed much more easily. 
 
