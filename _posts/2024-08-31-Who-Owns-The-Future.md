@@ -31,7 +31,7 @@ So, I don't have like a lecture worth set of notes on this book, nor "five-impor
 
 Lanier introduces the concept of "Siren Servers" - powerful tech companies that collect and profit from our data. They connect us, and provide us with services for free/small price and collect our data. An example would be that of Google, Instagram, Amazon, etc. He argues that these companies are reshaping our economy in ways we might not fully grasp yet. These are relatively new (they originated in the last 2 decades) and they are not organised like the [Big Oil](https://en.wikipedia.org/wiki/Big_Oil), Big Iron or [Big Pharma](https://en.wikipedia.org/wiki/Pharmaceutical_industry) , they have resources directly sold to the people.
 
-<img src="{{site.baseurl | prepend: site.url}}/assets/img/WhoOwns/Sirens.jpg" alt="Poster">
+<img src="{{site.baseurl | prepend: site.url}}/assets/img/WhoOwns/Sirens.jpg" alt="Poster">{:height="400px" width="600px"}
 
 And the main thing is that they ARE taking data from us. Raw, unfiltered, data. I know that the [Snowden leaks](https://en.wikipedia.org/wiki/2010s_global_surveillance_disclosures) told us about NSA spying on us citizens (at least in the US).
 
@@ -50,6 +50,7 @@ So, the main idea of "data as labor" is that we should own and get paid for the 
 Imagine this: you meet your soulmate on a dating app, hit it off, and eventually get married. Your success story could become a valuable data point for future couples, but instead of just being a faceless statistic, you'd actually get a premium payment—20 years down the road, adjusted for inflation, of course. It’s like tagging your data for immortality and a lifetime pension!
 
 I think this kind of data as a labor is somewhat coming in the current world with Youtubers and Instagram influencers having a say in how products are consumed and thought of. Of course, this is a consequence of capitalism, but again, instead of individual's data being of value, people think of personality, and the quality of the "information" that is being spread by them.
+<img src="{{site.baseurl | prepend: site.url}}/assets/img/WhoOwns/Data.png" alt="hell yeah! 15 monitors!">
 
 Lanier’s idea is that the current freemium, ad-based internet model is a bit of a scam, and he’s calling for a new economic system that actually rewards our individual contributions instead of just turning us into data points for some bigass corporation’s siren server.
 
@@ -62,9 +63,12 @@ He addresses some of the shortcomings of his ideas (at least as far as I remembe
 ### Rest of the Book
 
 Well, that's the main part of the book, I think whatever else he had, just materialised into trying to convince this works, and give workaround for this. There's concepts about privacy fanatics, and alternative economies, and user-generated content driven market (which I think is already happening with the current [Influencer](https://www.merriam-webster.com/dictionary/influencer) trend?) and information valued economy.
+
 He has a very...Neo-Keynesian way of looking at economics, which is hugely influenced by the concept of "Money doesn't remember blood" (which was a new concept to me of course). This is cool, and he already visions us transferring to the future, more thoroughly than I can ever imagine lol.
 
 But this is all the gist of the main ideas in the book I could take. Of course, I can't claim to understand the 20 year thoughts from a distinguished technologist, but I think I could understand some.
+
+<img src="{{site.baseurl | prepend: site.url}}/assets/img/WhoOwns/Utopia.png" alt="A changing world?">
 
 ## My Rant
 
@@ -73,6 +77,7 @@ But this is all the gist of the main ideas in the book I could take. Of course, 
 Of course, this is mostly interesting and right. We as humans and citizens have become a little more privacy oriented in this world right now. Most people think they understand how data theft and mass surveillance works, but this is not the case. I think this concept of a "entity" having and collecting more data and power than the plebs who willingly donate data to it, doesn't seem far fetched.
 The only thing that I know that this data will far outlive it's creator, and it's current benefactor. There seems to be something going on greater than just "collecting data to serve us ads". We're feeding vast amounts of data into a budding digital Cthulhu—something massive is being built that we can't yet foresee.
 
+<img src="{{site.baseurl | prepend: site.url}}/assets/img/WhoOwns/Cthullu.png" alt="king of monsters!">
 <!-- Insert image of digital cthullu !-->
 
 I think if there were such a large distributing effect by the radiating risks of siren servers, then it should have been proven in data. At least we should be able to see this. I currently haven't read any book or news that discusses this in high detail. (Maybe it's discussed and proposed in a Reddit thread somewhere, but nah, i'm too lazy for that shit lol)
@@ -101,6 +106,7 @@ His ideas are genuinely mind bending as he gives curt answers to those privacy f
 Alright, alright, i'm joking of course! I don't consider Lanier as my Zuck Messiah or something like that lol. He talked to a lot of folks, and has seen a lot of invention and innovation in technology, to make me feel that this guy knows what he's talking about. When he's predicting about AI robots taking over healthcare and stuff, I can understand it and respect it. He's seen enough tech bubbles to understand what works and what doesn't.
 
 <!-- Image of king lanier !-->
+<img src="{{site.baseurl | prepend: site.url}}/assets/img/WhoOwns/KingLanier.jpeg" alt="KingLanier">
 
 Hence, when he gives a proposal of data collection (bro, u seriously wanna solve data theft with more "legal data theft"🧐) and a form of living that is alien to how I currently do, it's kinda believable. It's so crazy, it might just work. Or fail spectacularly. But that's the beauty of it - he's not afraid to put it out there, flaws and all. I like this honesty. What he's trying to do is an effort. An idea. A thought process for a community, which (as he hopes in the future) dictates policy and hence changes the world.
 
