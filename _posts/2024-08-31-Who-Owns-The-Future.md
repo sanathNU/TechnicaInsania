@@ -21,6 +21,9 @@ I was not wrong, this was a good book with lots of ideas and paradigm shifting t
 
 This was a loong loong read for me, because it was kind of technically dense. And reading 30 pages a day too was like a mental gymnastic chore. I wanted to absorb as much as "experience" of the author from the reading ,and I tried to overdo it, I guess. But in the end, I got the "big picture". It's not a pretty picture (as I'll get into it in here), but sure, it's an interesting take.
 
+Since this is a non-fiction book, I have overlooked the fact that this might be giving "spoilers" to the book. If there's a probability that you'll never touch the book, then go ahead and read this. But if you plan to read this in the future, I dunno, bookmark this page or something and come back once you have read the book. That way you can enjoy this "digital fast food" much better lol.
+{: .prompt-warning }
+
 ## Structure
 
 So, I don't have like a lecture worth set of notes on this book, nor "five-important" summaries like [Blinkist](https://www.blinkist.com/en). But I'll give some running thoughts on some of the concepts and thoughts that were mentioned in the book. There''ll be Key Concepts, My Rant & Conclusions. On with it!
@@ -40,7 +43,9 @@ But people don't know that not only is this data valuable for spying reasons, it
 > “They give us a feast of delights while stealing our secrets, unknowingly fueling a hidden algorithmic bomb that threatens to upend our world.”
 
 **Radiating Risk**: Lanier argues that Siren Servers do not just benefit from data collection and analysis; they also externalise and distribute risk across the broader economy. This means that the negative consequences of their operations are often borne by individuals, small businesses, and society at large, rather than by the Siren Servers themselves. <br>
-Something like a thermodynamic system or something? I try to visualise this [as a giant Air Conditioner](https://www.youtube.com/watch?v=gVLhrLTF878), which takes in normal air, cools it, and then dissipates other heated air to the external world. Here, in this data driven world, by reducing randomness, by solidifying producer to consumer routes, we are letting chances of chaos, or external events break the flow, and hence cause more damage. Kind of like [Black Swan](https://en.wikipedia.org/wiki/Black_swan_theory) events?
+Something like a thermodynamic system or something?
+
+I try to visualise this [as a giant Air Conditioner](https://www.youtube.com/watch?v=gVLhrLTF878), which takes in normal air, cools it, and then dissipates other heated air to the external world. Here, in this data driven world, by reducing randomness, by solidifying producer to consumer routes, we are letting chances of chaos, or external events break the flow, and hence cause more damage. Kind of like [Black Swan](https://en.wikipedia.org/wiki/Black_swan_theory) events?
 
 **Market Volatility**: By using data to predict and influence market trends, Siren Servers can create instability. This kind of [information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) causes these problems. Their actions can lead to bubbles and crashes, as seen in financial markets where algorithmic trading plays a significant role. The broader economy absorbs the risk of such volatility, affecting investors, consumers, and businesses not directly connected to the Siren Servers.
 
@@ -101,14 +106,14 @@ His ideas are genuinely mind bending as he gives curt answers to those privacy f
 
 ## Conclusion
 
-### Lanier: The Tech Prophet
+### Lanier: Is he a Tech Prophet?
 
-Alright, alright, i'm joking of course! I don't consider Lanier as my Zuck Messiah or something like that lol. He talked to a lot of folks, and has seen a lot of invention and innovation in technology, to make me feel that this guy knows what he's talking about. When he's predicting about AI robots taking over healthcare and stuff, I can understand it and respect it. He's seen enough tech bubbles to understand what works and what doesn't.
+Alright, alright, I'm joking of course! I don't consider Lanier as my Zuck Messiah or something like that lol. He has talked to a lot of folks, and has seen a lot of invention and innovation in technology, so he makes me feel that this guy knows what he's talking about. When he's predicting about AI robots taking over healthcare and stuff, I can understand and respect it. He's seen enough tech bubbles to understand what works and what doesn't.
 
 <!-- Image of king lanier !-->
 <img src="{{site.baseurl | prepend: site.url}}/assets/img/WhoOwns/KingLanier.jpeg" alt="KingLanier">
 
-Hence, when he gives a proposal of data collection (bro, u seriously wanna solve data theft with more "legal data theft"🧐) and a form of living that is alien to how I currently do, it's kinda believable. It's so crazy, it might just work. Or fail spectacularly. But that's the beauty of it - he's not afraid to put it out there, flaws and all. I like this honesty. What he's trying to do is an effort. An idea. A thought process for a community, which (as he hopes in the future) dictates policy and hence changes the world.
+Hence, when he gives a proposal of data collection (bro, do you seriously wanna solve [data theft](https://en.wikipedia.org/wiki/Data_theft) with more "legal data theft"🧐) and a form of living that is alien to how I currently do, it's kinda believable. It's so crazy, it might just work. Or fail spectacularly. But that's the beauty of it - he's not afraid to put it out there, flaws and all. I like this honesty. What he's trying to do is an effort. An idea. A thought process for a community, which (as he hopes in the future) dictates policy and hence changes the world.
 
 He doesn't envision the change of the world as a switch, but drags out the details, talking about each interesting point he could think of. I mean, you can make a movie of this idea, man. That will make me think more. (He's waiting for a movie based on this to happen for him to get rights 😂.)
 
