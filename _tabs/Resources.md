@@ -40,7 +40,7 @@ Like many of tech peeps out there, I like sharing links and articles and resourc
 - [New Age Bullshit Generator](https://sebpearce.com/bullshit/): This was a fun website, way before the advancement of the GPT's. An ode to nice times.
 - [Military Analysis Network](https://man.fas.org/index.html): No idea, this is more technical introduction to some of the weapons in the US military system.
 - [Max Plank Institute for the Science of Decapitation](https://mpi-sod.github.io/about/): A nice parody website lol
-- [D!NG (Do Online Now guys!)](http://dongs2.blogspot.com/p/all-dongs-no-pictures-nor-description.html?m=1): A [VSauce](https://www.youtube.com/user/Vsauce) Creation
+- [D!NG (Do Online Now guys!)](https://dongs2.blogspot.com/p/all-dongs-no-pictures-nor-description.html?m=1): A [VSauce](https://www.youtube.com/user/Vsauce) Creation
 - [CompLexicon](https://annex.exploratorium.edu/complexity/CompLexicon.html)
 
 
