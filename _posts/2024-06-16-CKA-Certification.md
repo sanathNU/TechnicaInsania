@@ -14,22 +14,22 @@ Now, with those preliminaries out of the way, let me tell you what this post is 
 After evaluating it for around 2.5 months, I've come to a nuanced conclusion: the CKA certification is indeed useful, but not necessarily essential for advancing as an engineer in the cloud computing domain.
 
 ## Understanding CKA Certification
-f you're diving into Kubernetes (K8s) from scratch, think of it as Google's way of managing containers, born from their original [Borg](https://en.wikipedia.org/wiki/Borg_(cluster_manager)) system. Getting Certified Kubernetes Administrator (CKA) status boosts your skills, showing you can handle app development and troubleshooting in real-world situations.
+If you're diving into Kubernetes (K8s) from scratch, think of it as Google's way of managing containers, born from their original [Borg](https://en.wikipedia.org/wiki/Borg_(cluster_manager)) system. Getting Certified Kubernetes Administrator (CKA) status boosts your skills, showing you can handle app development and troubleshooting in real-world situations.
 
-People go for CKA because they think it'll make them more employable (it does, but it's not a silver bullet). It's also good for getting a solid grip on the basics of Kubernetes, though the exam isn't overly tough if you prep well.
+People go for CKA because they think it'll make them more employable (it does, but it's not a silver bullet). It's  good for getting a solid grip on the basics of Kubernetes, though the exam isn't overly tough if you prep well.
 
 Since it can be pricey to certify on your own, a lot of folks get their companies to foot the bill. Fun fact: in 2023, a whopping 176,000 people signed up—that's more than double the numbers from 2021 (2023 report, 2021 report). This shows how hot Kubernetes skills are becoming in tech, especially for cloud-native development.
 
 ## My Thoughts on CKA
 Well, diving into Kubernetes opened my eyes to its awesome documentation—seriously good stuff. It's well-organized and explains things way in a lucid way. But I was thoroughly disappointed by the [shutdown of the K8s labs](https://kubernetes.io/blog/2023/02/14/kubernetes-katacoda-tutorials-stop-from-2023-03-31/) that were there earlier. I remember playing around it in 2020, and it was a fond and understandable experience.
 
-On the flip side, CKA Killer Coda's exam simulations are top-notch. They really nail down how to debug in a cloud setup, which is crucial. Personally, tackling the exam shed light on complex systems like Kubernetes certification mechanism and schedulers —pretty rad stuff.
+On the flip side, CKA Killer Coda's exam simulations are top-notch. They really nail down how to debug in a cloud setup, which is crucial. Personally, tackling the exam shed light on complex systems like Kubernetes certification mechanism and schedulers — it really keept it awesome.
 
-Yet, I gotta admit, it's still pretty daunting for newcomers. The amount of detail can bog you down, especially with some post-doc stuff that's more distracting than helpful. Kubernetes is something one should try hands on before tries getting perfect with the basics.
+Yet, I gotta admit, it's still pretty daunting for newcomers. The amount of detail can bog you down, especially with some post-doc stuff that's more distracting than helpful. Kubernetes is something one should try hands on before tries getting perfect with the basics. As Iron man said, "Somtimes, you gotta run before you can walk".
 
 ## Study Thoughts
 So, if you're gunning for that CKA certification, treat your learning like it's your final exam prep. Dive deep into the docs, nail down those basics, and never give up on understanding those concepts.
-Try your hand at setting up Kubernetes on different platforms—bare metal, cloud setups like AWS or Azure, or Docker. Check out resources like Kubernetes the Hard Way on Bare Metal[^footnote], or Kubernetes the Hard Way on Docker[^footnote-2]. The docs might throw you for a loop sometimes, but they're like a huge textbook with some seriously useful chapters.
+Try your hand at setting up Kubernetes on different platforms—bare metal, cloud setups like AWS or Azure, or Docker.   Check out resources like Kubernetes the Hard Way on Bare Metal[^footnote], or Kubernetes the Hard Way on Docker[^footnote-2]. The docs might throw you for a loop sometimes, but they're like a huge textbook with some seriously useful chapters.
 
 "All topics are equal, but some topics are more equal than others."  Yes I stole a quote from [Animal Farm](https://en.wikipedia.org/wiki/Animal_Farm) lol. Definitely some concepts are much more important than the others. Focus on mastering concepts like configmap, secrets, and network mesh—they're crucial for building and testing apps, unlike lower-level stuff like CRIO or containerD (not to say that they are unimportant, but not for the exam)
 
@@ -38,7 +38,7 @@ It also helps you keep up with the evolving cloud native ecosystem.The world has
 Plus, getting involved in Kubernetes' open-source community opens up some exciting possibilities. As K8s becomes the backbone for AI and beyond, contributing to its evolution puts you right in the thick of things—like being a top surgeon in a cutting-edge operation.
 
 ## Resources
-> These resources are just some of them which I used during my preparation for the exam. Most of it was the K8s documentation. But some of them helped me gain perspective on how to study for the exam. These are also very unstructure. Go through them at your own risk lol.
+> These resources are just some of them which I used during my preparation for the exam. Most of it was the K8s documentation. But some of them helped me gain perspective on how to study for the exam. These are also very unstructured. Go through them at your own risk lol.
 {: .prompt-info }
 
 #### Basic Resources
