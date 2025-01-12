@@ -108,12 +108,13 @@ His ideas are genuinely mind bending as he gives curt answers to those privacy f
 
 ### Lanier: Is he a Tech Prophet?
 
-Alright, alright, I'm joking of course! I don't consider Lanier as my Zuck Messiah or something like that lol. He has talked to a lot of folks, and has seen a lot of invention and innovation in technology, so he makes me feel that this guy knows what he's talking about. When he's predicting about AI robots taking over healthcare and stuff, I can understand and respect it. He's seen enough tech bubbles to understand what works and what doesn't.
+Alright, alright, I'm joking of course! I don't consider Lanier as the Zuck Messiah or something like that lol. He has talked to a lot of folks, and has seen a lot of invention and innovation in technology, so he makes me feel that this guy knows what he's talking about. When he's predicting about AI robots taking over healthcare and stuff, I can understand and respect it. He's seen enough tech bubbles to understand what works and what doesn't.
 
 <!-- Image of king lanier !-->
+
 <img src="{{site.baseurl | prepend: site.url}}/assets/img/WhoOwns/KingLanier.jpeg" alt="KingLanier">
 
-Hence, when he gives a proposal of data collection (bro, do you seriously wanna solve [data theft](https://en.wikipedia.org/wiki/Data_theft) with more "legal data theft"🧐) and a form of living that is alien to how I currently do, it's kinda believable. It's so crazy, it might just work. Or fail spectacularly. But that's the beauty of it - he's not afraid to put it out there, flaws and all. I like this honesty. What he's trying to do is an effort. An idea. A thought process for a community, which (as he hopes in the future) dictates policy and hence changes the world.
+Hence, when he gives a proposal of data collection (bro, do you seriously wanna solve [data theft](https://en.wikipedia.org/wiki/Data_theft) with more "legal data theft"🧐?) and a form of living that is alien to how I currently do, it's kinda believable. It's so crazy, it might just work. Or fail spectacularly. But that's the beauty of it - he's not afraid to put it out there, flaws and all. I like this honesty. What he's trying to do is an effort. An idea. A thought process for a community, which (as he hopes in the future) dictates policy and hence changes the world.
 
 He doesn't envision the change of the world as a switch, but drags out the details, talking about each interesting point he could think of. I mean, you can make a movie of this idea, man. That will make me think more. (He's waiting for a movie based on this to happen for him to get rights 😂.)
 
@@ -129,4 +130,4 @@ Overall, it's a very very nice book to read, and he has some things to say lol. 
 
 In the end, this book is like that one friend who always has the craziest ideas at parties. You might not agree with everything, but damn, it makes for an interesting conversation. Though it felt like a slump in the middle, it genuinely gets better at the end. Glad to have read it. I give it a solid 8/10. Will re-read again in the 2040 maybe.
 
-And who knows? Maybe Lanier's onto something. Only time (and a whole lot of data) will tel
+And who knows? Maybe Lanier's onto something. Only time (and a whole lot of data) will tell

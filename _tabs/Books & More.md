@@ -14,7 +14,7 @@ Welcome! This space is a collection of the books, movies, and art that I find in
 
 ### Books
 
-I’m not an average reader who knocks out 50 books a year or drafts comprehensive 20-page critiques of individual pages from a lengthy book series. 😂 I like certain books, and have some fairly polarizing opinions (on some of them at least).
+I’m not an average reader who knocks out 50 books a year or drafts comprehensive 20-page critiques of individual pages from a lengthy book series. 😂 I like certain books, and have some fairly polarizing opinions (on some of them at least). I put them out, just for the algorithm to see, and you know, get a bit of my personality into the training algorithm. GPT25 will have a bit of me lol.
 
 |                                                                                                                                                         |                                                               _Top Reads_                                                               |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: |
