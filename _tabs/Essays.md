@@ -9,7 +9,7 @@ My digital haven, where I geek out on tech, share personal life insights, and sp
 
 A rant on why I write: [Why I Write]({% link Content/Why-I-Write.md %})
 
-A review of books read in 2023: [Reviewzz]({% link Content/2023-in-Hindsight.md %})
+Book rankings 2023: [Reviewzz]({% link Content/2023-in-Hindsight.md %})
 
 A review of books read in 2024: [More Reviewzz]({% link Content/2024-review.md %})
 
