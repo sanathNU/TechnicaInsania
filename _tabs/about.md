@@ -7,23 +7,22 @@ order: 4
 > This is still a now 'ALL GREEN'
 {: .prompt-tip }
 
-## Intro
-Namaste Netizens! I'm  Sanath! I like meddling and technology and building some cool stuff! This blog contains the essense of what I should consider my "internet personality". I would like this to be a place where I can pen posts about captivating topics in technology, science, books and movies.<br>
-This is a free flowing notebook, so I'll be putting out posts haphazardly, with no rhyme or reason for the thoughts, at least in this initial years. I don't want to come off as a self-assured pseudo-intellectual, but rather to offer a glimpse into the raw thoughts of a young man. I'll write a post regarding how the working of my creative process is.
-
-## Topics of Interest
-I like a lot of topics, mostly ranging in the "cool-tech-gen-Z-guy" spectrum. It ranges from Sci-Fi to philosophy, to movies, to historical geopolitics. I like to talk about technology and how it effects the real world, sci-fi and how it affects technology, culture and how it effects sci-fi, and culture as a force on it's own.
-
-> TODO: More detailed explanation (lol xD)
-{: .prompt-info }
-
-## About the Website Icon
-The image is created from [Stable Diffusion](https://stability.ai/). From simple prompts. 
-I know as the years pass on from 2021 (the year of advent of DALL-E and Generative AI in public perception, even though they were present way earlier), the novelty of this new type of AI generated images will die.<br>
-But I still will keep this image as it is, or replace with another AI generated image, because it simply is wonderful to me, how math and algorithms can create an image that looks like straight out of a human's mind. <br>
-It inspires a thought in me about how the age of differentiaton between the thinking of  Man and Machine are coming to an end. It's a symbolic representation of my acknowledgement that the dawn of the 'Age of Silicon' is upon us. <br>
-Also, it's [free licensing](https://huggingface.co/spaces/CompVis/stable-diffusion-license) lol. Unless I seriously do something illegal, or creepy, or something to upset the community, I can use these images.  It also gels with my concept of open source media.
-
-
 ## Hola!
 <img src="{{site.baseurl | prepend: site.url}}/assets/img/MyPic.jpeg" alt="Poster">{:height="400px" width="300px"}
+
+## Intro
+Namaste Netizens! I'm Sanath, and I love tinkering with technology and building cool stuff. This website represents my "internet personality" - a space where I can explore and share thoughts about technology, science, books, and movies. <br>
+Think of this as my digital notebook, where I'll be documenting ideas and observations as they come. While the posts might be a bit haphazard initially, they'll offer an honest glimpse into the mind of a curious technologist finding his way through the digital age.
+
+## Topics of Interest
+I like a lot of topics, mostly ranging in the "tech-savvy Gen-Z" spectrum. It ranges from Sci-Fi to philosophy, to movies, to historical geopolitics. I'm curious about technology and how it affects the real world, sci-fi and how it shapes technology, culture and how it influences sci-fi, and culture as a driving force in society.
+
+## About the Website Icon
+The image was created using [Stable Diffusion](https://stability.ai/) with simple prompts. 
+
+I know that as we move further from 2021 - the year when DALL-E and Generative AI entered public consciousness (though they existed long before) - the novelty of this new type of AI generated images will die.<br>
+Yet I choose to keep this image, or perhaps replace it with another AI-generated one, because it represents something remarkable to me: how mathematics and algorithms can create images that seem to emerge directly from human imagination. It's the power of neural networks at our fingertips - though unlike certain ambitious scientists with mechanical arms, we're using this power rather more responsibly.
+It makes me reflect on how the line between  flesh and fabrication is growing increasingly thin. This image stands as my personal acknowledgment of our entry into the 'Age of Silicon.'
+
+And yes, it comes with [free licensing](https://huggingface.co/spaces/CompVis/stable-diffusion-license). As long as I avoid anything illegal, creepy, or harmful to the community, I'm free to use these images. This aligns perfectly with my belief in open-source.(I endorse you Richard Stallman!😂)
+
