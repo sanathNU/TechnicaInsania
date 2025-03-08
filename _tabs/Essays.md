@@ -11,5 +11,3 @@ A rant on why I write: [Why I Write]({% link Content/Why-I-Write.md %})
 
 Book rankings 2023: [Reviewzz]({% link Content/2023-in-Hindsight.md %})
 
-A review of books read in 2024: [More Reviewzz]({% link Content/2024-review.md %})
-
