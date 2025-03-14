@@ -38,3 +38,7 @@ I love movies. I like the way art can be depicted in such visual and creative st
 |                                                                                      Feel Good                                                                                       |                                       Fun                                       | Misc                                                                             |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | -------------------------------------------------------------------------------- |
 | Life of Pi (2012)<br><br>The Shawshank Redemption (1994)<br><br>Forrest Gump (1994)<br><br>Cast Away (2000)<br><br>The Curious Case of Benjamin Button (2008)<br><br>3 Idiots (2009) | The Social Network (2010)<br><br>The Hateful 8 (2015)<br><br>Oppenheimer (2023) | Manchester By the Sea (2016)<br><br>Oldboy (2003)<br><br>The Tree of Life (2011) |
+
+## Notes
+
+Our Oriental Heritage Quotations: [The Madness of Men]({%link Content/Civilization-I.md %})

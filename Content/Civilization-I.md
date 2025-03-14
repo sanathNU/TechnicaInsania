@@ -1,12 +1,18 @@
 ---
 layout: default
 title: "Story of Civlization I: Our Oriental Heritage"
-categories: [quotes, history]
+categories: [quotes, history,quotations-of-interest]
 tags: [books, philosophy, meta]
 toc: true
 ---
-This is a timeless book review. Something I would like to come once in a while, to see where we are at? To understand nature on its own terms.
-There's a lot of thoughts I on the book, that I would definitely like to put through, and hence this will be a slow buildup of it. So yes.
+
+# Our Oriental Hertiage
+Reading history feels like a trek. Sometimes I get bored, sometimes I get tired. But then there are moments—absolute clarity—when you’re not just reading a book, you’re rethinking your entire viewpoint.
+
+That shit doesn’t happen with novels. Maybe a little with non-fiction, but never as powerfully as with history.
+
+That’s what this book did for me.
+
 
 ## Quotations
 ###  Introduction: The Establishment of Civilisation
@@ -109,7 +115,7 @@ An interesting perspective in war...written by Yang Kwei-fe (just an excerpt)
 
 ##### B. Japan
 
-There's not much quotes on Japan, that I can provide on, because I have been exposed to a lot of Japanese culture through anime. I shall dive into it further as I grow older, dear readers, to be
+There's not much quotes on Japan, that I can provide on, because I have been exposed to a lot of Japanese culture through anime. I shall dive into it further as I grow older.
 
 > The basic principle of Japanese feudal society was that every gentleman was a soldier, and every soldier a gentleman; here lay the sharpest difference between Japan and that pacific China which thought that every gentleman should be a scholar rather than a warrior.
 
