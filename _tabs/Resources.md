@@ -14,29 +14,38 @@ If you want to look at a previous iteration of mine, you can look at [my previou
 
 ### **Philosophy**
 
-Like many of tech peeps out there, I like sharing links and articles and resources that I found helpful (and also things that I "think" I would have found useful 🙃). But whatever is free, should be used by most number of poeple. Knowledge is power and hence I would like to help other people on the internet, similar to how I was (and still am) being helped by the people of the internet. It's a very simple reductionist view, I know. But 
+Like many of tech peeps out there, I like sharing links and articles and resources that I found helpful (and also things that I "think" I would have found useful 🙃). But whatever is free, should be used by most number of poeple. Knowledge is power and hence I would like to help other people on the internet, similar to how I was (and still am) being helped by the people of the internet.
 
-### **Ordered**
+# **Ordered**
 
 - There are a lot of links that need a lot of be sorted and put out here. So, I'm thinking order by major sciences, then individual niche topics maybe. It all depends on how interesting I have visited the websites and have found helpful. I gotta be honest here, I don't visit half the websites I see here, but again, there's no harm in 'links hoarding' xD.
 - So, I'm dividing them into Ordered and Unordered. More divisions are to come.
 
 #### Computer Science 🖥️
 ##### Theory
-- [Complexity Zoo](https://complexityzoo.net/Complexity_Zoo_Introduction)\\\
+- [Complexity Zoo](https://complexityzoo.net/Complexity_Zoo_Introduction)
 
 ##### Quantum Computing
 - [Quantum Computing Since Democritus](https://www.scottaaronson.com/democritus/) (A Textbook on quantum computing)
+- [The Quantum Computer](https://pyquil-docs.rigetti.com/en/v3.0.0/qvm.html) (An Architecture Simulator for quantum computer)
+- [Quantum Country](https://quantum.country/) (A spaced-repetition based experimental textbook on quantum computing by [Andy Matuschak](https://andymatuschak.org/) and [Michael Nielsen](https://michaelnielsen.org/))
+- [Quantum Algorithm Zoo](https://quantumalgorithmzoo.org/)
 
 ##### Cryptography
 - [Practical Cryptography for Developers](https://cryptobook.nakov.com/)
-- [[Useful Cryptography Resources](https://blog.cryptographyengineering.com/useful-cryptography-resources/)]
+- [Useful Cryptography Resources](https://blog.cryptographyengineering.com/useful-cryptography-resources/)
 
 #### Mathematics 🔢
 - [Hans Lundmark's complex analysis pages](https://users.mai.liu.se/hanlu09/complex/)
 
+#### Linux
+- [LFS([Linux From Scratch])](https://www.linuxfromscratch.org/lfs/read.html)
+- [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html)
+- [Linux Network Administrators Guide](https://tldp.org/LDP/nag2/nag2.pdf)
+- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
+
 ---
-### **Unordered**
+# **Unordered**
 - [MIT Thesis Catalogue](https://dspace.mit.edu/handle/1721.1/7582): Contains a searchable catalogue for all MIT theses. Isn't it excting to have great minds efforts at the tip of your hands?
 
 
@@ -53,9 +62,10 @@ Like many of tech peeps out there, I like sharing links and articles and resourc
 - [D!NG (Do Online Now guys!)](https://dongs2.blogspot.com/p/all-dongs-no-pictures-nor-description.html?m=1) -- A [VSauce](https://www.youtube.com/user/Vsauce) Creation
 - [CompLexicon](https://annex.exploratorium.edu/complexity/CompLexicon.html)
 - [IFDB](https://ifdb.org/) - Interactive Fiction Database
+- [Crypto Anarchy](https://cryptoanarchy.wiki/)
 
 
-##### People Pages
+### People Pages
 
 Just a list of people I find cool.
 
