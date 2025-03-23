@@ -2,7 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-book
 order: 4
-toc: true
+# toc: true
 ---
 
 > _"You are what you think about"_
