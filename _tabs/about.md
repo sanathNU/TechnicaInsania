@@ -8,7 +8,6 @@ order: 4
 {: .prompt-tip } -->
 
 ## Hola!
-<!-- <img src="{{site.baseurl | prepend: site.url}}/assets/img/MyPic.jpeg" alt="Poster">{:height="400px" width="300px"} -->
 ![](/assets/img/MyPic.jpeg){: width="300px" height="300px" }
 
 ## Intro
