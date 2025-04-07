@@ -8,7 +8,7 @@ order: 4
 {: .prompt-tip } -->
 
 ## Hola!
-![](/assets/img/MyPic.jpeg){: width="300px" height="300px" }
+![](/assets/img/MyPic.jpeg){: width="300px" height="300px" .align-center }
 
 ## Intro
 Namaste Netizens! I'm Sanath, and I love tinkering with technology and building cool stuff. This website represents my "internet personality" - a space where I can explore and share thoughts about technology, science, books, and movies. <br>
