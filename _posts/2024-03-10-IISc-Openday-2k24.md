@@ -3,7 +3,6 @@ title: "My Experience with IISc Openday 2024"
 date: 2024-04-06 
 categories: [experiences, science]
 tags: []
-pin: true
 ---
 
 ## Introduction
