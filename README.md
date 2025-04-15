@@ -8,5 +8,3 @@ Technica Insania can be faithfully translated into Latin as 'Technical Insanity.
 ### Work in progress
 This blog is still a work in progress, by which I need to change a lot of layout and customize it such that I feel comfortable writing in it. So Keep on holding! Again I'm not a front-end dev, so I don't care much about appearance xD.
 
-Also, this is a test message, to get to know what is going wrong with the website?
-
