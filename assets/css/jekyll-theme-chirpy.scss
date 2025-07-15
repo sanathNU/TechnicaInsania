@@ -12,4 +12,9 @@
 // html {
 //     font-size: 20px; // Set your desired base font size here
 //   }
-  
+
+:root {  
+    --heading-color: #1a1a1a;  /* Darker headings */  
+    --text-color: #2d2d2d;     /* Darker body text */  
+    --text-muted-color: #4a4a4a; /* Darker muted text */  
+  }
