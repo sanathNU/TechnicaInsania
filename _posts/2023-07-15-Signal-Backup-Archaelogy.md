@@ -6,22 +6,26 @@ tags: [rant]
 ---
 
 ### Intro
-So, I just had an idea to do a preliminary analysis on my signal chats , since it was supposed to be open source, and see how to crack some stuff out of it. I just whipped out my signal backup from my android phone, dated 2 years ago, and got the carefully encrypted password too
-The structure of signal backup was just an SQLite database and a collection of media files, which was encrypted.
+So, I had this idea: since Signal is open source, I should be able to crack open my own backup and actually understand what’s going on inside, right? And it's my data... the beauty of open source is that you don't have to trust it blindly. You can inspect it, break it, maybe even learn something from it.
 
-I then stumbled upon [this]() blog  that laid out a couple of approaches. I seriously thought it would involve some john-the ripper style brute forcing, but it was simple enough. We are not in the dark ages of a chat app like [PGPChatAPP](https://github.com/Tarasa24/PGPChatApp); Signal's community support and tooling definitely reinforced that.
+Also, there’s this weird irony: private data is... private. Which means if I don’t analyze it, no one else should be able to. I found a few backups of Signal in my laptop a few weeks earlier. I knew I wasn’t about to throw away this god-given chance to dig through my own digital mine.old from my own ore, you know?
+
+I just whipped out one my Signal backup from my android phone, dated 2 years ago, and got the carefully encrypted password too.
+The structure of Signal backup was just an SQLite database and a collection of media files, which was encrypted.
+
+I then stumbled upon [this](https://yoranbrondsema.com/post/the-guide-to-extracting-statistics-from-your-signal-conversations/) blog  that laid out a couple of approaches. I seriously thought it would involve some john-the ripper style brute forcing, but it was simple enough. We are not in the dark ages of a chat app like [PGPChatAPP](https://github.com/Tarasa24/PGPChatApp); Signal's community support and tooling definitely reinforced that.
 
 ### From Android Backup (The First Stumble)
-This was the main file that I had, and I wanted to try using this. The first pre-req was to create a [backup file](https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages#android_restore) . Then wanted to use a tool call [signal-back](https://github.com/xeals/signal-back) to extract the data. This was more than half a decade old, and I was really skeptical about the decrypting nature of a backup. I knew that things moved slow in open source, but still wasn't sure about this. But trusting the authenticity of the author (seemed to know what he's doing, being able to write a ruby script to extract data), I pressed on.
+This was the main file that I had, and I wanted to try using this. The first pre-req was to create a [backup file](https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages#android_restore) . Then, I tried using a called [signal-back](https://github.com/xeals/signal-back) to extract the data. This was more than half a decade old, and I was really skeptical about the decrypting nature of a backup. Open source does move slowly, but I still wasn't sure about this. But trusting the authenticity of the author (seemed to know what he's doing, he does know ruby, which is one more language I don't know lol), I pressed on.
 
 #### Trial 1 (didn't work)
 ---
 
-Signal-back had a dependecy on  [SQLcipher](https://github.com/sqlcipher/sqlcipher), which was a very interesting fork of sqllite with added encryption scheme. I tried installing it via 
+Signal-back had a dependency on  [SQLcipher](https://github.com/sqlcipher/sqlcipher), which was a very interesting fork of sqllite with added encryption scheme. I tried installing it via 
 
-`sudo apt-get install sudo apt-get install sqlcipher `
+`sudo apt-get install sqlcipher `
 
-This installed an old version, which is 3.15. which wasn't supported by signal-back, and the only other option to do was build `sqlcipher` from scratch . This was also recommended by the blog post dude, which he said would upgrade `sqlcipher` from 3.15 to 3.31 or above. I didn't see any new way to apart from building. Hence feeling confident of myself, I ran these commands
+This installed an old version, which is 3.15. which wasn't supported by signal-back, and the only other option to do was build `sqlcipher` from scratch . This was also recommended by the blog post dude, which he said would upgrade `sqlcipher` from 3.15 to 3.31 or above. There wasn’t any other way apart from building. Hence feeling confident of myself, I ran these commands
 
 ```bash
 # Build from source (following blog instructions)
@@ -35,11 +39,11 @@ Even when it asked for sudo permissions, I didn't see what was happening (which 
 signal-back format -f CSV -o backup-android.csv <signal-XXX.backup>
 ```
 
-And it asked me to input a passcode. I was like, my signal passcode was 30 digits long, where did I lose my 6 digs🫠. It didn't run with the code I gave. Threw up some EOF error.
+And it asked me to input a passcode. I was like, my Signal passcode was 30 digits long, where did I lose my 6 digs? 🫠. It didn't run with the code I gave. Threw up some EOF error.
 
 ![](/assets/img/sig_analysis/EOF_error.png)
 
-I figured that this was out of date and since I had the god like power of copilot with me,  I tried to reverse engineer the source code, in hopes of figuring out how to change 36 digit to 30. After bunch of reading `go` code and literally _begging_ copilot to give me the answer, I got this:
+I figured that this was out of date and since I had the god like power of copilot with me,  I tried to reverse engineer the source code, in hopes of figuring out how to change 36 digit to 30. After _bunch_ of reading Go code and literally _begging_ copilot to give me the answer, I got this:
 
 ![](/assets/img/sig_analysis/Copilot_answer.png)
 
@@ -50,21 +54,21 @@ To my surprise, to my utter surprise, the _code_ wasn't the problem. The 30-digi
 
 Then, completely unrelated (or so I thought), my KDE Plasma desktop started glitching out.And I thought the reboot should fix the problem. Famous. Last. Words.
 
-Well, I was wrong, and after reboot, I lost my entire plasma screen, and just replaced by a black screen. This was like the n-th time, a reboot didn't solve my problem, but rather caused it .The irony wasn't lost on me.
+Well, I was wrong, and after reboot, I lost my entire plasma screen, and just replaced by a black screen. This was the n-th time, a reboot didn't solve my problem, but rather caused it .The irony wasn't lost on me.
 
 And a long debugging session with stackoverflow, I came upon [this](https://discuss.kde.org/t/black-screen-on-debian-based-distro-plasma-desktop/21032) discussion, where the dude gave the problem and the solution.
 
 ![](/assets/img/sig_analysis/form_answer.png)
 
-I was like, this is me, my friend, thank you for having this problem!
-I sadley, then deleted all `/usr/local/lib/libsqlite3*.*` files. and this just reset my entire laptop. All my customization (virtual desktops, wallpapers) gone. Such is the glorious life on Linux.
+I was like, “This is me, my friend. Thank you for having this problem!”
 
+I then deleted all `/usr/local/lib/libsqlite3*.*` files. and this just reset my entire laptop. All my customization (virtual desktops, wallpapers) gone. Such is the glorious life on Linux.
 
 This entire thing was a futility in debugging, I just gave up on the android backup file and tried my other hand on desktop.
 
 #### Trial 2 (Didn't work either)
 ---
-Since I thought I had the signal desktop version for linux, I thought I should be able to get the key and decrypt it easily! ( learning on the process than my signal chats were just encrypted with a key that is a `sudo cat` away from obliteration)
+Since I thought I had the Signal desktop version for linux, I thought I should be able to get the key and decrypt it easily! ( learning on the process than my signal chats were just encrypted with a key that is a `sudo cat` away from obliteration)
 
 I tried to get the key from `/<home_folder>/.config/Signal/config.json`. But sigh, I realized that my `config.json` is messed up, because I tried to copy a previous signal backup from another linux distro to a new installation (which had worked, *miraculously*, but messing up the config file in the process) 
 
@@ -100,12 +104,14 @@ I had all the files and data, which had the following structure. (taken from the
 |                          | MessageTable.QUOTE_BODY_RANGES | MessageTable.TYPE              | MessageTable.VIEW_ONCE             |
 |                          |                                |                                | PARENT_STORY_ID                    |
 
-Once I had that CSV file, I immediately wrote a simple Rust script to get the statistics. Take on that, original author[^1] – you write Ruby, I write Rust!
+Once I had that CSV file, I immediately wrote a simple Rust script to get the statistics. Take on that, original author [^1] – you write Ruby, I write Rust!
 
 ### Data economics
 So, once I had all that raw data, it was time to make sense of it. I ended up whipping out a Rust script to crunch the numbers on my chats – yeah, I also wrote a Python version, just because. You can find the full scripts over here in the [gist](https://gist.github.com/sanathNU/5e4557d9f796d0733720695eb3c7483d).
 
-Now, I'm not gonna reveal my Signal chats in public (I use Signal for a reason, man!). But it's safe to say that the chats were substantial! I genuinely didn't expect to communicate that much on this app. Makes me wonder how much more I would have had in WhatsApp.
+In Signal’s backup schema, a “thread” is basically just a conversation, identified by a ThreadID. With that and the message timestamps, you can slice, filter, and analyze chats however you want. Granular-level control, baby.
+
+Now, I'm not gonna reveal my Signal chats in public (I use Signal for a reason, man!). But it's safe to say... they were substantial! We had a blast in 2023, Thread 17! I genuinely didn't expect to communicate that much on this app. Makes me wonder how much more would show up in my WhatsApp backup.
 
 Anyway, here's a peek at the Rust code that did the work:
 ```rust
@@ -217,4 +223,4 @@ The backup is decrypted, the stats are analysed, and my plasma desktop is rebuil
 Ciao!
 
 
-[^1] I don't mean nothing by it [Yoran](https://yoranbrondsema.com/), just jesting!
+[^1]: I don't mean nothing by it [Yoran](https://yoranbrondsema.com/), just jesting!
