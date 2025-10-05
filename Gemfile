@@ -12,3 +12,8 @@ platforms :windows, :jruby do
 end
 
 gem "wdm", "~> 0.2.0", :platforms => [:windows]
+
+# Adding dependencies because something doesn't work
+gem "csv"
+gem "base64"
+gem "bigdecimal"
