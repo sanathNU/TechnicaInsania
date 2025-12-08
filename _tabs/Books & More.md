@@ -25,6 +25,8 @@ I’m not an average reader who knocks out 50 books a year or drafts comprehensi
 
 [Books of 2024]({% link _posts/2025-03-10-Book-2024-review.md %})
 
+[Books of 2025]({% link Content/2025-books.md %})
+
 ## Movies
 
 I love movies. I like the way art can be depicted in such visual and creative styles. Unlike books, this doesn't put much cognitive strain on our frontal cortex and hence, they are absorbed much more easily.
