@@ -8,6 +8,10 @@ toc: true
 
 # Intelligence - A Very Short Introduction
 
+![Intelligence – A Short Introduction](https://m.media-amazon.com/images/I/71ULBNEAeQL._AC_UF1000,1000_QL80_.jpg){:height="100px" width="200px"}
+
+### Why this book?
+
 I picked up this book mainly because it is short and the topic is controversial enough to be entertaining. Even though the datasets are old, it ended up breaking more of my misconceptions than I expected. These are rough notes, nothing polished, just the parts that stuck.
 
 ---
