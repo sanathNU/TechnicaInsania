@@ -16,7 +16,8 @@ If you want to look at a previous iteration of mine, you can look at [my previou
 
 Like many of tech peeps out there, I like sharing links and articles and resources that I found helpful (and also things that I "think" I would have found useful 🙃). But whatever is free, should be used by most number of poeple. Knowledge is power and hence I would like to help other people on the internet, similar to how I was (and still am) being helped by the people of the internet.
 
-# **Ordered**
+---
+## Ordered
 
 - There are a lot of links that need a lot of be sorted and put out here. So, I'm thinking order by major sciences, then individual niche topics maybe. It all depends on how interesting I have visited the websites and have found helpful. I gotta be honest here, I don't visit half the websites I see here, but again, there's no harm in 'links hoarding' xD.
 - So, I'm dividing them into Ordered and Unordered. More divisions are to come.
@@ -45,7 +46,7 @@ Like many of tech peeps out there, I like sharing links and articles and resourc
 - [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
 
 ---
-# **Unordered**
+## Unordered
 - [MIT Thesis Catalogue](https://dspace.mit.edu/handle/1721.1/7582): Contains a searchable catalogue for all MIT theses. Isn't it excting to have great minds efforts at the tip of your hands?
 
 
