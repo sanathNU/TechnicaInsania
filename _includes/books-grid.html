@@ -50,15 +50,16 @@
 {% assign all_books = include.books %}
 
 {% if include.group_by %}
-  {% comment %} Logic for Grouping {% endcomment %}
+  {% comment %} Logic for Grouping: Primary Tag Only {% endcomment %}
   
-  {% comment %} 1. Collect all tags/genres into a single comma-separated string {% endcomment %}
+  {% comment %} 1. Collect all PRIMARY tags/genres into a single comma-separated string {% endcomment %}
   {% assign raw_tags = "" %}
   {% for book in all_books %}
     {% if book[include.group_by] %}
-      {% for tag in book[include.group_by] %}
-        {% assign raw_tags = raw_tags | append: tag | append: "," %}
-      {% endfor %}
+      {% assign primary_tag = book[include.group_by] | first %}
+      {% if primary_tag %}
+        {% assign raw_tags = raw_tags | append: primary_tag | append: "," %}
+      {% endif %}
     {% endif %}
   {% endfor %}
 
@@ -66,16 +67,30 @@
   {% assign categories = raw_tags | split: "," | uniq | sort %}
 
   {% for category in categories %}
-    {% if category != "" %}
+    {% if category != "" and category != nil %}
 <h2 class="book-category-header">{{ category }}</h2>
 <div class="book-grid">
         {% for book in all_books %}
-          {% if book[include.group_by] contains category %}
+          {% assign book_primary_tag = book[include.group_by] | first %}
+          {% if book_primary_tag == category %}
+          {% assign item_url = nil %}
+          {% assign is_external = false %}
+
+          {% if book.post %}
+            {% assign found_post = site.posts | where: "slug", book.post | first %}
+            {% if found_post %}
+              {% assign item_url = found_post.url | relative_url %}
+            {% else %}
+              {% assign item_url = 'Content/Notes/' | append: book.post | append: '.html' | relative_url %}
+            {% endif %}
+          {% elsif book.url %}
+            {% assign item_url = book.url %}
+            {% assign is_external = true %}
+          {% endif %}
+
 <figure class="book-item">
-              {% if book.post %}
-<a href="{{ 'Content/Notes/' | append: book.post | append: '.html' | relative_url }}">
-              {% elsif book.url %}
-<a href="{{ book.url }}" target="_blank" rel="noopener">
+              {% if item_url %}
+<a href="{{ item_url }}" {% if is_external %}target="_blank" rel="noopener"{% endif %}>
               {% else %}
 <span>
               {% endif %}
@@ -86,7 +101,7 @@
 <div class="book-placeholder">No Image Available</div>
               {% endif %}
 
-              {% if book.post or book.url %}
+              {% if item_url %}
 </a>
               {% else %}
 </span>
@@ -104,26 +119,39 @@
   {% comment %} Logic for Default/Randomized View {% endcomment %}
 <div class="book-grid" id="random-book-grid-{{ include.id | default: 'main' }}">
     {% for book in all_books %}
+          {% assign item_url = nil %}
+          {% assign is_external = false %}
+
+          {% if book.post %}
+            {% assign found_post = site.posts | where: "slug", book.post | first %}
+            {% if found_post %}
+              {% assign item_url = found_post.url | relative_url %}
+            {% else %}
+              {% assign item_url = 'Content/Notes/' | append: book.post | append: '.html' | relative_url %}
+            {% endif %}
+          {% elsif book.url %}
+            {% assign item_url = book.url %}
+            {% assign is_external = true %}
+          {% endif %}
+
 <figure class="book-item">
-        {% if book.post %}
-<a href="{{ 'Content/Notes/' | append: book.post | append: '.html' | relative_url }}">
-        {% elsif book.url %}
-<a href="{{ book.url }}" target="_blank" rel="noopener">
-        {% else %}
+              {% if item_url %}
+<a href="{{ item_url }}" {% if is_external %}target="_blank" rel="noopener"{% endif %}>
+              {% else %}
 <span>
-        {% endif %}
+              {% endif %}
 
-        {% if book.img %}
+              {% if book.img %}
 <img src="{{ book.img }}" alt="{{ book.alt | escape }}" loading="lazy">
-        {% else %}
+              {% else %}
 <div class="book-placeholder">No Image Available</div>
-        {% endif %}
+              {% endif %}
 
-        {% if book.post or book.url %}
+              {% if item_url %}
 </a>
-        {% else %}
+              {% else %}
 </span>
-        {% endif %}
+              {% endif %}
 
 <figcaption>{{ book.title }}</figcaption>
 </figure>

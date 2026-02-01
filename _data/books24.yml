@@ -1,97 +1,194 @@
 # books_table.yml
 
 - title: Discipline Is Destiny
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/81kQ4rTDHAL.jpg
   alt: Discipline Is Destiny
-  url: placeholder
-  genres: [general]
+  url: https://www.amazon.com/Discipline-Destiny-Power-Self-Control-Virtues/dp/0593191692
+  genres: [self-help, Discipline]
 
 - title: Developer Hegemony
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/61ZrZpD6sZL._AC_UF1000,1000_QL80_.jpg
   alt: Developer Hegemony
-  url: placeholder
+  url: https://www.amazon.com/Developer-Hegemony-Erik-Dietrich/dp/0692866809
   genres: [general]
 
 - title: The Three Body Problem
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/818l7Ujz5-L.jpg
   alt: The Three Body Problem
-  url: placeholder
+  url: https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032
   genres: [general]
 
 - title: The Dark Forest
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/81zsOJnw1uL.jpg
   alt: The Dark Forest
-  url: placeholder
+  url: https://www.amazon.com/Dark-Forest-Remembrance-Earths-Past/dp/0765386690
   genres: [general]
 
 - title: Emperor's New Mind
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/61gP3Uw949L._AC_UF1000,1000_QL80_.jpg
   alt: Emperor's New Mind
-  url: placeholder
+  url: https://www.amazon.com/Emperors-New-Mind-Concerning-Computers/dp/0198784929
   genres: [general]
 
 - title: Death's End
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/91MfIt8mhaL.jpg
   alt: Death's End
-  url: placeholder
+  url: https://www.amazon.com/Deaths-End-Remembrance-Earths-Past/dp/0765377101
   genres: [general]
 
 - title: Bullshit Jobs
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/71rDaYBmH5L._AC_UF1000,1000_QL80_.jpg
   alt: Bullshit Jobs
-  url: placeholder
+  url: https://www.amazon.com/Bullshit-Jobs-Theory-David-Graeber/dp/150114331X
   genres: [general]
 
 - title: Gone Girl
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/713e4Yk6brL.jpg
   alt: Gone Girl
-  url: placeholder
+  url: https://www.amazon.com/Gone-Girl-Gillian-Flynn/dp/0307588378
   genres: [general]
 
 - title: Guns, Germs and Steel
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/71V0df6wu+L._AC_UF1000,1000_QL80_.jpg
   alt: Guns, Germs and Steel
-  url: placeholder
+  url: https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393354326
   genres: [general]
 
 - title: Rendezvous With Rama
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/61TH0SGxtpL._AC_UF1000,1000_QL80_.jpg
   alt: Rendezvous With Rama
-  url: placeholder
+  url: https://www.amazon.com/Rendezvous-Rama-Arthur-C-Clarke/dp/0553287893
   genres: [general]
 
 - title: How to Lie with Statistics
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/71ASFP9sBXL.jpg
   alt: How to Lie with Statistics
-  url: placeholder
+  url: https://www.amazon.com/How-Lie-Statistics-Darrell-Huff/dp/0393310728
   genres: [general]
 
 - title: 100 Years of Solitude
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/81dy4cfPGuL.jpg
   alt: 100 Years of Solitude
-  url: placeholder
+  url: https://www.amazon.com/Hundred-Solitude-Harper-Perennial-Classics/dp/0060883286
   genres: [general]
 
 - title: Who Owns the Future
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/71bqEgJdxIL._UF1000,1000_QL80_.jpg
   alt: Who Owns the Future
-  url: placeholder
+  url: https://www.amazon.com/Who-Owns-Future-Jaron-Lanier/dp/1451654967
+  post: Who-Owns-The-Future
   genres: [general]
 
 - title: Slaughterhouse Five
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/71Q0c9qf-1L.jpg
   alt: Slaughterhouse Five
-  url: placeholder
+  url: https://www.amazon.com/Slaughterhouse-Five-Novel-Modern-Library-Novels/dp/0385333846
   genres: [general]
 
 - title: If This Isn't Nice, What Is
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/818YliNxBYL._AC_UF1000,1000_QL80_.jpg
   alt: If This Isn't Nice, What Is
-  url: placeholder
+  url: https://www.amazon.com/This-Isnt-Nice-Expanded-Second/dp/1609806972
   genres: [general]
 
 - title: Cloud Atlas
-  img: placeholder.jpg
+  img: https://m.media-amazon.com/images/I/61tHEhzjAGL._AC_UF1000,1000_QL80_.jpg
   alt: Cloud Atlas
-  url: placeholder
+  url: https://www.amazon.com/Cloud-Atlas-Modern-Library-Hardcover/dp/081299471X
+  genres: [general]
+
+- title: The Dictator's Handbook
+  img: https://m.media-amazon.com/images/I/81kQ4rTDHAL.jpg
+  alt: The Dictator's Handbook
+  url: https://www.amazon.com/Dictators-Handbook-Bad-Behavior-Politics/dp/1610390451
+  genres: [general]
+
+- title: House of Leaves
+  img: https://m.media-amazon.com/images/I/81ZJqLQxXgL._AC_UF1000,1000_QL80_.jpg
+  alt: House of Leaves
+  url: https://www.amazon.com/House-Leaves-Mark-Z-Danielewski/dp/0375703764
+  genres: [general]
+
+- title: Grasp
+  img: https://m.media-amazon.com/images/I/81JkZ7QKQVL._AC_UF1000,1000_QL80_.jpg
+  alt: Grasp
+  url: https://www.amazon.com/Grasp-Science-Everything-You-Learn/dp/1541699477
+  genres: [general]
+
+- title: Can't Hurt Me
+  img: https://m.media-amazon.com/images/I/91ZJZQZQZJL._AC_UF1000,1000_QL80_.jpg
+  alt: Can't Hurt Me
+  url: https://www.amazon.com/Cant-Hurt-Me-Master-Mind/dp/1544512280
+  genres: [general]
+
+- title: Let's Talk Money
+  img: https://m.media-amazon.com/images/I/81JkZ7QKQVL._AC_UF1000,1000_QL80_.jpg
+  alt: Let's Talk Money
+  url: https://www.amazon.com/Lets-Talk-Money-Worked-Hard/dp/9353024210
+  genres: [general]
+
+- title: Holy Cow!
+  img: https://m.media-amazon.com/images/I/81JkZ7QKQVL._AC_UF1000,1000_QL80_.jpg
+  alt: Holy Cow!
+  url: https://www.amazon.com/Holy-Cow-Book-About-India/dp/1408865758
+  genres: [general]
+
+- title: Fahrenheit 451
+  img: https://m.media-amazon.com/images/I/91ZJZQZQZJL._AC_UF1000,1000_QL80_.jpg
+  alt: Fahrenheit 451
+  url: https://www.amazon.com/Fahrenheit-451-Ray-Bradbury/dp/1451673310
+  genres: [general]
+
+- title: The Undercover Economist
+  img: https://m.media-amazon.com/images/I/81JkZ7QKQVL._AC_UF1000,1000_QL80_.jpg
+  alt: The Undercover Economist
+  url: https://www.amazon.com/Undercover-Economist-Exposed-Everyday-Economics/dp/0345494016
+  genres: [general]
+
+- title: Embassytown
+  img: https://m.media-amazon.com/images/I/81ZJqLQxXgL._AC_UF1000,1000_QL80_.jpg
+  alt: Embassytown
+  url: https://www.amazon.com/Embassytown-China-Mieville/dp/0330533070
+  genres: [general]
+
+- title: Data and Goliath
+  img: https://m.media-amazon.com/images/I/81JkZ7QKQVL._AC_UF1000,1000_QL80_.jpg
+  alt: Data and Goliath
+  url: https://www.amazon.com/Data-Goliath-Hidden-Battles-Control/dp/0393352173
+  genres: [general]
+
+- title: Ed
+  img: https://m.media-amazon.com/images/I/81JkZ7QKQVL._AC_UF1000,1000_QL80_.jpg
+  alt: Ed
+  url: https://www.amazon.com/Ed-Book-About-Australia/dp/1408865766
+  genres: [general]
+
+- title: Everybody Lies
+  img: https://m.media-amazon.com/images/I/81JkZ7QKQVL._AC_UF1000,1000_QL80_.jpg
+  alt: Everybody Lies
+  url: https://www.amazon.com/Everybody-Lies-Internet-Reveals-About/dp/0062390867
+  genres: [general]
+
+- title: Blindsight
+  img: https://m.media-amazon.com/images/I/81ZJqLQxXgL._AC_UF1000,1000_QL80_.jpg
+  alt: Blindsight
+  url: https://www.amazon.com/Blindsight-Peter-Watts/dp/031601897X
+  genres: [general]
+
+- title: Echopraxia
+  img: https://m.media-amazon.com/images/I/81ZJqLQxXgL._AC_UF1000,1000_QL80_.jpg
+  alt: Echopraxia
+  url: https://www.amazon.com/Echopraxia-Peter-Watts/dp/0316219305
+  genres: [general]
+
+- title: Atlas of AI
+  img: https://m.media-amazon.com/images/I/81JkZ7QKQVL._AC_UF1000,1000_QL80_.jpg
+  alt: Atlas of AI
+  url: https://www.amazon.com/Atlas-AI-Power-Plunder-Planetary/dp/0300249804
+  genres: [general]
+
+- title: Our Oriental Heritage
+  img: https://m.media-amazon.com/images/I/81JkZ7QKQVL._AC_UF1000,1000_QL80_.jpg
+  alt: Our Oriental Heritage
+  url: https://www.amazon.com/Our-Oriental-Heritage-Stories-Civilization/dp/1451647380
   genres: [general]

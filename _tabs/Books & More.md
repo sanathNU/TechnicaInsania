@@ -21,7 +21,8 @@ I’m not an average reader who knocks out 50 books a year or drafts comprehensi
 
 [Books of 2023]({% link Content/2023-in-Hindsight.md %})
 
-[Books of 2024]({% link _posts/2025-03-10-Book-2024-review.md %})
+<!-- [Books of 2024]({% link _posts/2025-03-10-Book-2024-review.md %}) -->
+[Books of 2024]({% link Content/2024-books.md %})
 
 [Books of 2025]({% link Content/2025-books.md %})
 
