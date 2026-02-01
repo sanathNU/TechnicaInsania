@@ -1,0 +1,27 @@
+<figure class="book-item">
+  {% if include.book.post %}
+    <a href="{% link Content/Notes/{{ include.book.post }}.md %}">
+  {% elsif include.book.url %}
+    <a href="{{ include.book.url }}" target="_blank" rel="noopener">
+  {% else %}
+    <span>
+  {% endif %}
+
+      {% if include.book.img %}
+        <img
+          src="{{ include.book.img }}"
+          alt="{{ include.book.alt | escape }}"
+          loading="lazy"
+        >
+      {% else %}
+        <div class="book-placeholder">No Image Available</div>
+      {% endif %}
+
+  {% if include.book.post or include.book.url %}
+    </a>
+  {% else %}
+    </span>
+  {% endif %}
+
+  <figcaption>{{ include.book.title }}</figcaption>
+</figure>

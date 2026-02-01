@@ -1,0 +1,97 @@
+# books_table.yml
+
+- title: Discipline Is Destiny
+  img: placeholder.jpg
+  alt: Discipline Is Destiny
+  url: placeholder
+  genres: [general]
+
+- title: Developer Hegemony
+  img: placeholder.jpg
+  alt: Developer Hegemony
+  url: placeholder
+  genres: [general]
+
+- title: The Three Body Problem
+  img: placeholder.jpg
+  alt: The Three Body Problem
+  url: placeholder
+  genres: [general]
+
+- title: The Dark Forest
+  img: placeholder.jpg
+  alt: The Dark Forest
+  url: placeholder
+  genres: [general]
+
+- title: Emperor's New Mind
+  img: placeholder.jpg
+  alt: Emperor's New Mind
+  url: placeholder
+  genres: [general]
+
+- title: Death's End
+  img: placeholder.jpg
+  alt: Death's End
+  url: placeholder
+  genres: [general]
+
+- title: Bullshit Jobs
+  img: placeholder.jpg
+  alt: Bullshit Jobs
+  url: placeholder
+  genres: [general]
+
+- title: Gone Girl
+  img: placeholder.jpg
+  alt: Gone Girl
+  url: placeholder
+  genres: [general]
+
+- title: Guns, Germs and Steel
+  img: placeholder.jpg
+  alt: Guns, Germs and Steel
+  url: placeholder
+  genres: [general]
+
+- title: Rendezvous With Rama
+  img: placeholder.jpg
+  alt: Rendezvous With Rama
+  url: placeholder
+  genres: [general]
+
+- title: How to Lie with Statistics
+  img: placeholder.jpg
+  alt: How to Lie with Statistics
+  url: placeholder
+  genres: [general]
+
+- title: 100 Years of Solitude
+  img: placeholder.jpg
+  alt: 100 Years of Solitude
+  url: placeholder
+  genres: [general]
+
+- title: Who Owns the Future
+  img: placeholder.jpg
+  alt: Who Owns the Future
+  url: placeholder
+  genres: [general]
+
+- title: Slaughterhouse Five
+  img: placeholder.jpg
+  alt: Slaughterhouse Five
+  url: placeholder
+  genres: [general]
+
+- title: If This Isn't Nice, What Is
+  img: placeholder.jpg
+  alt: If This Isn't Nice, What Is
+  url: placeholder
+  genres: [general]
+
+- title: Cloud Atlas
+  img: placeholder.jpg
+  alt: Cloud Atlas
+  url: placeholder
+  genres: [general]

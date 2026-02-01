@@ -1,0 +1,47 @@
+- title: Thinking, Fast and Slow
+  img: https://m.media-amazon.com/images/I/71f6DceqZAL._AC_UF1000,1000_QL80_.jpg
+  alt: Thinking, Fast and Slow
+  url: https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555
+  genres: [general]
+
+- title: Sapiens
+  img: https://m.media-amazon.com/images/I/713jIoMO3UL._AC_UF1000,1000_QL80_.jpg
+  alt: Sapiens
+  url: https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316117
+  genres: [general]
+
+- title: The Scientific Edge
+  img: https://m.media-amazon.com/images/I/51A6MM7QThL._AC_UF1000,1000_QL80_.jpg
+  alt: The Scientific Edge
+  url: https://www.amazon.com/Scientific-Edge-Kota-Harinarayana/dp/8173714563
+  genres: [general]
+
+- title: Man's Search for Meaning
+  img: https://m.media-amazon.com/images/I/61157LApbuL._AC_UF1000,1000_QL80_.jpg
+  alt: Man's Search for Meaning
+  url: https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0807014273
+  genres: [general]
+
+- title: Three Body Problem
+  img: https://m.media-amazon.com/images/I/818l7Ujz5-L._AC_UF1000,1000_QL80_.jpg
+  alt: Three Body Problem
+  url: https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032
+  genres: [general]
+
+- title: Echopraxia
+  img: https://m.media-amazon.com/images/I/817EPfDMNVL._AC_UF1000,1000_QL80_.jpg
+  alt: Echopraxia
+  url: https://www.amazon.com/Echopraxia-Peter-Watts/dp/076532802X
+  genres: [general]
+
+- title: Dataclysm
+  img: https://m.media-amazon.com/images/I/613boKVKBnL._AC_UF1000,1000_QL80_.jpg
+  alt: Dataclysm
+  url: https://www.amazon.com/Dataclysm-Identity-What-Online-Offline-Selves/dp/0385347391
+  genres: [general]
+
+- title: Zen and the Art of Motorcycle Maintenance
+  img: https://m.media-amazon.com/images/I/61DfW7ZipFL._AC_UF1000,1000_QL80_.jpg
+  alt: Zen and the Art of Motorcycle Maintenance
+  url: https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0553277472
+  genres: [general]

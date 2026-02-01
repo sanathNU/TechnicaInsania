@@ -1,0 +1,168 @@
+
+<style>
+  .book-grid {
+    display: grid;
+    /* Default to 5 columns if 'columns' is not provided */
+    grid-template-columns: repeat({{ include.columns | default: 5 }}, 1fr);
+    gap: 20px; /* Adjust as needed */
+    margin-bottom: 40px;
+  }
+  .book-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #eee; /* Optional: for visual separation */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: for depth */
+    background: var(--card-bg, #fff);
+  }
+  .book-item img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image */
+    margin-bottom: 10px;
+  }
+  .book-placeholder {
+    width: 100px; /* Example placeholder size */
+    height: 120px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    border: 1px dashed #ccc;
+    margin-bottom: 10px;
+  }
+  .book-item figcaption {
+    font-size: 0.9em;
+    line-height: 1.2;
+  }
+  .book-category-header {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+</style>
+
+{% assign all_books = include.books %}
+
+{% if include.group_by %}
+  {% comment %} Logic for Grouping {% endcomment %}
+  
+  {% comment %} 1. Collect all tags/genres into a single comma-separated string {% endcomment %}
+  {% assign raw_tags = "" %}
+  {% for book in all_books %}
+    {% if book[include.group_by] %}
+      {% for tag in book[include.group_by] %}
+        {% assign raw_tags = raw_tags | append: tag | append: "," %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% comment %} 2. Split and Uniq to get the list of categories {% endcomment %}
+  {% assign categories = raw_tags | split: "," | uniq | sort %}
+
+  {% for category in categories %}
+    {% if category != "" %}
+<h2 class="book-category-header">{{ category }}</h2>
+<div class="book-grid">
+        {% for book in all_books %}
+          {% if book[include.group_by] contains category %}
+<figure class="book-item">
+              {% if book.post %}
+<a href="{{ 'Content/Notes/' | append: book.post | append: '.html' | relative_url }}">
+              {% elsif book.url %}
+<a href="{{ book.url }}" target="_blank" rel="noopener">
+              {% else %}
+<span>
+              {% endif %}
+
+              {% if book.img %}
+<img src="{{ book.img }}" alt="{{ book.alt | escape }}" loading="lazy">
+              {% else %}
+<div class="book-placeholder">No Image Available</div>
+              {% endif %}
+
+              {% if book.post or book.url %}
+</a>
+              {% else %}
+</span>
+              {% endif %}
+
+<figcaption>{{ book.title }}</figcaption>
+</figure>
+          {% endif %}
+        {% endfor %}
+</div>
+    {% endif %}
+  {% endfor %}
+
+{% else %}
+  {% comment %} Logic for Default/Randomized View {% endcomment %}
+<div class="book-grid" id="random-book-grid-{{ include.id | default: 'main' }}">
+    {% for book in all_books %}
+<figure class="book-item">
+        {% if book.post %}
+<a href="{{ 'Content/Notes/' | append: book.post | append: '.html' | relative_url }}">
+        {% elsif book.url %}
+<a href="{{ book.url }}" target="_blank" rel="noopener">
+        {% else %}
+<span>
+        {% endif %}
+
+        {% if book.img %}
+<img src="{{ book.img }}" alt="{{ book.alt | escape }}" loading="lazy">
+        {% else %}
+<div class="book-placeholder">No Image Available</div>
+        {% endif %}
+
+        {% if book.post or book.url %}
+</a>
+        {% else %}
+</span>
+        {% endif %}
+
+<figcaption>{{ book.title }}</figcaption>
+</figure>
+    {% endfor %}
+</div>
+
+<script>
+    (function() {
+      const gridId = "random-book-grid-{{ include.id | default: 'main' }}";
+      const grid = document.getElementById(gridId);
+      if (!grid) return;
+
+      // Fisher-Yates Shuffle
+      function shuffle(array) {
+        let currentIndex = array.length, randomIndex;
+        
+        // While there remain elements to shuffle.
+        while (currentIndex != 0) {
+          // Pick a remaining element.
+          // Allow for a custom PRNG if defined globally
+          let randVal = (typeof window.customRandom === 'function') 
+                        ? window.customRandom() 
+                        : Math.random();
+
+          randomIndex = Math.floor(randVal * currentIndex);
+          currentIndex--;
+
+          // And swap it with the current element.
+          [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex], array[currentIndex]];
+        }
+        return array;
+      }
+
+      const children = Array.from(grid.children);
+      const shuffled = shuffle(children);
+      
+      // Re-append in new order
+      shuffled.forEach(child => grid.appendChild(child));
+    })();
+</script>
+{% endif %}
