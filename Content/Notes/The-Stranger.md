@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "The Stranger"
-categories: [review, literature]
-tags: [books, philosophy, meta, intelligence]
+categories: [review]
+tags: [books, philosophy, fiction, existential]
 toc: true
 ---
 

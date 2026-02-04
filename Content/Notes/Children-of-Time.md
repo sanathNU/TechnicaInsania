@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Children of Time"
-categories: [review, literature]
-tags: [books, philosophy, meta, intelligence]
+categories: [review]
+tags: [books, fiction, space, xenointelligence]
 toc: true
 ---
 
