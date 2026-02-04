@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Complications"
-categories: [review, literature]
+categories: [review]
 tags: [books, philosophy, meta, medical-science]
 toc: true
 ---
