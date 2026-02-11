@@ -29,4 +29,5 @@ assets/js/dist
 # Hidden system files
 *~
 .DS_Store
+**/.DS_Store
 Thumbs.db
