@@ -1,5 +1,6 @@
+
 <html>
-    <title> vibe images <!-- change this to whatever you want! --> </title>
+    <title> vibezz </title>
     <!-- Add any text here if you so desire; the images won't be drawn over it. -->
     <div id="container">
     </div>
@@ -28,7 +29,7 @@ fetch("image_widths_heights.json").then(f => {
     // to resize the images to be approximately a similar size.
     // To adjust image size, change goal_pixels here.
     const pairs = key_values.map(([key, [w, h]]) => {
-        let goal_pixels = 500*300;
+        let goal_pixels = 1000*1000;
         let actual_pixels = w*h;
         if (actual_pixels/goal_pixels > 16) {
             return [parseInt(w/8), parseInt(h/8)];

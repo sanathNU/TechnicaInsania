@@ -22,7 +22,7 @@ This is probably the first non-fiction medical book that genuinely kept me think
 
 The chapter on consent in medicine stood out as especially crisp and contemplative, and the statistic about how many people do not want to make decisions themselves but instead rely entirely on doctors felt deeply real and uncomfortable, because I honestly do not know how I would think clearly in situations like that either. I also found myself thinking about System 1 and System 2 styles of reasoning in medical decision-making, and after discussing it with ChatGPT and being pointed toward Daniel Kahneman’s work on noise, it was oddly reassuring to realize that these questions have already been rigorously examined by people far smarter than me. The storm and ice cube analogy in the book captures this perfectly, where no two storms are ever the same, an ice cube always melts in a predictable way, and most medical cases live somewhere in the messy space between those extremes, which I found genuinely insightful. I think I have covered most of what I found valuable in the book, and for the rest, I am happy to simply leave the quotes behind for anyone who wants to explore further.
 
-### Chatper Notes
+### Chapter Notes
 
 | Chapter                             | Learnings |
 |-------------------------------------|----------|
