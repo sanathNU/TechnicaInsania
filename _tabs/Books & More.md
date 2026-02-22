@@ -48,4 +48,4 @@ I love movies. I like the way art can be depicted in such visual and creative st
 
 ## Notes
 
-Our Oriental Heritage Quotations: [The Madness of Men]({%link Content/Civilization-I.md %})
+Our Oriental Heritage Quotations: [The Madness of Men]({%link Content/Notes/The-Story-of-Civilization.md %})

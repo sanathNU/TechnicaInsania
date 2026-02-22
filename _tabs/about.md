@@ -17,6 +17,8 @@ Think of this as my digital notebook, where I'll be documenting ideas and observ
 ## Topics of Interest
 I like a lot of topics, mostly ranging in the "tech-savvy Gen-Z" spectrum. It ranges from Sci-Fi to philosophy, to movies, to historical geopolitics. I'm curious about technology and how it affects the real world, sci-fi and how it shapes technology, culture and how it influences sci-fi, and culture as an original driving force in society.
 
+You gotta see dem vibes: [vibes](https://sanathnu.github.io/TechnicaInsania/vibes.html)
+
 ## About the Website Icon
 The image was created using [Stable Diffusion](https://stability.ai/) with simple prompts. 
 
