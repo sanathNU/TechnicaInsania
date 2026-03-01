@@ -21,7 +21,7 @@ I picked up this book mainly because it is short and the topic is controversial 
 The book pushes the idea that a general factor sits underneath most cognitive abilities.
 I wanted to fully believe Gardner’s [“multiple intelligences”](https://www.simplypsychology.org/multiple-intelligences.html), but the datasets (dated as they are) still point toward some kind of shared problem-solving core.
 
-![](/assets/img/attachments/g-factor.png)
+![](/TechnicaInsania/assets/img/attachments/g-factor.png)
 
 ##### 2. Brain-Related Correlates of Intelligence
 A few physical and functional properties correlate with intelligence, but not dramatically:
