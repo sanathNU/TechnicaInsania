@@ -31,7 +31,7 @@
 - title: The Argumentative Indian
   img: https://m.media-amazon.com/images/I/512W-0mi+DL._AC_UF1000,1000_QL80_.jpg
   alt: The Argumentative Indian
-  url: https://www.amazon.com/Argumentative-Indian-Writings-History-Culture/dp/0374109468
+  post: The-Argumentative-Indian
   genres: [general]
 
 - title: The Elegant Universe
@@ -61,13 +61,13 @@
 - title: The Fourth Age
   img: https://m.media-amazon.com/images/I/71Qkloh2LeL._AC_UF1000,1000_QL80_.jpg
   alt: The Fourth Age
-  url: https://www.amazon.com/Fourth-Age-Smart-Robots-Conscious-Computers/dp/1982109708
+  post: The-Fourth-Age
   genres: [general]
 
 - title: Ra
   img: https://m.media-amazon.com/images/I/618B5LsCaCL._AC_UF1000,1000_QL80_.jpg
   alt: Ra
-  url: https://www.amazon.com/Ra-Sam-Hughes-ebook/dp/B017D9M5KS
+  post: Ra
   genres: [general]
 
 - title: Complications
