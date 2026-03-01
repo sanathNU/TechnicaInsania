@@ -71,7 +71,7 @@ His proposed solution: a government salary given to people who invest their time
 
 A very early, very basic AI alignment idea. The human-AI coexistence chart he draws is interesting as a framework.
 
-![AI Alignment](/TechnicaInsania//assets/img/Misc/book/AI%20alignment.png)
+![AI Alignment](/TechnicaInsania/assets/img/Misc/book/AI%20alignment.png)
 
 ---
 
