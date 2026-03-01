@@ -7,7 +7,7 @@ toc: true
 ---
 # Children of Men
 
-![Children of Men](https://m.media-amazon.com/images/I/61y6O74cM7L._AC_UF1000,1000_QL80_.jpg){:height="100px" width="200px"}
+![Children of Men](https://m.media-amazon.com/images/I/61y6O74cM7L._AC_UF1000,1000_QL80_.jpg){:style="display:block; margin:auto;" :height="100px" width="200px"}
 
 ## Introduction
 

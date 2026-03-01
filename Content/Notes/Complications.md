@@ -9,7 +9,7 @@ toc: true
 
 # Complications
 
-![Complications](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKA9DuUi7-3OVwtW67wrKX8qLTf92_A5SJjA&s){:height="300px" width="200px"}
+![Complications](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKA9DuUi7-3OVwtW67wrKX8qLTf92_A5SJjA&s){:style="display:block; margin:auto;" :height="300px" width="200px"}
 
 ### Why this?
 I started this book in a slightly accidental way after stumbling across a quote on KeyHero that loosely gestured at medicine as something deeply uncertain, almost anti-scientific in the way people usually imagine science. That idea stuck with me, because medicine does not really behave like a clean science at all; it feels more like a massive, evolving machine where human technical prowess keeps redefining itself just enough to move forward without ever fully understanding what it is doing. That tension alone was enough to pull me in.

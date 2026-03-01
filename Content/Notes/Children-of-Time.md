@@ -6,6 +6,8 @@ tags: [books, fiction, space, xenointelligence]
 toc: true
 ---
 
+![Children of Time](https://m.media-amazon.com/images/I/81Xb8fFEkwL._AC_UF1000,1000_QL80_.jpg){:style="display:block; margin:auto;" :height="300px" width="200px"}
+
 # Children of Time
 *Running thoughts while reading. Preserved exactly as chaotic as intended.*  
 *Feb–Mar 2025*  

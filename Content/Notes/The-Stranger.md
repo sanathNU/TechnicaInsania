@@ -8,7 +8,7 @@ toc: true
 
 # The Stranger
 
-![The Stranger](https://m.media-amazon.com/images/I/61qtGqfgUjL._AC_UF1000,1000_QL80_.jpg){:height="100px" width="200px"}
+![The Stranger](https://m.media-amazon.com/images/I/61qtGqfgUjL._AC_UF1000,1000_QL80_.jpg){:style="display:block; margin:auto;" :height="100px" width="200px"}
 
 ### First Reactions
 * Damn the ending was good. That’s the essay I wanted to read lol. It feels like I’m reading the story of a dude dead inside. Not an intelligent dead dude, not the comically evil kind like in American Psycho, but just… dead.
