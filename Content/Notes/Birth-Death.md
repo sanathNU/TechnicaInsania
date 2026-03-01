@@ -1,10 +1,13 @@
 ---
 layout: default
-title: "Children of Time"
+title: "Birth And Death of Meaning"
 categories: [review]
 tags: [books, psychology, thought-provoking]
 toc: true
 ---
+# The Birth And Death of Meaning
+
+![The Birth and Death of meaning](https://m.media-amazon.com/images/I/51G-6BUTUCL._AC_UF1000,1000_QL80_.jpg){:style="display:block; margin:auto;" :height="300px" width="200px"}
 
 ### Quotes
 > If we could become comfortable with this knowledge and make it the general property of large masses of voters and their political representatives there is no doubt that we would probably become one of the wisest planets in the universe—at least of our form of life, and we would deserve our species title Homo sapiens, Man the Wise.

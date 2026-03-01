@@ -8,7 +8,7 @@ toc: true
 
 # Intelligence - A Very Short Introduction
 
-![Intelligence – A Short Introduction](https://m.media-amazon.com/images/I/71ULBNEAeQL._AC_UF1000,1000_QL80_.jpg){:height="100px" width="200px"}
+![Intelligence – A Short Introduction](https://m.media-amazon.com/images/I/71ULBNEAeQL._AC_UF1000,1000_QL80_.jpg){:style="display:block; margin:auto;" :height="100px" width="200px"}
 
 ### Why this book?
 
@@ -21,7 +21,7 @@ I picked up this book mainly because it is short and the topic is controversial 
 The book pushes the idea that a general factor sits underneath most cognitive abilities.
 I wanted to fully believe Gardner’s [“multiple intelligences”](https://www.simplypsychology.org/multiple-intelligences.html), but the datasets (dated as they are) still point toward some kind of shared problem-solving core.
 
-<!-- ![](/assets/img/attachments/g-factor.png) -->
+![](/assets/img/attachments/g-factor.png)
 
 ##### 2. Brain-Related Correlates of Intelligence
 A few physical and functional properties correlate with intelligence, but not dramatically:

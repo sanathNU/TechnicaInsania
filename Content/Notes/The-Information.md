@@ -8,7 +8,7 @@ toc: true
 
 # The Information: A History, a Theory, a Flood
 
-![![The Information: A History, A Theory, A Flood](https://m.media-amazon.com/images/I/71IKh8vpz4L._AC_UF1000,1000_QL80_.jpg){:height="100px" width="200px"}
+![![The Information: A History, A Theory, A Flood](https://m.media-amazon.com/images/I/71IKh8vpz4L._AC_UF1000,1000_QL80_.jpg){:style="display:block; margin:auto;" :height="100px" width="200px"}
 
 ### Running Log
 

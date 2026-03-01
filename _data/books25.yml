@@ -13,7 +13,7 @@
 - title: The Black Swan
   img: https://m.media-amazon.com/images/I/61qGazp9czL._AC_UF1000,1000_QL80_.jpg
   alt: The Black Swan
-  url: https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X
+  post: The-Black-Swan
   genres: [general]
 
 - title: The Science of Interstellar
@@ -79,7 +79,7 @@
 - title: AI Superpowers
   img: https://m.media-amazon.com/images/I/61AY2K2WPeL._AC_UF1000,1000_QL80_.jpg
   alt: AI Superpowers
-  url: https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/132854639X
+  post: AI-Superpowers
   genres: [general]
 
 - title: Islam

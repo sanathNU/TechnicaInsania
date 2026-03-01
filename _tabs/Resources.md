@@ -6,71 +6,65 @@ tags: [resources]
 toc: true
 ---
 
-Here lies resources that I found useful over the years. Will try to organize them into a much more coherant set. Others will be kept at a seperate place in my GitHub! <br>
+Here lies resources that I found useful over the years.
 
-<!-- (TODO: Write an essay on andy's notes on why ['collecting material feels more useful than it usually is'](https://notes.andymatuschak.org/zQm6XAB3XXrXLHzF7gahpJ2)) <br> -->
+> **A note (2026):** Time moves faster than us all. These kinds of pages used to be fun back in 2020, 2021, when browsing through someone's curated links felt like picking apart their brain. But now that tools like Perplexity have become more... *perplexive* 😏, information isn't just at your fingertips, it can be served on a golden spoon. The point of a page like this feels a bit irrelevant now. I want to build something more interesting here eventually, maybe some kind of networked concept map, but until then, this is a work in progress. The links shall remain.
+>
+> Also, if you're like me, you're probably going to feel overwhelmed by the number of links here. Don't be. This was put together by a dude over a few months in his spare time, and you're spending 20 seconds trying to grasp something out of it. We're all running parallel lives, nobody's expected to absorb all of this.
+>
+> And yes, this is basically a human-curated RSS feed. Except worse, because it doesn't update automatically. 😄
 
-If you want to look at a previous iteration of mine, you can look at [my previous website](https://sanathnu.github.io/Website-For-Cool-Websites/), where I have given links to some of the resources that excited me at that time. Mind you that that repo isn't currently maintained😅, so some of the links might be broken. Will fix it in the future!
-
-### **Philosophy**
-
-Like many of tech peeps out there, I like sharing links and articles and resources that I found helpful (and also things that I "think" I would have found useful 🙃). But whatever is free, should be used by most number of poeple. Knowledge is power and hence I would like to help other people on the internet, similar to how I was (and still am) being helped by the people of the internet.
+If you want to look at a previous iteration, check out [my old website](https://sanathnu.github.io/Website-For-Cool-Websites/) where I linked to resources that excited me at the time. That repo isn't maintained anymore 😅, so some links might be broken.
 
 ---
-## Ordered
 
-- There are a lot of links that need a lot of be sorted and put out here. So, I'm thinking order by major sciences, then individual niche topics maybe. It all depends on how interesting I have visited the websites and have found helpful. I gotta be honest here, I don't visit half the websites I see here, but again, there's no harm in 'links hoarding' xD.
-- So, I'm dividing them into Ordered and Unordered. More divisions are to come.
+## Resources
 
 #### Computer Science 🖥️
-##### Theory
-- [Complexity Zoo](https://complexityzoo.net/Complexity_Zoo_Introduction)
-
-##### Quantum Computing
-- [Quantum Computing Since Democritus](https://www.scottaaronson.com/democritus/) (A Textbook on quantum computing)
-- [The Quantum Computer](https://pyquil-docs.rigetti.com/en/v3.0.0/qvm.html) (An Architecture Simulator for quantum computer)
-- [Quantum Country](https://quantum.country/) (A spaced-repetition based experimental textbook on quantum computing by [Andy Matuschak](https://andymatuschak.org/) and [Michael Nielsen](https://michaelnielsen.org/))
-- [Quantum Algorithm Zoo](https://quantumalgorithmzoo.org/)
-
-##### Cryptography
+- [Quantum Country](https://quantum.country/) (Spaced-repetition textbook by [Andy Matuschak](https://andymatuschak.org/) and [Michael Nielsen](https://michaelnielsen.org/))
 - [Practical Cryptography for Developers](https://cryptobook.nakov.com/)
+- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
+- [Linux From Scratch](https://www.linuxfromscratch.org/lfs/read.html)
+- [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html)
+- [Quantum Computing Since Democritus](https://www.scottaaronson.com/democritus/)
+- [Complexity Zoo](https://complexityzoo.net/Complexity_Zoo_Introduction)
+- [Quantum Algorithm Zoo](https://quantumalgorithmzoo.org/)
+- [The Quantum Computer](https://pyquil-docs.rigetti.com/en/v3.0.0/qvm.html) (Architecture Simulator)
 - [Useful Cryptography Resources](https://blog.cryptographyengineering.com/useful-cryptography-resources/)
+- [Linux Network Administrators Guide](https://tldp.org/LDP/nag2/nag2.pdf)
 
 #### Mathematics 🔢
 - [Hans Lundmark's complex analysis pages](https://users.mai.liu.se/hanlu09/complex/)
 
-#### Linux
-- [LFS([Linux From Scratch])](https://www.linuxfromscratch.org/lfs/read.html)
-- [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html)
-- [Linux Network Administrators Guide](https://tldp.org/LDP/nag2/nag2.pdf)
-- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
-
----
-## Unordered
-- [MIT Thesis Catalogue](https://dspace.mit.edu/handle/1721.1/7582): Contains a searchable catalogue for all MIT theses. Isn't it excting to have great minds efforts at the tip of your hands?
-
-
-#### Meta Wiki
-- [Wikenigma](https://wikenigma.org.uk/start): An Encyclopedia of Unknowns
+#### Knowledge Rabbit Holes 🕳️
 - [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/)
-- [Esoteric Programming Languages Wiki](https://esolangs.org/wiki/Main_Page)
-
-##### Random Pages
-
-- [New Age Bullshit Generator](https://sebpearce.com/bullshit/): This was a fun website, way before the advancement of the GPT's. An ode to nice times.
-- [Military Analysis Network](https://man.fas.org/index.html): No idea, this is more technical introduction to some of the weapons in the US military system.
-- [Max Plank Institute for the Science of Decapitation](https://mpi-sod.github.io/about/): A nice parody website lol
-- [D!NG (Do Online Now guys!)](https://dongs2.blogspot.com/p/all-dongs-no-pictures-nor-description.html?m=1) -- A [VSauce](https://www.youtube.com/user/Vsauce) Creation
+- [MIT Thesis Catalogue](https://dspace.mit.edu/handle/1721.1/7582): Searchable catalogue for all MIT theses.
+- [Wikenigma](https://wikenigma.org.uk/start): An Encyclopedia of Unknowns
 - [CompLexicon](https://annex.exploratorium.edu/complexity/CompLexicon.html)
-- [IFDB](https://ifdb.org/) - Interactive Fiction Database
+- [Esoteric Programming Languages Wiki](https://esolangs.org/wiki/Main_Page)
+- [IFDB](https://ifdb.org/): Interactive Fiction Database
 - [Crypto Anarchy](https://cryptoanarchy.wiki/)
 
+#### Just Fun 🎲
+- [New Age Bullshit Generator](https://sebpearce.com/bullshit/): Fun website from way before GPTs. An ode to nice times.
+- [D!NG](https://dongs2.blogspot.com/p/all-dongs-no-pictures-nor-description.html?m=1): A [VSauce](https://www.youtube.com/user/Vsauce) creation
+- [Max Planck Institute for the Science of Decapitation](https://mpi-sod.github.io/about/): A nice parody website lol
+- [Military Analysis Network](https://man.fas.org/index.html): Technical introductions to US military weapons systems.
 
-### People Pages
+---
+
+### People
 
 Just a list of people I find cool.
 
-|---|---|---|
-|[Blog, Pedagogy] [Scott H. Young](https://www.scotthyoung.com/blog/articles/) | [Blog] [Alexey Guzey](https://guzey.com/) | [Peadagogy] [Michael Nielsen](https://michaelnielsen.org/blog/) |
-| [programming, game map design] [Amit Patel](https://amitp.blogspot.com/) | [Blog, Geopolitics] [The Scholar's Stage](https://scholars-stage.org/) | [AI, Computers] [Andrej Karpathy](https://karpathy.ai/) |
-| [Money ] [Naval Ravikant](https://nav.al/) |[Blog, Everything] [Gwern](https://gwern.net/) | [Blog, AI] [Jay Alammar](https://jalammar.github.io/) |
+| Who | What |
+|---|---|
+| [Scott H. Young](https://www.scotthyoung.com/blog/articles/) | Blog, Pedagogy |
+| [Alexey Guzey](https://guzey.com/) | Blog |
+| [Michael Nielsen](https://michaelnielsen.org/blog/) | Pedagogy |
+| [Amit Patel](https://amitp.blogspot.com/) | Programming, Game Map Design |
+| [The Scholar's Stage](https://scholars-stage.org/) | Blog, Geopolitics |
+| [Andrej Karpathy](https://karpathy.ai/) | AI, Computers |
+| [Naval Ravikant](https://nav.al/) | Money |
+| [Gwern](https://gwern.net/) | Blog, Everything |
+| [Jay Alammar](https://jalammar.github.io/) | Blog, AI |
