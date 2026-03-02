@@ -30,7 +30,16 @@ I love movies. Art depicted in visual, creative styles just hits different. Chec
 A few favorites: Interstellar, Inception, Tenet, The Dark Knight, V for Vendetta, A Clockwork Orange, The Shawshank Redemption, Oppenheimer, Oldboy, 1984 ([my analysis]({% post_url 2023-12-11-Nineteen-Eighty-Four %})).
 
 ## Art
+It's a weird feeling, having great respect for old paintings when you know you can generate hundreds of images with Stable Diffusion that are technically more polished. But these aren't here for technical merit. They're here because I want them to.
 
+![The Great Waves of Kanagawa](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/3840px-Tsunami_by_hokusai_19th_century.jpg)
+*The Great Waves of Kanagawa*
+
+![Faun by the Moonlight](https://upload.wikimedia.org/wikipedia/commons/a/ab/L%C3%A9on_Spilliaert_%281900%29_-_Faun_bij_maneschijn.jpg)
+*Faun by the Moonlight*
+
+![Destruction](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg/3840px-Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg)
+*Destruction*
 
 ## Notes
 
