@@ -18,6 +18,7 @@ It reminds me of that Emerson quote:
 
 > "The great writer is the one who, by his words, awakens the thoughts that are already in the reader's mind."
 
+
 ---
 
 ## **My Relation With Science**
@@ -49,11 +50,11 @@ What Narlikar offered in _The Scientific Edge_ was fun. His physics-verified bra
 ## **Thoughts From the Book**
 
 They say, “Don’t judge a book by its cover,” but here I am, judging a person by their _book_. 
-It was the first time I came across a professor with a veteran scientific background who also had an academic interest in Sanskrit and wasn’t just bluffing it. He could actually read it in its original form (or at least read the decryptions of those who did). The only other person I’ve seen do this is [Amartya Sen](https://en.wikipedia.org/wiki/Amartya_Sen).
+It was the first time I came across a professor with a veteran scientific background who also had an academic interest in Sanskrit and wasn’t just bluffing it. He could actually read it in its original form (or at least read the decryptions of those who did. The only other person I’ve seen do this is [Amartya Sen](https://en.wikipedia.org/wiki/Amartya_Sen)).
 
 He makes calm, common-sense arguments against the glorified takes about India’s so-called “golden past.” That’s when I realized the “great civilization” argument was kinda moot.
 
-He also introduces the idea of "_Parishishta_" ([परिशिष्ट](https://en.wikipedia.org/wiki/Pari%C5%9Bi%E1%B9%A3%E1%B9%ADa)) -  things added at the end , and how later writers often appended their own ideas to ancient texts to claim them as part of the original. That blew my mind. It wasn’t just a critique of mythology, it was a systemic critique of how we handle legacy and legitimacy.
+He also introduces the idea of "_Parishishta_" ([परिशिष्ट](https://en.wikipedia.org/wiki/Pari%C5%9Bi%E1%B9%A3%E1%B9%ADa)) -  things added at the end , and how later writers often appended their own ideas to ancient texts to claim them as part of the original. The whole idea just sat with me differently. People have been stapling their own ideas onto old texts for centuries, and we just... bought it.
 
 But there are two passages from the book that haven’t left my head since[^1]. The first is this story:
 
@@ -69,10 +70,13 @@ This reverse engineering instinct still hasn’t really taken root here. I'm all
 
 > "Used to be, folks’d tear shit down just to know how it worked. Now they just wait for the update."
 
+Narlikar didn't say it like that, obviously. But that's the energy his book left me with.
+
 ---
 The book taught me to think differently. What I’ve got here is a reflection of a reminiscence of that shift.
 Twenty years from now I might come back to this and feel a faint ripple, like some sediment I didn’t notice back then that still managed to shift the shape of the river just a little.
 I know I’m judging an entire career, a lifetime of thoughts, ideas, and books from just a few pages.  
+
 But I think I’m judging right.
 
 Which brings me to why I wrote all this in the first place…
