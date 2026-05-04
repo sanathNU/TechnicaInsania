@@ -39,6 +39,12 @@
         </li>
         <!-- .nav-item -->
       {% endfor %}
+      <li class="nav-item{% if page.url == '/vibes.html' %}{{ " active" }}{% endif %}">
+        <a href="{{ '/vibes.html' | relative_url }}" class="nav-link">
+          <i class="fa-fw fas fa-images"></i>
+          <span>VIBES</span>
+        </a>
+      </li>
     </ul>
   </nav>
 

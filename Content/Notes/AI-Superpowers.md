@@ -49,7 +49,7 @@ This is a 2018 book, so yes, dated. But I figured it'd be a fun story regardless
 1. **Internet AI** (Content AI & hyperoptimized recommendation engines): The traffic that drives the internet. Recommendation algorithms, content feeds, ad targeting.
 
 2. **Business AI**: How people are guided toward buying things, optimizing drone delivery routes, medical analysis. Jobs that used to require humans are now hugely automated, and this wave is still accelerating.
-
+ 
 3. **Perception AI**: The concept of OMO (*Online Merge Offline*). Think Meta glasses AI combined with all previous AI waves. This is you getting your pizza cooked exactly right because every link in the supply chain already knows your preferences and adjusts accordingly.
 
 4. **Autonomous AI**: The pinnacle. Machines that don't need us to run. Goals are so well-defined that the systems infer what to do without human guidance. This is where it gets existential.

@@ -1,131 +1,106 @@
+---
+layout: null
+permalink: /vibes.html
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>vibezz</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
 
-<html>
-    <title> vibezz </title>
-    <!-- Add any text here if you so desire; the images won't be drawn over it. -->
-    <div id="container">
-    </div>
-    <script>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #f7f3ea;
+        color: #191919;
+        font-family: Georgia, "Times New Roman", serif;
+      }
 
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-}
+      header {
+        padding: 2rem clamp(1rem, 4vw, 3rem) 1rem;
+      }
 
-fetch("image_widths_heights.json").then(f => {
-    if (f.status == 404) {
-        alert("unable to find image_widths_heights.json -- you should run lister.py to create it.");
-    }
-    return f.json()
-}).then(data => {
-    let key_values = shuffleArray(data);
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 7vw, 5rem);
+        font-weight: 400;
+        line-height: 0.95;
+      }
 
-    const rect = container.getBoundingClientRect();
-    let screen_width = rect.width;
+      .credit {
+        margin: 0.6rem 0 0;
+        font-size: 1rem;
+      }
 
-    // By default I will have a lot of images that are just enormous and take up most of the screen. Here I attempt
-    // to resize the images to be approximately a similar size.
-    // To adjust image size, change goal_pixels here.
-    const pairs = key_values.map(([key, [w, h]]) => {
-        let goal_pixels = 1000*1000;
-        let actual_pixels = w*h;
-        if (actual_pixels/goal_pixels > 16) {
-            return [parseInt(w/8), parseInt(h/8)];
+      .credit a {
+        color: inherit;
+      }
+
+      .vibes-grid {
+        column-count: 5;
+        column-gap: 0.75rem;
+        padding: 1rem clamp(1rem, 4vw, 3rem) 3rem;
+      }
+
+      .vibes-grid img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 0 0.75rem;
+        break-inside: avoid;
+        background: #ddd6c8;
+      }
+
+      @media (max-width: 1200px) {
+        .vibes-grid {
+          column-count: 4;
         }
-        if (actual_pixels/goal_pixels > 4) {
-            return [parseInt(w/4), parseInt(h/4)];
+      }
+
+      @media (max-width: 900px) {
+        .vibes-grid {
+          column-count: 3;
         }
-        return [parseInt(w/2), parseInt(h/2)];
-    }).map(([w, h]) => [(w+10) > screen_width ? screen_width-10 : w, h]);
+      }
 
-    // gather all the text nodes so the images don't intersect them
-    const textNodes = [];
-    const treeWalker = document.createTreeWalker(
-        document.body,
-        NodeFilter.SHOW_TEXT,
-        { acceptNode: (node) => node.textContent.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT }
-    );
-    while(treeWalker.nextNode()) textNodes.push(treeWalker.currentNode);
+      @media (max-width: 560px) {
+        .vibes-grid {
+          column-count: 2;
+        }
+      }
 
-    // Now we attempt to place images. I looked at some actually good algorithms but decided to instead use a stupid
-    // algorithm: for each image, attempt to place it in a random location up to height 600. if it intersects with
-    // any other images, try again. If after 50 attempts at random placing we don't manage to place it, increase the
-    // height by 50.
-    let positions = [];
-    let i = 0;
-    // this could be a for loop, but i thought it would be fun to have them appear gradually.
-    let interval = setInterval(() => {
-        let height = 600;
-        let [w, h] = pairs[i];
-        while (1) {
-            let found_place = false;
-            let w_max = screen_width-w;
-            let h_max = height-h;
-            for (let _ = 0; _ < 50; _++) {
-                let a_left = Math.random() * w_max;
-                let a_top = Math.random() * h_max;
-                let a_right = a_left+w;
-                let a_bottom = a_top+h;
-
-                // do intersection checks against images
-                let intersects = false;
-                for (let j = 0; j < positions.length; j++) {
-                    let [b_left, b_top] = positions[j];
-                    let b_right = b_left + pairs[j][0];
-                    let b_bottom = b_top + pairs[j][1];
-                    if (a_left < b_right && a_right > b_left && a_bottom > b_top && a_top < b_bottom) {
-                        intersects = true;
-                        break;
-                    }
-                }
-
-                // do intersection checks against text. TOCONSIDER: cache bounding rect calculation?
-                for (const node of textNodes) {
-                    const range = document.createRange();
-                    range.selectNodeContents(node);
-                    const rect = range.getBoundingClientRect();
-                    let node_top = rect.top + window.pageYOffset;
-                    let node_left = rect.left + window.pageXOffset;
-                    
-                    if (a_left < (node_left+rect.width) && a_right > node_left && a_bottom > node_top && a_top < (node_top+rect.height)) {
-                        intersects = true;
-                        break;
-                    }
-                }
-
-                if (!intersects) {
-                    found_place = true;
-                    positions.push([parseInt(a_left), parseInt(a_top)]);
-                    break;
-                }
-            }
-            if (found_place) {
-                break;
-            } else {
-                height += 50;
-            }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #171717;
+          color: #f2eee6;
         }
 
-        // Create the image
-        let img = document.createElement("img");
-        img.src = key_values[i][0];
-        img.width = pairs[i][0];
-        img.height = pairs[i][1];
-        img.style.width = pairs[i][0];
-        img.style.height = pairs[i][1];
-        img.style.position = "absolute";
-        img.style.top = positions[i][1];
-        img.style.left = positions[i][0];
-        img.loading = "lazy";
-        container.appendChild(img);
-
-        i++;
-        if (i == key_values.length) {
-            clearInterval(interval);
+        .vibes-grid img {
+          background: #292929;
         }
-    }, 100);
-})
-    </script>
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>vibezz</h1>
+      <p class="credit">inspired by <a href="https://guzey.com/vibes/">Alexey Guzey's vibes page</a></p>
+    </header>
+
+    <main class="vibes-grid" aria-label="Vibes image gallery">
+      {% assign image_extensions = '.jpg,.jpeg,.png,.gif,.webp,.avif' | split: ',' %}
+      {% assign vibe_files = site.static_files | where_exp: "file", "file.path contains '/vibes/'" %}
+      {% for file in vibe_files %}
+        {% assign ext = file.extname | downcase %}
+        {% if image_extensions contains ext %}
+          <img src="{{ file.path | replace: ' ', '%20' | relative_url }}" alt="" loading="lazy">
+        {% endif %}
+      {% endfor %}
+    </main>
+  </body>
 </html>
