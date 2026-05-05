@@ -2,142 +2,166 @@
   img: https://m.media-amazon.com/images/I/71ULBNEAeQL._AC_UF1000,1000_QL80_.jpg
   alt: Intelligence — A Very Short Introduction
   post: ShortIntro-Intelligence
-  genres: [general]
+  genres: [psychology-and-cognition]
+  tags: [very-short-introduction, cognition, psychometrics]
 
 - title: The Birth and Death of Meaning
   img: https://m.media-amazon.com/images/I/51G-6BUTUCL._AC_UF1000,1000_QL80_.jpg
   alt: The Birth and Death of Meaning
   post: Birth-Death
-  genres: [general]
+  genres: [philosophy-and-meaning]
+  tags: [anthropology, death, meaning, psychology]
 
 - title: The Black Swan
   img: https://m.media-amazon.com/images/I/61qGazp9czL._AC_UF1000,1000_QL80_.jpg
   alt: The Black Swan
   post: The-Black-Swan
-  genres: [general]
+  genres: [economics-and-finance]
+  tags: [risk, probability, uncertainty, decision-making]
 
 - title: The Science of Interstellar
   img: https://m.media-amazon.com/images/I/51tePNSrghL._AC_UF1000,1000_QL80_.jpg
   alt: The Science of Interstellar
   url: https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378
-  genres: [general]
+  genres: [science-and-math]
+  tags: [physics, relativity, film, popular-science]
 
 - title: Children of Time
   img: https://m.media-amazon.com/images/I/81Xb8fFEkwL._AC_UF1000,1000_QL80_.jpg
   alt: Children of Time
   post: Children-of-Time
-  genres: [general]
+  genres: [science-fiction]
+  tags: [evolution, space-opera, uplift, series]
 
 - title: The Argumentative Indian
   img: https://m.media-amazon.com/images/I/512W-0mi+DL._AC_UF1000,1000_QL80_.jpg
   alt: The Argumentative Indian
   post: The-Argumentative-Indian
-  genres: [general]
+  genres: [history-and-civilization]
+  tags: [india, essays, culture, politics]
 
 - title: The Elegant Universe
   img: https://m.media-amazon.com/images/I/61gfUK3CZVL._AC_UF1000,1000_QL80_.jpg
   alt: The Elegant Universe
   url: https://www.amazon.com/Elegant-Universe-Superstrings-Dimensions-Ultimate/dp/039333810X
-  genres: [general]
+  genres: [science-and-math]
+  tags: [physics, string-theory, popular-science]
 
 - title: Reincarnation Blues
   img: https://m.media-amazon.com/images/I/81kDjJDCLlL._AC_UF1000,1000_QL80_.jpg
   alt: Reincarnation Blues
   url: https://www.amazon.com/Reincarnation-Blues-Novel-Michael-Poore/dp/0399178481
-  genres: [general]
+  genres: [literary-fiction]
+  tags: [speculative, afterlife, humor, novel]
 
 - title: The Boy Who Could Change the World
   img: https://m.media-amazon.com/images/I/71VbG-ZZvrL._AC_UF1000,1000_QL80_.jpg
   alt: The Boy Who Could Change the World
   url: https://www.amazon.com/Boy-Who-Could-Change-World/dp/1781689883
-  genres: [general]
+  genres: [technology-and-society]
+  tags: [collected-writings, internet, activism, copyright]
 
 - title: Children of Men
   img: https://m.media-amazon.com/images/I/61y6O74cM7L._AC_UF1000,1000_QL80_.jpg
   alt: Children of Men
   post: Children-of-Men
-  genres: [general]
+  genres: [science-fiction]
+  tags: [dystopia, social-collapse, novel]
 
 - title: The Fourth Age
   img: https://m.media-amazon.com/images/I/71Qkloh2LeL._AC_UF1000,1000_QL80_.jpg
   alt: The Fourth Age
   post: The-Fourth-Age
-  genres: [general]
+  genres: [technology-and-society]
+  tags: [ai, future, automation, technology-history]
 
 - title: Ra
   img: https://m.media-amazon.com/images/I/618B5LsCaCL._AC_UF1000,1000_QL80_.jpg
   alt: Ra
   post: Ra
-  genres: [general]
+  genres: [science-fiction]
+  tags: [rationalist-fiction, magic-system, web-fiction]
 
 - title: Complications
   img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKA9DuUi7-3OVwtW67wrKX8qLTf92_A5SJjA&s
   alt: Complications
   post: Complications
-  genres: [general]
+  genres: [medicine-and-health]
+  tags: [medicine, essays, surgery, clinical-practice]
 
 - title: AI Superpowers
   img: https://m.media-amazon.com/images/I/61AY2K2WPeL._AC_UF1000,1000_QL80_.jpg
   alt: AI Superpowers
   post: AI-Superpowers
-  genres: [general]
+  genres: [technology-and-society]
+  tags: [ai, china, economics, future-of-work]
 
 - title: Islam
   img: https://m.media-amazon.com/images/I/81wul1prbrL._AC_UF1000,1000_QL80_.jpg
   alt: Islam — A Very Short Introduction
   url: https://www.amazon.com/Islam-Very-Short-Introduction-Introductions/dp/0199642877
-  genres: [general]
+  genres: [philosophy-and-meaning]
+  tags: [religion, very-short-introduction, history]
 
 - title: Prisoners of Geography
   img: https://m.media-amazon.com/images/I/81zWLzJMyXL._AC_UF1000,1000_QL80_.jpg
   alt: Prisoners of Geography
   url: https://www.amazon.com/Prisoners-Geography-Explaining-Everything-Countries/dp/1501121464
-  genres: [general]
+  genres: [history-and-civilization]
+  tags: [geopolitics, maps, geography]
 
 - title: The Accidental Billionaires
   img: https://m.media-amazon.com/images/I/814tEvXpsyL._AC_UF1000,1000_QL80_.jpg
   alt: The Accidental Billionaires
   url: https://www.amazon.com/Accidental-Billionaires-Founding-Facebook-Betrayal/dp/0307740986
-  genres: [general]
+  genres: [biography-and-memoir]
+  tags: [facebook, startup, business, narrative-nonfiction]
 
 - title: The Knowledge Illusion
   img: https://m.media-amazon.com/images/I/51FAeTiqJML._AC_UF1000,1000_QL80_.jpg
   alt: The Knowledge Illusion
   url: https://www.amazon.com/Knowledge-Illusion-We-Never-Alone/dp/039918435X
-  genres: [general]
+  genres: [psychology-and-cognition]
+  tags: [cognition, collective-intelligence, decision-making]
 
 - title: The Scientific Revolution
   img: https://m.media-amazon.com/images/I/81m60eid+TL._AC_UF1000,1000_QL80_.jpg
   alt: The Scientific Revolution — A Very Short Introduction
   url: https://www.amazon.com/Scientific-Revolution-Very-Short-Introduction/dp/0199296948
-  genres: [general]
+  genres: [science-and-math]
+  tags: [history-of-science, very-short-introduction, early-modern]
 
 - title: The Stranger
   img: https://m.media-amazon.com/images/I/61qtGqfgUjL._AC_UF1000,1000_QL80_.jpg
   alt: The Stranger
   post: The-Stranger
-  genres: [general]
+  genres: [literary-fiction]
+  tags: [existentialism, absurdism, classic, novella]
 
 - title: The Information
   img: https://m.media-amazon.com/images/I/71IKh8vpz4L._AC_UF1000,1000_QL80_.jpg
   alt: The Information
   post: The-Information
-  genres: [general]
+  genres: [technology-and-society]
+  tags: [information-theory, history-of-science, communication]
 
 - title: The Code Breaker
   img: https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115869/the-code-breaker-9781982115869_hr.jpg
   alt: The Code Breaker
   url: https://www.amazon.com/Code-Breaker-Jennifer-Doudna-Editing/dp/1982115858
-  genres: [general]
+  genres: [biography-and-memoir]
+  tags: [biography, biology, crispr, science-history]
 
 - title: The Maniac
   img: https://m.media-amazon.com/images/I/71LWaPy3gjL.jpg
   alt: The Maniac
   url: https://www.amazon.com/MANIAC-Benjamin-Labatut/dp/0593654471
-  genres: [general]
+  genres: [literary-fiction]
+  tags: [historical-fiction, science, von-neumann, ai]
 
 - title: Project Hail Mary
   img: https://m.media-amazon.com/images/I/81zD9kaVW9L._AC_UF1000,1000_QL80_.jpg
   alt: Project Hail Mary
   url: https://www.amazon.com/Project-Hail-Mary-Andy-Weir/dp/0593135202
-  genres: [general]
+  genres: [science-fiction]
+  tags: [hard-sf, first-contact, space, problem-solving]

@@ -5,65 +5,76 @@
   img: https://m.media-amazon.com/images/I/91D4YvdC0dL._AC_UF1000,1000_QL80_.jpg
   alt: Brave New World
   url: https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523
-  genres: [general]
+  genres: [science-fiction]
+  tags: [dystopia, classic, social-engineering, modern-classic]
 
 - title: Dataclysm
   img: https://m.media-amazon.com/images/I/51xralhXB1L._AC_UF1000,1000_QL80_.jpg
   alt: Dataclysm
   url: https://www.amazon.com/Dataclysm-Identity-What-Internet-Knows/dp/0385347391
-  genres: [general]
+  genres: [technology-and-society]
+  tags: [data, internet, privacy, social-science]
 
 - title: The Scientific Edge
   img: https://m.media-amazon.com/images/I/51A6MM7QThL._AC_UF1000,1000_QL80_.jpg
   alt: The Scientific Edge
   url: https://www.amazon.com/Scientific-Edge-Kota-Harinarayana/dp/8173714563
-  genres: [general]
+  genres: [science-and-math]
+  tags: [india, technology, aerospace, popular-science]
 
 - title: Fooled By Randomness
   img: https://rukminim2.flixcart.com/image/850/1000/kiyw9e80-0/book/m/g/z/fooled-by-randomness-original-imafyn6gtjpzaz6n.jpeg?q=90
   alt: Fooled By Randomness
   url: https://www.amazon.com/Fooled-Randomness-Hidden-Chance-Life/dp/0812975219
-  genres: [general]
+  genres: [economics-and-finance]
+  tags: [probability, risk, markets, decision-making]
 
 - title: Man's Search for Meaning
   img: https://m.media-amazon.com/images/I/61157LApbuL.jpg
   alt: Man's Search for Meaning
   url: https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0807014273
-  genres: [general]
+  genres: [philosophy-and-meaning]
+  tags: [memoir, existentialism, psychology, holocaust]
 
 - title: Thinking, Fast and Slow
   img: https://m.media-amazon.com/images/I/71f6DceqZAL._AC_UF1000,1000_QL80_.jpg
   alt: Thinking, Fast and Slow
   url: https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555
-  genres: [general]
+  genres: [psychology-and-cognition]
+  tags: [behavioral-economics, decision-making, cognition]
 
 ## A Tier
 - title: Leonardo Da Vinci
   img: https://m.media-amazon.com/images/I/91Ey0+6N-LL._AC_UF1000,1000_QL80_.jpg
   alt: Leonardo Da Vinci
   url: https://www.amazon.com/Leonardo-Vinci-Walter-Isaacson/dp/1501139150
-  genres: [general]
+  genres: [biography-and-memoir]
+  tags: [biography, art, science, renaissance]
 
 - title: Dune
   img: https://rukminim2.flixcart.com/image/850/1000/k6l2vm80/book/1/9/6/dune-original-imafj5fvhd34ymku.jpeg?q=20&crop=false
   alt: Dune
   url: https://www.amazon.com/Dune-Frank-Herbert/dp/0441172717
-  genres: [general]
+  genres: [science-fiction]
+  tags: [space-opera, ecology, politics, classic]
 
 - title: Siddhartha
   img: https://m.media-amazon.com/images/I/61urry+xagL._AC_UF1000,1000_QL80_.jpg
   alt: Siddhartha
   url: https://www.amazon.com/Siddhartha-Herman-Hesse/dp/1774267543
-  genres: [general]
+  genres: [philosophy-and-meaning]
+  tags: [spirituality, novel, classic, buddhism]
 
 - title: 50 Economics Ideas
   img: https://m.media-amazon.com/images/I/61LiDUSBh0L._AC_UF1000,1000_QL80_.jpg
   alt: 50 Economics Ideas
   url: https://www.amazon.com/Economics-Ideas-Really-Need-Know/dp/1780875851
-  genres: [general]
+  genres: [economics-and-finance]
+  tags: [economics, introductory, ideas]
 
 - title: The Left Hand of Darkness
   img: https://m.media-amazon.com/images/I/71YEAnV8XTL._AC_UF1000,1000_QL80_.jpg
   alt: The Left Hand of Darkness
   url: https://www.amazon.com/Left-Hand-Darkness-Ursula-Guin/dp/0441478123
-  genres: [general]
+  genres: [science-fiction]
+  tags: [anthropological-sf, gender, classic, first-contact]
