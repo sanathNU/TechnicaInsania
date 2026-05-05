@@ -2,16 +2,40 @@
   img: https://m.media-amazon.com/images/I/51eUw-v0X+L._AC_UF1000,1000_QL80_.jpg
   alt: Weapons of Math Destruction
   url: https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815
-  genres: [general]
+  genres: [technology-and-society]
+  tags: [algorithms, data, inequality, statistics]
 
 - title: ಕರ್ವಾಲೋ (Karvaloo)
   img: https://m.media-amazon.com/images/I/81CETlLCMxL._AC_UF1000,1000_QL80_.jpg
   alt: ಕರ್ವಾಲೋ
   url: https://www.amazon.in/Karvalo-Poornachandra-Tejaswi/dp/B08FF38MZR
-  genres: [general, ಕನ್ನಡ ]
+  genres: [literary-fiction]
+  tags: [kannada, nature, adventure, science-fiction]
 
 - title: There is no Antimemetics Division
   img: https://m.media-amazon.com/images/I/81B9pHqV94L._AC_UF1000,1000_QL80_.jpg
   alt: There is no Antimemetics Division
   url: https://www.amazon.com/There-No-Antimemetics-Division-Novel/dp/0593983750
-  genres: [general, sci-fi ]
+  genres: [science-fiction]
+  tags: [horror, weird-fiction, memory, scp]
+
+- title: Leviathan Wakes
+  img: https://m.media-amazon.com/images/I/81LmrADzuIL._AC_UF1000,1000_QL80_.jpg
+  alt: Leviathan Wakes
+  url: https://www.amazon.com/Leviathan-Wakes-James-S-Corey/dp/0316129089
+  genres: [science-fiction]
+  tags: [space-opera, solar-system, series, detective]
+
+- title: Notes from the End of Everything
+  img: https://m.media-amazon.com/images/I/51lQAoiGltL._AC_UF1000,1000_QL80_.jpg
+  alt: Notes from the End of Everything
+  url: https://www.amazon.com/Notes-End-Everything-Robert-Pantano/dp/B08D4VSD88
+  genres: [philosophy-and-meaning]
+  tags: [existentialism, illness, death, fiction]
+
+- title: Sublimia Syndrome
+  img: https://m.media-amazon.com/images/I/711Qqurn1kL._AC_UF1000,1000_QL80_.jpg
+  alt: Sublimia Syndrome
+  url: https://www.amazon.com/Sublimia-Syndrome-Exurb1a/dp/B0FP8Y9145
+  genres: [science-fiction]
+  tags: [philosophical-sf, speculative, exurb1a]
