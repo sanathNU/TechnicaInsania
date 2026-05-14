@@ -57,7 +57,7 @@
 - title: The Boy Who Could Change the World
   img: https://m.media-amazon.com/images/I/71VbG-ZZvrL._AC_UF1000,1000_QL80_.jpg
   alt: The Boy Who Could Change the World
-  url: https://www.amazon.com/Boy-Who-Could-Change-World/dp/1781689883
+  post: The-Boy-Who-Could-Change-the-World
   genres: [technology-and-society]
   tags: [collected-writings, internet, activism, copyright]
 
@@ -106,7 +106,7 @@
 - title: Prisoners of Geography
   img: https://m.media-amazon.com/images/I/81zWLzJMyXL._AC_UF1000,1000_QL80_.jpg
   alt: Prisoners of Geography
-  url: https://www.amazon.com/Prisoners-Geography-Explaining-Everything-Countries/dp/1501121464
+  post: Prisoners-of-Geography
   genres: [history-and-civilization]
   tags: [geopolitics, maps, geography]
 
@@ -127,7 +127,7 @@
 - title: The Scientific Revolution
   img: https://m.media-amazon.com/images/I/81m60eid+TL._AC_UF1000,1000_QL80_.jpg
   alt: The Scientific Revolution — A Very Short Introduction
-  url: https://www.amazon.com/Scientific-Revolution-Very-Short-Introduction/dp/0199296948
+  post: The-Scientific-Revolution
   genres: [science-and-math]
   tags: [history-of-science, very-short-introduction, early-modern]
 
