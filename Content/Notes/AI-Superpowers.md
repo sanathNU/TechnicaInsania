@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "The Black Swan"
+title: "AI Superpowers"
 categories: [review]
-tags: [books, philosophy, meta, maths, psychology]
+tags: [books, ai, china, technology, society]
 toc: true
 ---
 
