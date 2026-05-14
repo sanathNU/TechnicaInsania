@@ -22,7 +22,7 @@
 - title: The Science of Interstellar
   img: https://m.media-amazon.com/images/I/51tePNSrghL._AC_UF1000,1000_QL80_.jpg
   alt: The Science of Interstellar
-  url: https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378
+  post: Science-of-Interstellar
   genres: [science-and-math]
   tags: [physics, relativity, film, popular-science]
 
@@ -148,7 +148,7 @@
 - title: The Code Breaker
   img: https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982115869/the-code-breaker-9781982115869_hr.jpg
   alt: The Code Breaker
-  url: https://www.amazon.com/Code-Breaker-Jennifer-Doudna-Editing/dp/1982115858
+  post: The-Code-Breaker
   genres: [biography-and-memoir]
   tags: [biography, biology, crispr, science-history]
 
