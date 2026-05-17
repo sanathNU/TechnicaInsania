@@ -4,6 +4,8 @@ date: 2026-05-15
 categories: [AI, Reinforcement Learning]
 tags: [reinforcement-learning, rl, machine-learning]
 ---
+![monk bot](/assets/img/Misc/monk_bot.png)
+
 > This post gets technical, and a little too wordy for the average reader. It's a personal rant about learning RL, not a tutorial. Don't try to understand every detail, just get a feel for it.
 
 I started learning reinforcement learning this semester because I wanted to understand what people actually meant when they said RLHF. It's one of those terms the internet wore out. I knew about the human feedback part, but the RL part? That I wanted to see for myself.
@@ -17,6 +19,9 @@ LLMs always felt intellectually icky to me. A model trained on a massive dataset
 I picked up the [Hugging Face RL course](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction) and started working through it. Hands-on, fast, got me implementing things quickly.
 
 LunarLander was the moment. I'd seen impressive demos before, MuJoCo Humanoid, Cheetah, the usual. But LunarLander was where I actually understood what was happening and where it broke. Watching an agent figure out boosters from nothing, on my laptop, in a few hours? That was wild. If someone deeply into RL research did this course, they'd probably be more scientific about it, tweaking equations, probing failure modes, trying to understand exactly why things break. I was just here for the paradigm shift.
+
+![](/assets/gifs/lunarlander.gif)
+_at least the parking was done right!_
 
 The thing that stuck with me was the reproducibility. Most ideas in CS feel abstract to me, plucked right out of Plato's world. You learn them, you accept them, you move on. But here I could tweak something, rerun it, and observe the difference. Something plucked from math-land behaving like a real experiment. That was new.
 
@@ -43,6 +48,7 @@ But the example I keep coming back to is [cliff walking](https://gymnasium.faram
 The setup is simple. You've got a grid, a start point, a goal, and a cliff along the bottom edge. Fall off the cliff and you get a massive negative reward. The agent has to learn to get from start to goal without dying.
 
 ![](https://gymnasium.farama.org/_images/cliff_walking.gif)
+_one wrong step and it's a long way down. ask Q-learning, it lives there._
 
 Here's where it gets interesting. SARSA learns a safe path, it stays away from the cliff, takes the long way around. Q-learning learns the optimal path, right along the edge, faster but riskier. And expected SARSA sits somewhere in between. Same environment, different algorithms, different behaviors. [This chart from DJ Rich's RL series](https://youtu.be/AJiG3ykOxmY?t=1399) lays it out perfectly, that series was a lifesaver, short, succinct, and packed with good stuff.
 
@@ -59,6 +65,11 @@ And then RL happened.
 The KL threshold that decides when to trigger System 2? We set it to 2.0. Seemed reasonable. Turns out the mean KL on our safety environment was around 106. System 2 was firing on literally 100% of steps. The gate was useless. We had to bump it to 100 just to get a meaningful split. That's the kind of thing no textbook prepares you for.
 
 PPO couldn't even handle Taxi-v3's integer observations. Just flat performance, the whole time. SAC converges 10x faster than PPO on the safety environment but plateaus early, and longer training doesn't fix it. The cost-penalized bandit underperformed the simple rule-based version because the cost reduction was happening on System 1 steps, where the bandit literally has no control. You design something elegant and the math just... doesn't cooperate.
+
+And don't even ask about our model on Humanoid, look for yourself.
+
+![](/assets/gifs/humanoid.gif)
+_robot heart attack_
 
 The model isn't stupid. The idea isn't bad. It's that RL is fragile in ways that aren't about logic errors. Lady luck chose the wrong randomness, or your threshold is off by two orders of magnitude, or the thing that's supposed to be learning has no leverage over the thing that matters. That's a different kind of frustration than most of ML.
 
@@ -81,5 +92,10 @@ RL is a computational model of agency. That's the textbook answer. But after a s
 The pleasures of reinforcement learning aren't what I expected. It's not the clean satisfaction of getting a model to converge. It's watching behavior emerge from equations. It's the moment TD clicks and you realize you don't need to wait for the truth to start learning. It's staring at a cliff walking chart and understanding something that only makes sense because you walked the path to get there. It's even the frustration, the threshold being off by two orders of magnitude, the bandit having no leverage, lady luck choosing the wrong randomness, because that frustration is *real* in a way that tutorials never are.
 
 I believe Hassabis. I think RL is core to whatever intelligence turns out to be. Not a side technique, not a fine-tuning trick. The actual mechanism by which knowledge becomes behavior.
+
+If you haven't seen it, [Ilya's recent Dwarkesh interview](https://www.youtube.com/watch?v=aR20FWCCjAs) is worth your time.
+
+![ilya monk](/assets/img/Misc/ilya_meme.png)
+_Ilya has gone full monk-mode, and he's probably right. the answer will reveal itself._
 
 We're deep in the woods now. Unlike when we started this journey, the new shores are being seen, where earlier, we used to look at the horizon and just hope. There are miles to go before we sleep. But the view from here is something.
