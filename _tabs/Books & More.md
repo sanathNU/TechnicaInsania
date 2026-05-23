@@ -30,7 +30,9 @@ I love movies. Art depicted in visual, creative styles just hits different. Chec
 A few favorites: Interstellar, Inception, Tenet, The Dark Knight, V for Vendetta, A Clockwork Orange, The Shawshank Redemption, Oppenheimer, Oldboy, 1984 ([my analysis]({% post_url 2023-12-11-Nineteen-Eighty-Four %})).
 
 ## Art
-It's a weird feeling, having great respect for old paintings when you know you can generate hundreds of images with Stable Diffusion that are technically more polished. But these aren't here for technical merit. They're here because I want them to.
+It's a weird feeling, having great respect for old paintings when you know you can generate hundreds of images with Stable Diffusion that are technically more polished.
+
+### Paintings
 
 ![The Great Waves of Kanagawa](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/3840px-Tsunami_by_hokusai_19th_century.jpg)
 *The Great Waves of Kanagawa*
@@ -40,6 +42,11 @@ It's a weird feeling, having great respect for old paintings when you know you c
 
 ![Destruction](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg/3840px-Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg)
 *Destruction*
+
+### Sculptures
+
+![The Gates of Hell](/assets/img/Misc/The%20Gates%20of%20Hell.jpg)
+*The Gates of Hell — Rodin*
 
 ## Notes
 
