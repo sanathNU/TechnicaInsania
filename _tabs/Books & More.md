@@ -48,6 +48,33 @@ It's a weird feeling, having great respect for old paintings when you know you c
 ![The Gates of Hell](/assets/img/Misc/The%20Gates%20of%20Hell.jpg)
 *The Gates of Hell — Rodin*
 
+## Writers & Thinkers
+
+Personal sites are often better than feeds. They keep more of the author attached.
+
+| Who | Why |
+|---|---|
+| [Scott H. Young](https://www.scotthyoung.com/blog/articles/) | Learning, ultralearning, study systems |
+| [Alexey Guzey](https://guzey.com/) | Essays, institutions, media lists |
+| [Michael Nielsen](https://michaelnielsen.org/blog/) | Science, tools for thought, pedagogy |
+| [Amit Patel](https://amitp.blogspot.com/) | Programming and game map design |
+| [The Scholar's Stage](https://scholars-stage.org/) | History, strategy, geopolitics |
+| [Andrej Karpathy](https://karpathy.ai/) | AI, software, teaching |
+| [Naval Ravikant](https://nav.al/) | Startups, money, life philosophy |
+| [Gwern](https://gwern.net/) | Everything, excessively researched |
+| [Jay Alammar](https://jalammar.github.io/) | Visual AI explanations |
+| [Fabrice Bellard](https://bellard.org/) | Systems, compression, emulation, strange feats |
+| [Chris Olah](http://colah.github.io/) | Mechanistic and visual ML explanations |
+| [Jascha Sohl-Dickstein](https://sohl-dickstein.github.io/) | Weird and interesting research notes |
+| [Brandon Rohrer](https://www.brandonrohrer.com/blog.html) | Friendly engineering and ML explanations |
+| [danah boyd](https://www.zephoria.org/thoughts/) | Technology, society, youth, institutions |
+| [Julia Galef](https://juliagalef.com/recent-posts/) | Rationality and applied epistemics |
+| [Sage Jenson](https://sagejenson.com/) | Visual computing, simulation, art |
+| [Paul Nylander](http://www.bugman123.com/index.html) | Mathematical art and visual experiments |
+| [Robert Munafo](https://www.mrob.com/pub/index.html) | Mathematical and scientific data rabbit holes |
+| [MathPages](https://www.mathpages.com/home/index.htm) | Math and physics essays |
+| [lcamtuf](https://lcamtuf.coredump.cx/) | Security, systems, electronics, old-web excellence |
+
 ## Notes
 
 Our Oriental Heritage Quotations: [The Madness of Men]({%link Content/Notes/The-Story-of-Civilization.md %})
