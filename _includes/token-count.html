@@ -1,0 +1,8 @@
+<!-- Display the post's token count (raw word count, like evazhang.ai) -->
+
+{% assign tokens = include.content | strip_html | number_of_words: 'auto' %}
+
+<span class="token-count">
+  <i class="fas fa-coins fa-fw me-1"></i>
+  {{ tokens }} tokens
+</span>
