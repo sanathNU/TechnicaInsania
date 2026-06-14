@@ -11,6 +11,9 @@ layout: default
     <h1 class="dynamic-title">
       {{ title }}
     </h1>
+    <div class="post-meta text-muted mb-3">
+      {% include token-count.html content=content %}
+    </div>
     <div class="content">
       {{ content }}
     </div>
