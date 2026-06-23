@@ -3,6 +3,9 @@ layout: default
 title: "AI Superpowers"
 categories: [review]
 tags: [books, ai, china, technology, society]
+links:
+  - /posts/Who-Owns-The-Future/
+  - /Content/Notes/The-Fourth-Age/
 toc: true
 ---
 

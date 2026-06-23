@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /knowledge-graph.json
+---
+{
+  "nodes": [
+    {% assign first_node = true %}
+    {% for item in site.posts %}{% unless first_node %},{% endunless %}{"id":{{ item.url | jsonify }},"title":{{ item.title | jsonify }},"url":{{ item.url | relative_url | jsonify }},"kind":"note","tags":{{ item.tags | jsonify }}}{% assign first_node = false %}{% endfor %}
+    {% for item in site.pages %}{% if item.path contains 'Content/' %}{% unless first_node %},{% endunless %}{"id":{{ item.url | jsonify }},"title":{{ item.title | jsonify }},"url":{{ item.url | relative_url | jsonify }},"kind":"note","tags":{{ item.tags | jsonify }}}{% assign first_node = false %}{% endif %}{% endfor %}
+    {% for tag in site.tags %}{% unless first_node %},{% endunless %}{"id":{{ tag[0] | prepend: 'tag:' | jsonify }},"title":{{ tag[0] | jsonify }},"kind":"tag"}{% assign first_node = false %}{% endfor %}
+  ],
+  "linkEdges": [
+    {% assign first_link = true %}
+    {% for item in site.posts %}{% for link in item.links %}{% unless first_link %},{% endunless %}{"source":{{ item.url | jsonify }},"target":{{ link | jsonify }},"kind":"link"}{% assign first_link = false %}{% endfor %}{% endfor %}
+    {% for item in site.pages %}{% if item.path contains 'Content/' %}{% for link in item.links %}{% unless first_link %},{% endunless %}{"source":{{ item.url | jsonify }},"target":{{ link | jsonify }},"kind":"link"}{% assign first_link = false %}{% endfor %}{% endif %}{% endfor %}
+  ],
+  "tagEdges": [
+    {% assign first_tag_edge = true %}
+    {% for item in site.posts %}{% for tag in item.tags %}{% unless first_tag_edge %},{% endunless %}{"source":{{ item.url | jsonify }},"target":{{ tag | prepend: 'tag:' | jsonify }},"kind":"tag"}{% assign first_tag_edge = false %}{% endfor %}{% endfor %}
+    {% for item in site.pages %}{% if item.path contains 'Content/' %}{% for tag in item.tags %}{% unless first_tag_edge %},{% endunless %}{"source":{{ item.url | jsonify }},"target":{{ tag | prepend: 'tag:' | jsonify }},"kind":"tag"}{% assign first_tag_edge = false %}{% endfor %}{% endif %}{% endfor %}
+  ]
+}

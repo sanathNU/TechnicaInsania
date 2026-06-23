@@ -1,0 +1,28 @@
+---
+layout: page
+---
+
+<div class="knowledge-garden" data-graph-url="{{ '/knowledge-graph.json' | relative_url }}">
+  <p class="garden-intro">A living map of notes, essays, reviews, and the ideas that connect them. Lines between notes are deliberate links; the quieter lines lead to shared tags.</p>
+
+  <div class="garden-controls" aria-label="Knowledge garden controls">
+    <label for="garden-search">Find an idea</label>
+    <input id="garden-search" type="search" placeholder="Try: AI, books, philosophy" autocomplete="off">
+    <label class="garden-toggle" for="garden-tags"><input id="garden-tags" type="checkbox" checked> Show tag connections</label>
+    <button type="button" id="garden-reset">Reset view</button>
+  </div>
+
+  <div class="garden-legend" aria-label="Graph legend">
+    <span><i class="garden-dot garden-note"></i>Note or post</span><span><i class="garden-dot garden-tag"></i>Tag</span>
+    <span><i class="garden-line garden-link"></i>Intentional link</span><span><i class="garden-line garden-tag-line"></i>Tag connection</span>
+  </div>
+
+  <div class="garden-canvas" aria-live="polite"><svg id="knowledge-graph" viewBox="0 0 1000 700" role="img" aria-label="Interactive map of linked notes and tags"></svg></div>
+  <section class="garden-results" aria-labelledby="garden-results-title">
+    <h2 id="garden-results-title">Explore the notes</h2>
+    <p id="garden-status" class="text-muted">Loading the garden…</p>
+    <ul id="garden-list"></ul>
+  </section>
+</div>
+
+<script defer src="{{ '/assets/js/knowledge-garden.js' | relative_url }}"></script>
