@@ -2,7 +2,7 @@
 title: "Signal Chat Archaeology"
 date: 2025-06-14
 categories: [Debugging, Cryptography]
-tags: [rant]
+tags: [tech]
 ---
 
 ### Intro
