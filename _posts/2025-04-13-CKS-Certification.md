@@ -2,7 +2,7 @@
 title: "CKS Certification: Thoughts"
 date: 2025-04-13
 categories: [Cloud Computing, Kubernetes, Security]
-tags: [rant]
+tags: [rant, tech]
 --- 
 
 <!-- <img src="{{site.baseurl | prepend: site.url}}/assets/img/CKS/CKS_badge_1.png" alt="Map"> -->

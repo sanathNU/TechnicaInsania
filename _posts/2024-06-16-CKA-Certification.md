@@ -2,7 +2,7 @@
 title: "CKA Certification: Insights and Experiences"
 date: 2024-06-16
 categories: [Cloud Computing, Kubernetes]
-tags: [rant]
+tags: [rant, tech]
 ---
 <img src="{{site.baseurl | prepend: site.url}}/assets/img/CKA/cka.png" alt="Map">
 
