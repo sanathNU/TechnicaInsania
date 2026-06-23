@@ -1,0 +1,74 @@
+.knowledge-garden {
+  .garden-intro { max-width: 45rem; }
+
+  .garden-controls,
+  .garden-legend {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .garden-controls input[type='search'] {
+    background: var(--main-bg);
+    border: 1px solid var(--btn-border-color);
+    border-radius: 0.45rem;
+    color: var(--text-color);
+    padding: 0.4rem 0.65rem;
+  }
+
+  .garden-controls button {
+    background: var(--sidebar-active-color);
+    border: 0;
+    border-radius: 0.45rem;
+    color: var(--sidebar-btn-color);
+    cursor: pointer;
+    padding: 0.4rem 0.65rem;
+  }
+
+  .garden-toggle { cursor: pointer; }
+  .garden-legend { color: var(--text-muted-color); font-size: 0.85rem; }
+
+  .garden-dot,
+  .garden-line { display: inline-block; margin-right: 0.25rem; vertical-align: middle; }
+  .garden-dot { background: #4c8bf5; border-radius: 100%; height: 0.65rem; width: 0.65rem; }
+  .garden-tag { background: #d69e2e; }
+  .garden-line { background: #4c8bf5; height: 2px; width: 1rem; }
+  .garden-tag-line { background: #d69e2e; }
+
+  .garden-canvas {
+    background: radial-gradient(circle at center, rgba(76, 139, 245, 0.11), transparent 67%);
+    border: 1px solid var(--btn-border-color);
+    border-radius: 0.8rem;
+    overflow: auto;
+  }
+
+  #knowledge-graph { display: block; height: auto; min-width: 700px; width: 100%; }
+  .garden-edge { stroke: #4c8bf5; stroke-width: 2; transition: opacity 160ms ease; }
+  .garden-edge-tag { opacity: 0.24; stroke: #d69e2e; stroke-dasharray: 3 5; stroke-width: 1.5; }
+  .garden-node { cursor: pointer; fill: #4c8bf5; transition: opacity 160ms ease; }
+  .garden-node-tag { fill: #d69e2e; }
+
+  .garden-node text {
+    fill: var(--text-color);
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    pointer-events: none;
+  }
+
+  .garden-node:hover circle,
+  .garden-node:focus circle { stroke: var(--text-color); stroke-width: 3; }
+  .is-muted { opacity: 0.06; pointer-events: none; }
+  .garden-results { margin-top: 2rem; }
+
+  #garden-list {
+    columns: 2 18rem;
+    list-style: none;
+    padding: 0;
+
+    li { break-inside: avoid; margin-bottom: 0.75rem; }
+  }
+
+  .garden-list-tags { color: var(--text-muted-color); display: block; font-size: 0.8rem; }
+}

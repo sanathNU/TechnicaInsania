@@ -3,6 +3,9 @@ title: The Pleasures of Reinforcement Learning
 date: 2026-05-15
 categories: [AI, Reinforcement Learning]
 tags: [reinforcement-learning, rl, machine-learning]
+links:
+  - /posts/Who-Owns-The-Future/
+  - /Content/Notes/AI-Superpowers/
 ---
 ![monk bot](/assets/img/Misc/monk_bot.png)
 
