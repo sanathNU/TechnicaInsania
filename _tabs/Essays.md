@@ -10,5 +10,6 @@ My digital haven, where I geek out on tech, share personal life insights, and sp
 
 [Why I Write]({% link Content/Why-I-Write.md %})
 
+[In Praise of Cryptography]({% link Content/Philosophy-Cryptography.md %})
 
 
