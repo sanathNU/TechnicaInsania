@@ -39,3 +39,52 @@
   url: https://www.amazon.com/Sublimia-Syndrome-Exurb1a/dp/B0FP8Y9145
   genres: [science-fiction]
   tags: [philosophical-sf, speculative, exurb1a]
+
+- title: The Ministry for the Future
+  img: https://covers.openlibrary.org/b/isbn/0316300136-L.jpg
+  alt: The Ministry for the Future
+  url: https://www.amazon.com/Ministry-Future-Kim-Stanley-Robinson/dp/0316300136
+  genres: [science-fiction]
+  tags: [climate-fiction, near-future, politics, speculative]
+
+- title: Prime Obsession
+  img: https://covers.openlibrary.org/b/isbn/0452285259-L.jpg
+  alt: Prime Obsession
+  url: https://www.amazon.com/Prime-Obsession-Bernhard-Greatest-Mathematics/dp/0452285259
+  genres: [mathematics]
+  tags: [riemann-hypothesis, number-theory, history-of-math, non-fiction]
+
+- title: Anxious People
+  img: https://covers.openlibrary.org/b/isbn/1501160834-L.jpg
+  alt: Anxious People
+  url: https://www.amazon.com/Anxious-People-Novel-Fredrik-Backman/dp/1501160834
+  genres: [literary-fiction]
+  tags: [humor, found-family, hostage-situation, character-driven]
+
+- title: Exhalation
+  img: https://covers.openlibrary.org/b/isbn/1101972084-L.jpg
+  alt: Exhalation
+  url: https://www.amazon.com/Exhalation-Ted-Chiang/dp/1101972084
+  genres: [science-fiction]
+  tags: [short-stories, philosophical-sf, ted-chiang, speculative]
+
+- title: Brain, The Story of You
+  img: https://covers.openlibrary.org/b/isbn/1101870532-L.jpg
+  alt: Brain, The Story of You
+  url: https://www.amazon.com/Brain-Story-You-David-Eagleman/dp/1101870532
+  genres: [neuroscience]
+  tags: [brain, identity, popular-science, david-eagleman]
+
+- title: The Quantum Thief
+  img: https://covers.openlibrary.org/b/isbn/0765367661-L.jpg
+  alt: The Quantum Thief
+  url: https://www.amazon.com/Quantum-Thief-Jean-Flambeur-Hannu-Rajaniemi/dp/0765367661
+  genres: [science-fiction]
+  tags: [post-cyberpunk, hard-sf, heist, series]
+
+- title: Migrants - The Story of Us All
+  img: https://covers.openlibrary.org/b/isbn/0349144443-L.jpg
+  alt: Migrants - The Story of Us All
+  url: https://www.amazon.com/Migrants-Story-Us-All/dp/0349144443
+  genres: [history-and-civilization]
+  tags: [migration, anthropology, world-history, non-fiction]
