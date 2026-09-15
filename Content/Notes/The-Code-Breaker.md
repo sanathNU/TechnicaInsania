@@ -2,7 +2,7 @@
 layout: default
 title: "The Code Breaker"
 categories: [review, literature]
-tags: [books, philosophy, meta, biology, science]
+tags: [books, biography, biology, crispr, science-history]
 toc: true
 ---
 

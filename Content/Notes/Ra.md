@@ -2,7 +2,7 @@
 layout: default
 title: "Ra"
 categories: [review, literature]
-tags: [books, philosophy, meta, artificial intelligence, robotics, magic]
+tags: [books, rationalist-fiction, magic-system, web-fiction]
 toc: true
 ---
 

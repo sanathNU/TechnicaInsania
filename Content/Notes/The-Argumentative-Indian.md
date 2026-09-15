@@ -2,7 +2,7 @@
 layout: default
 title: "The Argumentative Indian"
 categories: [review]
-tags: [books, philosophy, meta, maths, psychology]
+tags: [books, india, essays, culture, politics]
 toc: true
 ---
 

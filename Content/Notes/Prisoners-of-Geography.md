@@ -2,7 +2,7 @@
 layout: default
 title: "Prisoners of Geography"
 categories: [review]
-tags: [books, geopolitics, maps, geography, history]
+tags: [books, geopolitics, maps, geography]
 toc: true
 ---
 

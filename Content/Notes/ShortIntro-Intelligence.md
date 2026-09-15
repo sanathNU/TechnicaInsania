@@ -2,7 +2,7 @@
 layout: default
 title: "Intelligence - A Very Short Introduction"
 categories: [review]
-tags: [books, philosophy, meta, intelligence]
+tags: [books, very-short-introduction, cognition, psychometrics]
 toc: true
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: "Birth And Death of Meaning"
 categories: [review]
-tags: [books, psychology, thought-provoking]
+tags: [books, anthropology, death, meaning, psychology]
 toc: true
 ---
 # The Birth And Death of Meaning

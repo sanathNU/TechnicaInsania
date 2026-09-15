@@ -2,7 +2,7 @@
 layout: default
 title: "The Maniac"
 categories: [review, literature]
-tags: [books, von-neumann, mathematics, computing, ai, science]
+tags: [books, historical-fiction, science, von-neumann, ai]
 toc: true
 ---
 

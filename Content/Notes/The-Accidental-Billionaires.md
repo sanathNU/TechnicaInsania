@@ -2,7 +2,7 @@
 layout: default
 title: "The Accidental Billionaires"
 categories: [review, literature]
-tags: [books, facebook, startups, social-network, silicon-valley]
+tags: [books, facebook, startup, business, narrative-nonfiction]
 toc: true
 ---
 

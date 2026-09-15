@@ -2,7 +2,7 @@
 layout: default
 title: "The Stranger"
 categories: [review]
-tags: [books, philosophy, fiction, existential]
+tags: [books, existentialism, absurdism, classic, novella]
 toc: true
 ---
 

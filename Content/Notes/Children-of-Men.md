@@ -2,7 +2,7 @@
 layout: default
 title: "Children of Men"
 categories: [review, literature]
-tags: [books, philosophy, meta, dyspotia, fiction]
+tags: [books, dystopia, social-collapse, novel]
 toc: true
 ---
 # Children of Men

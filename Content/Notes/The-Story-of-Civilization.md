@@ -2,7 +2,7 @@
 layout: default
 title: "Story of Civlization I: Our Oriental Heritage"
 categories: [quotes, history,quotations-of-interest]
-tags: [books, philosophy, meta]
+tags: [books, civilization, ancient-history, asia, series]
 toc: true
 ---
 

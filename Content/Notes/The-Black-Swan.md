@@ -2,7 +2,7 @@
 layout: default
 title: "The Black Swan"
 categories: [review]
-tags: [books, philosophy, meta, maths, psychology]
+tags: [books, risk, probability, uncertainty, decision-making]
 toc: true
 ---
 

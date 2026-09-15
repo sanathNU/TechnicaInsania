@@ -2,7 +2,7 @@
 layout: default
 title: "The Information: A History, a Theory, a Flood"
 categories: [review]
-tags: [books, philosophy, history]
+tags: [books, information-theory, history-of-science, communication]
 toc: true
 ---
 

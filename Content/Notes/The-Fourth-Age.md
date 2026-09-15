@@ -2,7 +2,7 @@
 layout: default
 title: "The Fourth Age"
 categories: [review, literature]
-tags: [books, philosophy, meta, artificial intelligence, robotics, economics]
+tags: [books, ai, future, automation, technology-history]
 links:
   - /Content/Notes/AI-Superpowers/
   - /posts/Who-Owns-The-Future/

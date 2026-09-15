@@ -2,7 +2,7 @@
 layout: default
 title: "Children of Time"
 categories: [review]
-tags: [books, fiction, space, xenointelligence]
+tags: [books, evolution, space-opera, uplift, series]
 toc: true
 ---
 

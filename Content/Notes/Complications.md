@@ -2,7 +2,7 @@
 layout: default
 title: "Complications"
 categories: [review]
-tags: [books, philosophy, meta, medical-science]
+tags: [books, medicine, essays, surgery, clinical-practice]
 toc: true
 ---
 
