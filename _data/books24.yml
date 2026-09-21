@@ -184,11 +184,11 @@
   tags: [privacy, surveillance, security, data]
 
 - title: Ed
-  img: https://m.media-amazon.com/images/I/81JkZ7QKQVL._AC_UF1000,1000_QL80_.jpg
+  img: https://covers.openlibrary.org/b/id/14821239-L.jpg
   alt: Ed
-  url: https://www.amazon.com/Ed-Book-About-Australia/dp/1408865766
-  genres: [history-and-civilization]
-  tags: [travel, australia, culture, memoir]
+  url: https://qntm.org/ed
+  genres: [science-fiction]
+  tags: [web-fiction, qntm, comedy, space]
 
 - title: Everybody Lies
   img: https://covers.openlibrary.org/b/isbn/0062390864-L.jpg
