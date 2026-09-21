@@ -8,6 +8,7 @@
     margin-bottom: 40px;
   }
   .book-item {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,6 +17,55 @@
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: for depth */
     background: var(--card-bg, #fff);
+  }
+  /* Marginalia tell: a book I kept notes on wears a dog-eared corner. */
+  .book-item--annotated {
+    border-color: var(--text-muted-color);
+  }
+  .book-item--annotated::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 16px;
+    height: 16px;
+    opacity: 0.55;
+    background: linear-gradient(
+      225deg,
+      var(--main-bg) 0 50%,
+      var(--text-muted-color) 50% 100%
+    );
+    transition: width 0.15s ease, height 0.15s ease, opacity 0.15s ease;
+  }
+  .book-item--annotated:hover,
+  .book-item--annotated:focus-within {
+    border-color: var(--link-color);
+  }
+  .book-item--annotated:hover::after,
+  .book-item--annotated:focus-within::after {
+    width: 26px;
+    height: 26px;
+    opacity: 1;
+    background: linear-gradient(
+      225deg,
+      var(--main-bg) 0 50%,
+      var(--link-color) 50% 100%
+    );
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .book-item--annotated::after {
+      transition: none;
+    }
+  }
+  /* Screen readers get told outright; sighted readers get to notice. */
+  .book-note-flag {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
   }
   .book-item img {
     max-width: 100%;
@@ -75,8 +125,10 @@
           {% if book_primary_tag == category %}
           {% assign item_url = nil %}
           {% assign is_external = false %}
+          {% assign has_note = false %}
 
           {% if book.post %}
+            {% assign has_note = true %}
             {% assign found_post = site.posts | where: "slug", book.post | first %}
             {% if found_post %}
               {% assign item_url = found_post.url | relative_url %}
@@ -88,9 +140,9 @@
             {% assign is_external = true %}
           {% endif %}
 
-<figure class="book-item">
+<figure class="book-item{% if has_note %} book-item--annotated{% endif %}">
               {% if item_url %}
-<a href="{{ item_url }}" {% if is_external %}target="_blank" rel="noopener"{% endif %}>
+<a href="{{ item_url }}" {% if is_external %}target="_blank" rel="noopener"{% endif %}{% if has_note %} title="Reading notes on {{ book.title | escape }}"{% endif %}>
               {% else %}
 <span>
               {% endif %}
@@ -107,7 +159,7 @@
 </span>
               {% endif %}
 
-<figcaption>{{ book.title }}</figcaption>
+<figcaption>{{ book.title }}{% if has_note %}<span class="book-note-flag"> — reading notes</span>{% endif %}</figcaption>
 </figure>
           {% endif %}
         {% endfor %}
@@ -121,8 +173,10 @@
     {% for book in all_books %}
           {% assign item_url = nil %}
           {% assign is_external = false %}
+          {% assign has_note = false %}
 
           {% if book.post %}
+            {% assign has_note = true %}
             {% assign found_post = site.posts | where: "slug", book.post | first %}
             {% if found_post %}
               {% assign item_url = found_post.url | relative_url %}
@@ -134,9 +188,9 @@
             {% assign is_external = true %}
           {% endif %}
 
-<figure class="book-item">
+<figure class="book-item{% if has_note %} book-item--annotated{% endif %}">
               {% if item_url %}
-<a href="{{ item_url }}" {% if is_external %}target="_blank" rel="noopener"{% endif %}>
+<a href="{{ item_url }}" {% if is_external %}target="_blank" rel="noopener"{% endif %}{% if has_note %} title="Reading notes on {{ book.title | escape }}"{% endif %}>
               {% else %}
 <span>
               {% endif %}
@@ -153,7 +207,7 @@
 </span>
               {% endif %}
 
-<figcaption>{{ book.title }}</figcaption>
+<figcaption>{{ book.title }}{% if has_note %}<span class="book-note-flag"> — reading notes</span>{% endif %}</figcaption>
 </figure>
     {% endfor %}
 </div>
