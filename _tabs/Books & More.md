@@ -23,6 +23,8 @@ Here are some books I've enjoyed. I have some fairly polarizing opinions on a fe
 
 [2023]({% link Content/2023-in-Hindsight.md %}) | [2024]({% link Content/2024-books.md %}) | [2025]({% link Content/2025-books.md %}) | [2026]({% link Content/2026-books.md %})
 
+Wander through those years and you'll notice a few covers are dog-eared. Those are the ones I argued with long enough to write it down. The fold opens.
+
 ## Movies
 
 I love movies. Art depicted in visual, creative styles just hits different. Check out [my Letterboxd](https://letterboxd.com/franticUser/) for the full list.
@@ -74,7 +76,3 @@ Personal sites are often better than feeds. They keep more of the author attache
 | [Robert Munafo](https://www.mrob.com/pub/index.html) | Mathematical and scientific data rabbit holes |
 | [MathPages](https://www.mathpages.com/home/index.htm) | Math and physics essays |
 | [lcamtuf](https://lcamtuf.coredump.cx/) | Security, systems, electronics, old-web excellence |
-
-## Notes
-
-Our Oriental Heritage Quotations: [The Madness of Men]({%link Content/Notes/The-Story-of-Civilization.md %})
