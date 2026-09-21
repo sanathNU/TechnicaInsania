@@ -19,13 +19,11 @@ I like a lot of topics, mostly ranging in the "tech-savvy Gen-Z" spectrum. It ra
 
 You gotta see dem vibes: [vibes](https://sanathnu.github.io/TechnicaInsania/vibes.html)
 
-## About the Website Icon
-The image was created using [Stable Diffusion](https://stability.ai/) with simple prompts. 
+## On AI
+The website icon was made with [Stable Diffusion](https://stability.ai/) and a few simple prompts. I kept it because of what it represents to me: mathematics and algorithms producing an image that looks like it walked straight out of somebody's imagination. It makes me reflect on how the line between flesh and fabrication is growing increasingly thin. This image stands as my personal acknowledgment of our entry into the 'Age of Silicon.'
 
-I know that as we move further from 2021 - the year when DALL-E and Generative AI entered public consciousness (though they existed long before) - the novelty of this new type of AI generated images will die.<br>
-Yet I choose to keep this image, or perhaps replace it with another AI-generated one, because it represents something remarkable to me: how mathematics and algorithms can create images that seem to emerge directly from human imagination. It's the power of neural networks at our fingertips - though unlike certain ambitious scientists with mechanical arms, we're using this power rather more responsibly.
-It makes me reflect on how the line between  flesh and fabrication is growing increasingly thin. This image stands as my personal acknowledgment of our entry into the 'Age of Silicon.'
+It also comes with [free licensing](https://huggingface.co/spaces/CompVis/stable-diffusion-license), which suits my open-source leanings just fine. (I endorse you Richard Stallman! 😂)
 
-**Update, 2026:** Oh, how times have changed. My previous thoughts about this and my current ones are... different? Earlier, this was a way to pay homage to mathematics: algorithms turning prompts into images, symbols of a new computational imagination. Nowadays, AI-generated imagery is common, and often misused lol. But maybe that is exactly why the icon still fits. It is a symbol of change, and of a change that lasts, at least longer than my shortass lifetime.
+**Update, 2026:** Oh, how times have changed. Earlier, this was a way to pay homage to mathematics: algorithms turning prompts into images, symbols of a new computational imagination. Nowadays, AI-generated imagery is common, and often misused lol. But maybe that is exactly why the icon still fits.
 
-And yes, it comes with [free licensing](https://huggingface.co/spaces/CompVis/stable-diffusion-license). As long as I avoid anything illegal, creepy, or harmful to the community, I'm free to use these images. This aligns perfectly with my belief in open-source.(I endorse you Richard Stallman!😂)
+That leaves the harder question: what role, if any, an LLM plays in the writing here. I wrote it down separately - [On LLMs]({% link Content/On-LLMs.md %}).
