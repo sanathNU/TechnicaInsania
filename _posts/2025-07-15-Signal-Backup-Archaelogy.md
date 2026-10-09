@@ -222,5 +222,7 @@ The backup is decrypted, the stats are analysed, and my plasma desktop is rebuil
 
 Ciao!
 
+**P.S. (October 2026):** Fuck, I take it back. OpenAI's agents went and [cracked Navier–Stokes](https://openai.com/index/navier-stokes-solution/). Thousands of them, running numerical experiments and chasing ideas way faster (and way better) than stupid old me could. Meanwhile I was the one who couldn't read a `README`. Maybe the dogshit was me all along. 🫠
+
 
 [^1]: I don't mean nothing by it [Yoran](https://yoranbrondsema.com/), just jesting!
