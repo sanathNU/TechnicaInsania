@@ -13,8 +13,9 @@ layout: page
   </div>
 
   <div class="garden-legend" aria-label="Graph legend">
-    <span><i class="garden-dot garden-note"></i>Note or post</span><span><i class="garden-dot garden-tag"></i>Tag</span>
+    <span><i class="garden-dot garden-post"></i>Post</span><span><i class="garden-dot garden-note"></i>Note</span><span><i class="garden-dot garden-tag"></i>Tag</span>
     <span><i class="garden-line garden-link"></i>Intentional link</span><span><i class="garden-line garden-tag-line"></i>Tag connection</span>
+    <span class="garden-hint">Scroll to zoom · drag to pan or rearrange · hover to trace</span>
   </div>
 
   <div class="garden-canvas" aria-live="polite"><svg id="knowledge-graph" viewBox="0 0 1000 700" role="img" aria-label="Interactive map of linked notes and tags"></svg></div>
@@ -25,4 +26,5 @@ layout: page
   </section>
 </div>
 
+<script defer src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script defer src="{{ '/assets/js/knowledge-garden.js' | relative_url }}"></script>

@@ -1,4 +1,9 @@
 .knowledge-garden {
+  --garden-post: #4c8bf5;
+  --garden-note: #3fa77a;
+  --garden-tag: #d69e2e;
+  --garden-link: #7a8cff;
+
   .garden-intro {
     max-width: 45rem;
   }
@@ -45,80 +50,149 @@
     vertical-align: middle;
   }
 
+  .garden-hint {
+    font-style: italic;
+    margin-left: auto;
+  }
+
   .garden-dot {
-    background: #4c8bf5;
+    background: var(--garden-note);
     border-radius: 100%;
     height: 0.65rem;
     width: 0.65rem;
   }
 
+  .garden-post {
+    background: var(--garden-post);
+  }
+
   .garden-tag {
-    background: #d69e2e;
+    background: var(--garden-tag);
   }
 
   .garden-line {
-    background: #4c8bf5;
+    background: var(--garden-link);
     height: 2px;
     width: 1rem;
   }
 
   .garden-tag-line {
-    background: #d69e2e;
+    background: var(--garden-tag);
+    opacity: 0.6;
   }
 
   .garden-canvas {
-    background: radial-gradient(circle at center, rgb(76 139 245 / 11%), transparent 67%);
+    background: radial-gradient(circle at center, rgb(76 139 245 / 9%), transparent 70%);
     border: 1px solid var(--btn-border-color);
     border-radius: 0.8rem;
-    overflow: auto;
+    overflow: hidden;
+    touch-action: none;
   }
 
   #knowledge-graph {
+    cursor: grab;
     display: block;
-    height: auto;
-    min-width: 700px;
+    height: min(70vh, 640px);
+    min-height: 380px;
     width: 100%;
+
+    &:active {
+      cursor: grabbing;
+    }
   }
 
   .garden-edge {
-    stroke: #4c8bf5;
-    stroke-width: 2;
-    transition: opacity 160ms ease;
+    stroke: var(--garden-link);
+    stroke-opacity: 0.85;
+    stroke-width: 1.8;
+    transition: opacity 160ms ease, stroke-opacity 160ms ease;
   }
 
   .garden-edge-tag {
-    opacity: 0.24;
-    stroke: #d69e2e;
-    stroke-dasharray: 3 5;
-    stroke-width: 1.5;
+    stroke: var(--garden-tag);
+    stroke-opacity: 0.32;
+    stroke-width: 1;
+  }
+
+  .garden-arrow-head {
+    fill: var(--garden-link);
   }
 
   .garden-node {
     cursor: pointer;
-    fill: #4c8bf5;
     transition: opacity 160ms ease;
+
+    circle {
+      fill: var(--garden-note);
+      stroke: var(--main-bg);
+      stroke-width: 1.5;
+    }
+
+    text {
+      fill: var(--text-color);
+      font-family: Lato, sans-serif;
+      font-size: calc(12px * var(--garden-label-scale, 1));
+      paint-order: stroke;
+      pointer-events: none;
+      stroke: var(--main-bg);
+      stroke-linejoin: round;
+      stroke-width: 3px;
+    }
+  }
+
+  .garden-node-post circle {
+    fill: var(--garden-post);
   }
 
   .garden-node-tag {
-    fill: #d69e2e;
+    circle {
+      fill: var(--garden-tag);
+    }
+
+    text {
+      fill: var(--text-muted-color);
+      font-size: calc(10px * var(--garden-label-scale, 1));
+    }
   }
 
-  .garden-node text {
-    fill: var(--text-color);
-    font-family: Lato, sans-serif;
-    font-size: 13px;
-    pointer-events: none;
+  .is-zoomed-out .garden-node-tag text {
+    display: none;
   }
 
   .garden-node:hover circle,
   .garden-node:focus circle {
     stroke: var(--text-color);
-    stroke-width: 3;
+    stroke-width: 2.5;
+  }
+
+  .garden-node:focus {
+    outline: none;
+  }
+
+  .is-focusing {
+    .garden-node:not(.is-related),
+    .garden-edge:not(.is-related) {
+      opacity: 0.12;
+    }
+
+    .garden-edge.is-related {
+      stroke-opacity: 0.9;
+      stroke-width: 2.2;
+    }
+
+    .garden-node.is-related text {
+      display: inline;
+      font-weight: 700;
+    }
   }
 
   .is-muted {
     opacity: 0.06;
     pointer-events: none;
+  }
+
+  .is-hidden {
+    display: none;
   }
 
   .garden-results {
