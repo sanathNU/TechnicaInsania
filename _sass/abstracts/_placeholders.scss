@@ -31,10 +31,9 @@
 }
 
 %tag-hover {
-  @extend %link-color;
-
+  color: var(--text-color);
   background: var(--tag-hover);
-  border-color: var(--tag-hover);
+  border-color: var(--text-color);
   transition: background 0.35s ease-in-out;
 }
 
@@ -45,8 +44,8 @@
 }
 
 %link-hover {
-  color: #d2603a !important;
-  border-bottom: 1px solid #d2603a;
+  color: var(--text-color) !important;
+  border-bottom: 1px solid var(--text-color);
   text-decoration: none;
 }
 

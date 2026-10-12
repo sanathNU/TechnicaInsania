@@ -56,3 +56,21 @@ main[aria-label='Main Content'] > .content,
   min-width: 2rem;
   color: var(--sidebar-btn-color, inherit);
 }
+
+/* Monochrome tags: square small-caps labels with a hairline border */
+.post-tag {
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  border-radius: 0 !important;
+  border: 1px solid var(--tag-border) !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+/* Panel headings (Recently Updated, Trending Tags, Contents) in small caps */
+#panel-wrapper .panel-heading {
+  font-weight: 400;
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+  font-size: 1.1rem;
+}
