@@ -3,8 +3,23 @@
 @forward 'layout';
 @forward 'pages';
 
+/* Font switcher: html[data-font] set by inline script in head.html */
+:root {
+  --font-garamond: 'EB Garamond', Garamond, Georgia, serif;
+  --font-sans: 'Source Sans 3', 'Source Sans Pro', -apple-system, 'Segoe UI', sans-serif;
+  --font-body: var(--font-garamond);
+  --content-size: 1.3rem;
+}
+
+/* Garamond has a small x-height, so sans gets a smaller size to match */
+:root[data-font='sans'] {
+  --font-body: var(--font-sans);
+  --content-size: 1.1rem;
+  font-size: 16px;
+}
+
 body {
-  font-family: 'EB Garamond', Garamond, Georgia, serif;
+  font-family: var(--font-body);
 }
 
 h1,
@@ -12,7 +27,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'EB Garamond', Garamond, Georgia, serif;
+  font-family: var(--font-body);
 }
 
 main h2 {
@@ -32,4 +47,12 @@ main[aria-label='Main Content'] > .content,
 #tail-wrapper > * {
   max-width: 42rem;
   margin-inline: auto;
+}
+
+#font-toggle {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  min-width: 2rem;
+  color: var(--sidebar-btn-color, inherit);
 }

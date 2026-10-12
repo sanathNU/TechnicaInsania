@@ -94,6 +94,34 @@
         </ul>
       </div>
 
+      <button
+        type="button"
+        class="btn btn-link nav-link"
+        id="font-toggle"
+        aria-label="Switch font"
+        title="Switch font"
+      >
+        Aa
+      </button>
+      <script>
+        (function () {
+          var fonts = ['garamond', 'sans'];
+          var names = { garamond: 'EB Garamond', sans: 'Source Sans' };
+          var root = document.documentElement;
+          var btn = document.getElementById('font-toggle');
+          var current = function () { return root.getAttribute('data-font') || 'garamond'; };
+          var label = function () { btn.title = 'Font: ' + names[current()] + ' (click to switch)'; };
+          label();
+          btn.addEventListener('click', function () {
+            var next = fonts[(fonts.indexOf(current()) + 1) % fonts.length];
+            if (next === 'garamond') root.removeAttribute('data-font');
+            else root.setAttribute('data-font', next);
+            try { localStorage.setItem('font', next); } catch (e) {}
+            label();
+          });
+        })();
+      </script>
+
       {% if site.data.contact.size > 0 %}
         <span class="icon-border"></span>
       {% endif %}

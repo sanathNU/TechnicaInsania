@@ -130,7 +130,7 @@
 
     text {
       fill: var(--text-color);
-      font-family: 'EB Garamond', Garamond, Georgia, serif;
+      font-family: var(--font-body);
       font-size: calc(12px * var(--garden-label-scale, 1));
       paint-order: stroke;
       pointer-events: none;

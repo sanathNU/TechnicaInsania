@@ -135,7 +135,7 @@ main {
 }
 
 .content {
-  font-size: 1.3rem;
+  font-size: var(--content-size);
   line-height: 1.55;
   margin-top: 2rem;
   overflow-wrap: break-word;

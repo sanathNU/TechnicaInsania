@@ -106,7 +106,7 @@
 
 .pagination {
   color: var(--text-color);
-  font-family: 'EB Garamond', Garamond, Georgia, serif;
+  font-family: var(--font-body);
   justify-content: space-evenly;
 
   @include bp.lg {

@@ -26,8 +26,8 @@ $code-icon-width: 1.75rem !default;
 
 /* fonts */
 
-$font-family-base: 'EB Garamond', Garamond, Georgia, serif !default;
-$font-family-heading: 'EB Garamond', Garamond, Georgia, serif !default;
+$font-family-base: var(--font-body) !default;
+$font-family-heading: var(--font-body) !default;
 
 /* Theme mode settings */
 
