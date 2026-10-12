@@ -35,7 +35,7 @@ $enable-dark: v.$theme == dark or $enable-dual;
 }
 
 :root {
-  font-size: 16px;
+  font-size: 18px;
 
   @include bp.lg {
     overflow-y: scroll;
@@ -135,7 +135,8 @@ main {
 }
 
 .content {
-  font-size: 1.08rem;
+  font-size: 1.3rem;
+  line-height: 1.55;
   margin-top: 2rem;
   overflow-wrap: break-word;
 
