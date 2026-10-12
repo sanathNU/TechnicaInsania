@@ -1,0 +1,24 @@
+# Wunderkammer entries: mostly hosted in Curiositas (https://github.com/sanathNU/Curiositas), some in their own repos.
+# Rendered by _tabs/wunderkammer.md. `post` is the slug of a related write-up in _posts (optional).
+- name: Atlas of Theoretical Cryptography
+  blurb: >-
+    Theoretical cryptography drawn as a continent. Assumptions, primitives, proof systems and
+    constructions are countries, individual topics are provinces, and the faint lines between them are results.
+    Every topic has a note, and notes open side by side like pages on a desk.
+  url: https://sanathnu.github.io/Curiositas/atlas-of-crypto/
+  repo: https://github.com/sanathNU/Curiositas/tree/main/projects/atlas-of-crypto
+  thumbnail: /assets/img/projects/atlas-of-crypto.png
+  toolchain: plain HTML + D3
+  started: 2026-10
+  post:
+- name: Akshara-Mantapa
+  blurb: >-
+    A Library of Babel for Kannada, after Borges. Every possible page of Kannada text already exists
+    somewhere on its shelves; search for any sentence and it tells you the hexagon, wall, shelf and
+    volume where it lives.
+  url: https://sanathnu.github.io/Akshara-Mantapa/
+  repo: https://github.com/sanathNU/Akshara-Mantapa
+  thumbnail: /assets/img/Misc/mantapa.png
+  toolchain: Rust + WASM
+  started: 2025-12
+  post: Akshara-Mantapa
