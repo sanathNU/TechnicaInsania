@@ -6,7 +6,7 @@ order: 5
 ---
 
 A cabinet of curiosities: things I got curious about and built, some made with AI.
-Most live in [Curiositas](https://sanathnu.github.io/Curiositas/); the write-ups of what I learned live here.
+Most are hosted on [Curiositas](https://sanathnu.github.io/Curiositas/); the write-ups of what I learned live here.
 
 {% for p in site.data.projects %}
 <div class="project mb-5">
