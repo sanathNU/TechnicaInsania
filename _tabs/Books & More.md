@@ -45,10 +45,19 @@ It's a weird feeling, having great respect for old paintings when you know you c
 ![Destruction](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg/3840px-Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg)
 *Destruction*
 
+![Kailasa Temple at Elora](https://hiroshiyoshida.art/wp-content/uploads/2024/11/kailasa-temple-at-elora.jpg)
+*Kailasa Temple at Elora — Hiroshi Yoshida*
+
+![Rapids](https://hiroshiyoshida.art/wp-content/uploads/2024/11/rapids.jpg)
+*Rapids — Hiroshi Yoshida*
+
 ### Sculptures
 
 ![The Gates of Hell](/assets/img/Misc/The%20Gates%20of%20Hell.jpg)
 *The Gates of Hell — Rodin*
+
+![Farnese Hercules](/assets/img/Misc/Farnese%20Hercules.jpg)
+*Farnese Hercules — Glykon*
 
 ## Writers & Thinkers
 
