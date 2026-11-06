@@ -148,6 +148,18 @@ sup {
 main {
   line-height: 1.75;
 
+  /* pages using `layout: default` have no `.content` wrapper, so give
+     their inline text links the same underline/hover as post content */
+  &.plain-page {
+    :is(p, li, blockquote, em, strong) a:not(.img-link):not(.popup):not(:has(img)) {
+      @extend %link-underline;
+
+      &:hover {
+        @extend %link-hover;
+      }
+    }
+  }
+
   h1 {
     margin-top: 2rem;
 
