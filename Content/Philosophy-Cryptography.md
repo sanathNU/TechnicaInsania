@@ -65,19 +65,21 @@ Trust still matters, but cryptography gives people who don't particularly like e
 
 The ideal world of crypto I've found this past year is the one in [*The Quantum Thief*](https://en.wikipedia.org/wiki/The_Quantum_Thief): a city built on Mars thousands of years from now, where cryptography is the main thing holding society together. Privacy is wired into everyone's senses, so you can't see someone unless they want to be seen. If you've watched [*White Christmas*](https://www.youtube.com/watch?v=_dXqugxU1sk) from [Black Mirror](https://en.wikipedia.org/wiki/Black_Mirror), it's like "blocking" in that episode, where once someone blocks you, all you see of them is a fuzzy grey silhouette and all you hear is muffled static (do watch the clip for the dramatic version, lol). The Oubliette goes much further. You can share a memory with a friend and take it back later, and if you walk away from a conversation, the other person might only remember that it happened, because you never granted them the rest.
 
+![A busy Oubliette street where some people are sharp and others are blurred, privacy-veiled silhouettes](/TechnicaInsania/assets/img/avalanche/gevulot-crowd.png){: w="700" }
+
 All of this runs on a system called gevulot, and it gets more cracked and insane than I can do justice to here, so yeah, go read the book. A lot of the cryptography behind it already exists today. What doesn't exist yet is the setting, a city with more computation than it knows what to do with, full of people who've rebuilt their minds so thoroughly they've forgotten they were ever human.
 
 We can already prove we have enough money for a transaction without handing over our financial history, contribute data to a computation without exposing it, and show that a process followed the rules without giving away the full log, but only in versions that are slow and expensive enough to stay out of most people's lives. In the Oubliette, that's just how you buy a coffee.
+
+![The Oubliette, a walking city crossing the Martian desert](/TechnicaInsania/assets/img/avalanche/oubliette-city.png){: w="700" }
 
 That doesn't make it a utopia. Whoever decides which boundaries exist, and whoever runs the machinery enforcing them, holds a kind of power that's very hard to challenge, because the system that stops a company from seeing your data can just as easily stop you from seeing what the company does with its own. At that scale cryptography ends up deciding where a society draws its lines, which is a much bigger job than hiding messages.
 
 And still, power problems and all, it's the world my researcher brain keeps wandering back to.
 
-![The Oubliette, a walking city crossing the Martian desert](/TechnicaInsania/assets/img/avalanche/oubliette-city.png){: w="700" }
-
 It shows me what crypto looks like when it's used in full: an alien world where everyone is together and nobody can see each other, where you get a truer kind of solitude than our biology allows. Maybe that's not a world I'd want to live in, but with the tools I have, maybe I could help build it? I dunno man, I feel like I'm turning into one of the [e/acc](https://en.wikipedia.org/wiki/Effective_accelerationism) guys, lol.
 
-![A busy Oubliette street where some people are sharp and others are blurred, privacy-veiled silhouettes](/TechnicaInsania/assets/img/avalanche/gevulot-crowd.png){: w="700" }
+
 
 ## 4. Notes from the Foot of an Avalanche
 
