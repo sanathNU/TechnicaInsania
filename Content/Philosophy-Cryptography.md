@@ -10,6 +10,8 @@ toc: true
 
 *November 2026*
 
+This is a rant on math, cryptography, and how my understanding of both has been shifting over the last year. The opinions might meander, but things are changing too fast to keep up with any reasonable amount of sanity. I love the journey anyway. There's something properly sci-fi about where this technology is heading, and this essay is my attempt to explain why.
+
 ## 1. An Apology for Cryptography
 
 A misanthrope in me once decided that all humans are fallible, and that nothing could be trusted except systems that never make false promises once you learn how they work. The truth is always right there upfront, as long as you're ready to receive it. Math and physics gave me a rigid way of telling the honest truth.
@@ -47,7 +49,13 @@ As a person, I'd pick the first. As a researcher, I keep thinking about the seco
 
 The marvellous thing is that [game theory](https://en.wikipedia.org/wiki/Game_theory) offers a way out. It gives you a model, with uncomfortable accuracy, of how agents like us actually behave. The [prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma) taught me more about the world than [Aesop's fables](https://en.wikipedia.org/wiki/Aesop%27s_Fables) ever did (though I suspect I needed Aesop's morals first to be ready for the prisoner's dilemma, lol).
 
-Cryptography sits one level of abstraction above that. It isn't game theory, but it rewrites the payoff table for everyone involved, making betrayal computationally expensive and cooperation the rule of the game. You can still refuse to play, like [the AI that learned to pause Tetris forever so it would never lose](http://tom7.org/mario/), but you don't get anything for it.
+![A prisoner's dilemma payoff table where cryptography crosses out the defect payoffs and replaces them with negl(λ), leaving cooperate-cooperate as the Nash equilibrium, and then a hand-drawn "$5 wrench" column is added](/TechnicaInsania/assets/img/avalanche/payoff-wrench.jpg){: w="800" }
+_Cryptographer's play._
+
+Cryptography sits one level of abstraction above that. It isn't game theory, but it rewrites the payoff table for everyone involved, making betrayal computationally expensive and cooperation the rule of the game. You can still refuse to play, like [the AI that learned to pause Tetris forever so it would never lose](https://www.youtube.com/watch?v=-cKeGk3R3qE), but you don't get anything for it.
+
+[![xkcd 538: Security](https://imgs.xkcd.com/comics/security.png)](https://xkcd.com/538/)
+_[xkcd 538](https://xkcd.com/538/) (CC BY-NC 2.5)_
 
 The point is, in a world run on game theory (which quietly underpins a shit tonne of economics), building cryptography is like doing engine design in an automotive world. It's essential, and it's how the whole thing actually runs.
 
@@ -98,14 +106,14 @@ There are mountains left to conquer. Only this time, instead of hiking, we'll be
 
 ## 5. Sometimes, They'll See
 
-I've been going on and on about systems and math and AI and security, so: does all this make me more or less excited about cryptography? Honestly, I can't tell what I feel (circa '26, the year of the AI [zero-day](https://en.wikipedia.org/wiki/Zero-day_(computing))).
+I've been going on and on about systems and math and AI and security, so: does all this make me more or less excited about cryptography? Honestly, I can't tell what I feel (circa ’26, the year of the AI [zero-day](https://en.wikipedia.org/wiki/Zero-day_(computing))).
 
 I started learning this field to understand the mathematical model of trust the world runs on. In all the time I've spent playing around with these machines, I've seen some incredible things. I've watched bits glitter through fibre-optic cable, carrying abstractions across oceans. In the end it's all just elaborate ways for humans to reach each other.
 
 I've stopped expecting our cleverness to save us. Security has always run on a kind of "ooh, we're so clever, we built the cleverest logical thing we could think of, so it'll hold." That isn't going to work anymore.
 
 ![Two big-brained figures playing chess](/TechnicaInsania/assets/img/avalanche/brain-chess.png){: w="500" }
-_Security research, circa '26._
+_Security research, circa ’26._
 
 AI is about to bring in the real game, with math and logic we don't fully understand. A few weeks ago OpenAI released [a proof](https://github.com/openai/math/blob/main/preprints/The-Unique-Games-Theorem-September-23-2026/paper.pdf) of [Khot](https://en.wikipedia.org/wiki/Subhash_Khot)'s [Unique Games Conjecture](https://en.wikipedia.org/wiki/Unique_games_conjecture), and [Dana Moshkovitz](https://www.cs.utexas.edu/~danama/), who's worked on it since around 2009, has been decoding it alongside Khot himself. [Scott Aaronson relays](https://scottaaronson.blog/?p=10232#comment-2042746) that she sees its core as "a totally alien new error-correcting code", one none of the human [PCP](https://en.wikipedia.org/wiki/PCP_theorem) experts had come up with, wrapped in a lot of standard, boring machinery to make it a proof.
 
